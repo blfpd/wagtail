@@ -1,0 +1,56 @@
+# Esperanto translation of Wagtail.
+#
+# Translators:
+# Baptiste Darthenay <baptiste@ikso.net>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-21 12:43+0100\n"
+"PO-Revision-Date: 2026-10-21 12:43+0100\n"
+"Last-Translator: Baptiste Darthenay <baptiste@ikso.net>\n"
+"Language-Team: Esperanto\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: forms.py:57
+msgid "Sites"
+msgstr "Retejoj"
+
+#: forms.py:98
+#, python-format
+msgid "%(model)s permissions"
+msgstr "Permesoj por %(model)s"
+
+#: models.py:162
+#, python-format
+msgid "%(site_setting)s for %(site)s"
+msgstr "%(site_setting)s por %(site)s"
+
+#: templates/wagtailsettings/edit.html:8 templates/wagtailsettings/edit.html:14
+msgid "Site"
+msgstr "Retejo"
+
+#: templates/wagtailsettings/edit.html:16
+msgid "default"
+msgstr "defaŭlta"
+
+#: templates/wagtailsettings/index.html:3 templates/wagtailsettings/index.html:7
+msgid "Settings"
+msgstr "Agordoj"
+
+#: views.py:79
+msgid "This setting could not be opened because there is no site defined."
+msgstr "Ĉi tiu agordo ne povis esti malfermita, ĉar neniu retejo estas difinita."
+
+#: views.py:106
+msgid "The setting could not be saved due to errors."
+msgstr "La agordo ne povis esti konservita pro eraroj."
+
+#: views.py:182
+#, python-format
+msgid "%(setting_type)s updated."
+msgstr "%(setting_type)s ĝisdatigita."

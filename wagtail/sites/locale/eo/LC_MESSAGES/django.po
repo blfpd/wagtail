@@ -1,0 +1,80 @@
+# Esperanto translation of Wagtail.
+#
+# Translators:
+# Baptiste Darthenay <baptiste@ikso.net>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-21 12:43+0100\n"
+"PO-Revision-Date: 2026-10-21 12:43+0100\n"
+"Last-Translator: Baptiste Darthenay <baptiste@ikso.net>\n"
+"Language-Team: Esperanto\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:8
+msgid "Wagtail sites"
+msgstr "Retejoj de Wagtail"
+
+#: forms.py:12
+msgid "Choose a root page"
+msgstr "Elekti radikan paĝon"
+
+#: forms.py:13
+msgid "Choose a different root page"
+msgstr "Elekti alian radikan paĝon"
+
+#: views.py:11 wagtail_hooks.py:27
+msgid "Sites"
+msgstr "Retejoj"
+
+#: views.py:12
+msgid "Add a site"
+msgstr "Aldoni retejon"
+
+#: views.py:18
+msgid "Site"
+msgstr "Retejo"
+
+#: views.py:26
+msgid "Default?"
+msgstr "Ĉu defaŭlta?"
+
+#: views.py:26
+msgid "Default"
+msgstr "Defaŭlta"
+
+#: views.py:35
+msgid "Add site"
+msgstr "Aldoni retejon"
+
+#: views.py:36
+#, python-format
+msgid "Site '%(object)s' created."
+msgstr "Retejo '%(object)s' kreita."
+
+#: views.py:37 views.py:42
+msgid "The site could not be saved due to errors."
+msgstr "La retejo ne povis esti konservita pro eraroj."
+
+#: views.py:41
+#, python-format
+msgid "Site '%(object)s' updated."
+msgstr "Retejo '%(object)s' ĝisdatigita."
+
+#: views.py:47
+#, python-format
+msgid "Site '%(object)s' deleted."
+msgstr "Retejo '%(object)s' forigita."
+
+#: views.py:48
+msgid "Delete site"
+msgstr "Forigi retejon"
+
+#: views.py:49
+msgid "Are you sure you want to delete this site?"
+msgstr "Ĉu vi certe volas forigi ĉi tiun retejon?"

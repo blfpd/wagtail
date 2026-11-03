@@ -1,0 +1,21 @@
+# Esperanto translation of Wagtail.
+#
+# Translators:
+# Baptiste Darthenay <baptiste@ikso.net>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-21 12:43+0100\n"
+"PO-Revision-Date: 2026-10-21 12:43+0100\n"
+"Last-Translator: Baptiste Darthenay <baptiste@ikso.net>\n"
+"Language-Team: Esperanto\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:8
+msgid "Wagtail search"
+msgstr "Serĉado de Wagtail"

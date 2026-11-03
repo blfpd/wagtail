@@ -1,0 +1,222 @@
+# Esperanto translation of Wagtail.
+#
+# Translators:
+# Baptiste Darthenay <baptiste@ikso.net>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-21 12:43+0100\n"
+"PO-Revision-Date: 2026-10-21 12:43+0100\n"
+"Last-Translator: Baptiste Darthenay <baptiste@ikso.net>\n"
+"Language-Team: Esperanto\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:8
+msgid "Wagtail search promotions"
+msgstr "Wagtail-serĉreklamoj"
+
+#: forms.py:12
+msgid "Search term(s)/phrase"
+msgstr "Serĉtermino(j)/frazo"
+
+#: forms.py:14
+msgid "Enter the full search string to match. An exact match is required for your Promoted Results to be displayed, wildcards are NOT allowed."
+msgstr "Enigu la tutan serĉoĉenon kongruigotan. Necesas ekzakta kongruo por ke viaj reklamitaj rezultoj estu montrataj, ĵokeroj NE estas permesataj."
+
+#: forms.py:62
+msgid "You must enter an external link text if you enter an external link URL."
+msgstr "Vi devas enigi tekston de ekstera ligilo, se vi enigas URL de ekstera ligilo."
+
+#: forms.py:70
+msgid "You must recommend a page OR an external link."
+msgstr "Vi devas rekomendi paĝon AŬ eksteran ligilon."
+
+#: forms.py:77
+msgid "Please only select a page OR enter an external link."
+msgstr "Bonvolu nur elekti paĝon AŬ enigi eksteran ligilon."
+
+#: forms.py:111
+msgid "Please specify at least one recommendation for this search term."
+msgstr "Bonvolu indiki almenaŭ unu rekomendon por ĉi tiu serĉtermino."
+
+#: models.py:72
+msgid "query"
+msgstr "serĉpeto"
+
+#: models.py:73
+msgid "queries"
+msgstr "serĉpetoj"
+
+#: models.py:97 models.py:98
+msgid "Query Daily Hits"
+msgstr "Ĉiutagaj trafoj de serĉpetoj"
+
+#: models.py:107
+msgid "page"
+msgstr "paĝo"
+
+#: models.py:108
+msgid "Choose an internal page for this promotion"
+msgstr "Elektu internan paĝon por ĉi tiu reklamo"
+
+#: models.py:114
+msgid "External link URL"
+msgstr "URL de ekstera ligilo"
+
+#: models.py:115
+msgid "Alternatively, use an external link for this promotion"
+msgstr "Alternative, uzu eksteran ligilon por ĉi tiu reklamo"
+
+#: models.py:124
+msgid "description"
+msgstr "priskribo"
+
+#: models.py:125
+msgid "Applies to internal page or external link"
+msgstr "Aplikiĝas al interna paĝo aŭ ekstera ligilo"
+
+#: models.py:159
+msgid "search promotion"
+msgstr "serĉreklamo"
+
+#: templates/wagtailsearchpromotions/add.html:7
+msgid "<p>Promoted search results are a means of recommending specific pages or external links that might not organically come high up in search results. E.g recommending your primary donation page to a user searching with the less common term \"<em>giving</em>\".</p>"
+msgstr "<p>Reklamitaj serĉrezultoj estas rimedo por rekomendi specifajn paĝojn aŭ eksterajn ligilojn, kiuj eble ne nature aperus alte en la serĉrezultoj. Ekz. rekomendi vian ĉefan donacpaĝon al uzanto, kiu serĉas per la malpli ofta termino \"<em>donado</em>\".</p>"
+
+#: templates/wagtailsearchpromotions/add.html:11
+msgid "<p>The \"Search term(s)/phrase\" field below must contain the full and exact search for which you wish to provide recommended results, <em>including</em> any misspellings/user error. To help, you can choose from search terms that have been popular with users of your site.</p>"
+msgstr "<p>La suba kampo \"Serĉtermino(j)/frazo\" devas enhavi la tutan kaj ekzaktan serĉon, por kiu vi volas provizi rekomenditajn rezultojn, <em>inkluzive de</em> ajnaj misliterumoj/eraroj de uzanto. Por helpi, vi povas elekti el serĉterminoj, kiuj estis popularaj ĉe la uzantoj de via retejo.</p>"
+
+#: templates/wagtailsearchpromotions/confirm_delete.html:3
+#, python-format
+msgid "Delete %(query)s"
+msgstr "Forigi %(query)s"
+
+#: templates/wagtailsearchpromotions/confirm_delete.html:5
+msgid "Are you sure you want to delete all promoted results for this search term?"
+msgstr "Ĉu vi certas, ke vi volas forigi ĉiujn reklamitajn rezultojn por ĉi tiu serĉtermino?"
+
+#: templates/wagtailsearchpromotions/includes/searchpromotion_form.html:8
+msgid "Move up"
+msgstr "Movi supren"
+
+#: templates/wagtailsearchpromotions/includes/searchpromotion_form.html:9
+msgid "Move down"
+msgstr "Movi malsupren"
+
+#: templates/wagtailsearchpromotions/includes/searchpromotion_form.html:10
+msgid "Drag"
+msgstr "Treni"
+
+#: templates/wagtailsearchpromotions/includes/searchpromotion_form.html:11
+msgid "Delete"
+msgstr "Forigi"
+
+#: templates/wagtailsearchpromotions/includes/searchpromotion_form.html:14
+msgid "Recommended search result"
+msgstr "Rekomendita serĉrezulto"
+
+#: templates/wagtailsearchpromotions/includes/searchpromotions_formset.html:4 views/settings.py:35 wagtail_hooks.py:38
+msgid "Promoted search results"
+msgstr "Reklamitaj serĉrezultoj"
+
+#: templates/wagtailsearchpromotions/includes/searchpromotions_formset.html:14
+msgid "Add a recommended result"
+msgstr "Aldoni rekomenditan rezulton"
+
+#: templates/wagtailsearchpromotions/index_results.html:5 templates/wagtailsearchpromotions/results.html:5
+#, python-format
+msgid "Sorry, no promoted results match \"<em>%(query_string)s</em>\""
+msgstr "Bedaŭrinde neniu reklamita rezulto kongruas kun \"<em>%(query_string)s</em>\""
+
+#: templates/wagtailsearchpromotions/index_results.html:7 templates/wagtailsearchpromotions/results.html:8
+#, python-format
+msgid "No promoted results have been created. Why not <a href=\"%(wagtailsearchpromotions_add_url)s\">add one</a>?"
+msgstr "Neniu reklamita rezulto estas kreita. Kial ne <a href=\"%(wagtailsearchpromotions_add_url)s\">aldoni unu</a>?"
+
+#: templates/wagtailsearchpromotions/index_results.html:9
+msgid "No promoted results have been created."
+msgstr "Neniu reklamita rezulto estas kreita."
+
+#: templates/wagtailsearchpromotions/queries/chooser/chooser.html:2
+msgid "Popular search terms"
+msgstr "Popularaj serĉterminoj"
+
+#: templates/wagtailsearchpromotions/queries/chooser/chooser.html:11
+msgid "Search"
+msgstr "Serĉi"
+
+#: templates/wagtailsearchpromotions/queries/chooser/results.html:9
+msgid "Terms"
+msgstr "Terminoj"
+
+#: templates/wagtailsearchpromotions/queries/chooser/results.html:10 views/reports.py:34 views/reports.py:38 views/settings.py:59
+msgid "Views"
+msgstr "Vidoj"
+
+#: templates/wagtailsearchpromotions/queries/chooser/results.html:24
+msgid "No results found"
+msgstr "Neniu rezulto trovita"
+
+#: templates/wagtailsearchpromotions/queries/chooser_field.html:7
+msgid "Choose from popular search terms"
+msgstr "Elekti el popularaj serĉterminoj"
+
+#: templates/wagtailsearchpromotions/search_promotion_column.html:8
+msgid "External link"
+msgstr "Ekstera ligilo"
+
+#: templates/wagtailsearchpromotions/search_promotion_column.html:13
+msgid "None"
+msgstr "Neniu"
+
+#: views/reports.py:13
+msgid "Date"
+msgstr "Dato"
+
+#: views/reports.py:24 wagtail_hooks.py:49
+msgid "Search terms"
+msgstr "Serĉterminoj"
+
+#: views/reports.py:33 views/reports.py:37 views/settings.py:47
+msgid "Search term(s)"
+msgstr "Serĉtermino(j)"
+
+#: views/settings.py:43
+msgid "Add new promoted result"
+msgstr "Aldoni novan reklamitan rezulton"
+
+#: views/settings.py:54
+msgid "Promoted results"
+msgstr "Reklamitaj rezultoj"
+
+#: views/settings.py:98
+msgid "Promoted search result"
+msgstr "Reklamita serĉrezulto"
+
+#: views/settings.py:192
+#, python-format
+msgid "Editor's picks for '%(query)s' created."
+msgstr "Redaktaj elektoj por '%(query)s' kreitaj."
+
+#: views/settings.py:193
+msgid "Recommendations have not been created due to errors."
+msgstr "La rekomendoj ne estis kreitaj pro eraroj."
+
+#: views/settings.py:202
+#, python-format
+msgid "Editor's picks for '%(query)s' updated."
+msgstr "Redaktaj elektoj por '%(query)s' ĝisdatigitaj."
+
+#: views/settings.py:203
+msgid "Recommendations have not been saved due to errors."
+msgstr "La rekomendoj ne estis konservitaj pro eraroj."
+
+#: views/settings.py:211
+msgid "Editor's picks deleted."
+msgstr "Redaktaj elektoj forigitaj."

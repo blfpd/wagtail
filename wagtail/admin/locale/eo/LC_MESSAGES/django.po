@@ -1,0 +1,4057 @@
+# Esperanto translation of Wagtail.
+#
+# Translators:
+# Baptiste Darthenay <baptiste@ikso.net>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-21 12:43+0100\n"
+"PO-Revision-Date: 2026-10-21 12:43+0100\n"
+"Last-Translator: Baptiste Darthenay <baptiste@ikso.net>\n"
+"Language-Team: Esperanto\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: action_menu.py:74 templates/wagtailadmin/generic/confirm_workflow_cancellation.html:29 templates/wagtailadmin/pages/bulk_actions/confirm_bulk_publish.html:11 templates/wagtailadmin/pages/confirm_workflow_cancellation.html:18 views/pages/bulk_actions/publish.py:8
+msgid "Publish"
+msgstr "Publikigi"
+
+#: action_menu.py:101
+msgid "Submit for moderation"
+msgstr "Sendi por moderigo"
+
+#: action_menu.py:129
+#, python-format
+msgid "Resubmit to %(task_name)s"
+msgstr "Resendi al %(task_name)s"
+
+#: action_menu.py:138
+#, python-format
+msgid "Submit to %(workflow_name)s"
+msgstr "Sendi al %(workflow_name)s"
+
+#: action_menu.py:169
+msgid "Restart workflow "
+msgstr "Rekomenci laborfluon "
+
+#: action_menu.py:191
+msgid "Cancel workflow "
+msgstr "Nuligi laborfluon "
+
+#: action_menu.py:205 templates/wagtailadmin/pages/bulk_actions/confirm_bulk_unpublish.html:11 views/generic/models.py:1557 views/pages/bulk_actions/unpublish.py:8 wagtail_hooks.py:334
+msgid "Unpublish"
+msgstr "Malpublikigi"
+
+#: action_menu.py:220
+msgid "Save Draft"
+msgstr "Konservi malneton"
+
+#: action_menu.py:231 templates/wagtailadmin/pages/action_menu/page_locked.html:4
+msgid "Page locked"
+msgstr "Paĝo ŝlosita"
+
+#: action_menu.py:303
+#, python-format
+msgid "%(label)s and Publish"
+msgstr "%(label)s kaj publikigi"
+
+#. Translators: A placeholder for a range filter value that has not been set,
+#. e.g. Some number: any - 1000
+#: active_filters.py:131
+msgid "any"
+msgstr "ajna"
+
+#. Translators: A label for a range filter value,
+#. e.g. Some number: 0 - 1000
+#: active_filters.py:146
+#, python-format
+msgid "%(range_start)s - %(range_end)s"
+msgstr "%(range_start)s - %(range_end)s"
+
+#: apps.py:11
+msgid "Wagtail admin"
+msgstr "Wagtail-administrado"
+
+#: auth.py:23
+msgid "Sorry, you do not have permission to access this area."
+msgstr "Bedaŭrinde vi ne havas permeson aliri ĉi tiun parton."
+
+#: auth.py:149
+msgid "You do not have permission to access the admin."
+msgstr "Vi ne havas permeson aliri la administran interfacon."
+
+#: compare.py:512
+msgid "None"
+msgstr "Neniu"
+
+#: filters.py:26
+msgid "Date from"
+msgstr "Dato ekde"
+
+#: filters.py:27
+msgid "Date to"
+msgstr "Dato ĝis"
+
+#: filters.py:47
+msgid "Minimum"
+msgstr "Minimumo"
+
+#: filters.py:48
+msgid "Maximum"
+msgstr "Maksimumo"
+
+#: filters.py:156 ui/tables/__init__.py:407 views/account.py:179 views/reports/page_types_usage.py:72
+msgid "Locale"
+msgstr "Lingvo"
+
+#: filters.py:159 filters.py:170 forms/choosers.py:142 templates/wagtailadmin/pages/search_results.html:13 templates/wagtailadmin/pages/search_results.html:15 views/reports/page_types_usage.py:75 views/reports/page_types_usage.py:82 views/reports/workflows.py:72 views/reports/workflows.py:118 widgets/boolean_radio_select.py:14
+msgid "All"
+msgstr "Ĉiuj"
+
+#: filters.py:274
+msgid "Usage count"
+msgstr "Nombro de uzoj"
+
+#: filters.py:289 forms/choosers.py:115 forms/collections.py:338 templates/wagtailadmin/permissions/includes/collection_member_permissions_formset.html:25 templates/wagtailadmin/shared/collection_chooser.html:3
+msgid "Collection"
+msgstr "Kolekto"
+
+#: filters.py:297
+msgid "Tag"
+msgstr "Etikedo"
+
+#: filters.py:302
+msgid "Filter by up to ten most popular tags."
+msgstr "Filtri laŭ ĝis dek plej popularaj etikedoj."
+
+#: forms/account.py:62
+#, python-format
+msgid "Use server language: %(language_name)s"
+msgstr "Uzi la lingvon de la servilo: %(language_name)s"
+
+#: forms/account.py:72
+msgid "Use server time zone"
+msgstr "Uzi la horzonon de la servilo"
+
+#: forms/account.py:88
+msgid "Preferred language"
+msgstr "Preferata lingvo"
+
+#: forms/account.py:94
+msgid "Current time zone"
+msgstr "Nuna horzono"
+
+#: forms/account.py:110
+msgid "First Name"
+msgstr "Antaŭnomo"
+
+#: forms/account.py:111
+msgid "Last Name"
+msgstr "Familia nomo"
+
+#: forms/account.py:112
+msgid "Email"
+msgstr "Retpoŝto"
+
+#: forms/account.py:128
+msgid "Upload a profile picture"
+msgstr "Alŝuti profilbildon"
+
+#: forms/auth.py:14
+msgid "Enter password"
+msgstr "Entajpu pasvorton"
+
+#: forms/auth.py:25
+#, python-format
+msgid "Your %(username_field)s and password didn't match. Please try again."
+msgstr "Via %(username_field)s kaj pasvorto ne kongruis. Bonvolu reprovi."
+
+#: forms/auth.py:32
+#, python-format
+msgid "Enter your %(username_field_name)s"
+msgstr "Entajpu vian %(username_field_name)s"
+
+#: forms/auth.py:52
+msgid "Enter your email address to reset your password"
+msgstr "Entajpu vian retpoŝtadreson por restarigi vian pasvorton"
+
+#: forms/choosers.py:36
+msgid "URL"
+msgstr "URL"
+
+#: forms/choosers.py:74 forms/search.py:16 forms/workflows.py:26
+msgid "Search term"
+msgstr "Serĉata termino"
+
+#: forms/choosers.py:75 templatetags/wagtailadmin_tags.py:1365 views/generic/chooser.py:392 views/pages/search.py:58 viewsets/chooser.py:84
+msgid "Search"
+msgstr "Serĉi"
+
+#: forms/choosers.py:112 templates/wagtailadmin/shared/collection_chooser.html:5
+msgid "All collections"
+msgstr "Ĉiuj kolektoj"
+
+#: forms/collections.py:94
+msgctxt "choose parent collection"
+msgid "Parent"
+msgstr "Patra"
+
+#: forms/collections.py:98
+msgid "Select hierarchical position. Note: a collection cannot become a child of itself or one of its descendants."
+msgstr "Elektu la hierarkian pozicion. Notu: kolekto ne povas iĝi subkolekto de si mem aŭ de unu el siaj subkolektoj."
+
+#: forms/collections.py:129
+msgid "Please select another parent."
+msgstr "Bonvolu elekti alian patron."
+
+#: forms/collections.py:245
+msgid "You cannot have multiple permission records for the same collection."
+msgstr "Vi ne povas havi plurajn permesajn registrojn por la sama kolekto."
+
+#: forms/collections.py:371 views/generic/models.py:443
+msgid "Add"
+msgstr "Aldoni"
+
+#: forms/collections.py:371
+msgid "Add collections"
+msgstr "Aldoni kolektojn"
+
+#: forms/collections.py:372 templates/wagtailadmin/home/locked_pages.html:58 templates/wagtailadmin/home/recent_edits.html:51 templates/wagtailadmin/home/user_objects_in_workflow_moderation.html:36 templates/wagtailadmin/home/workflow_objects_to_moderate.html:36 templates/wagtailadmin/home/workflow_objects_to_moderate.html:81 views/generic/history.py:139 views/generic/history.py:273 views/generic/history.py:359 views/generic/models.py:376 views/generic/models.py:631 views/generic/models.py:1071 views/generic/models.py:1330 views/generic/models.py:1420 views/generic/models.py:1598 views/generic/models.py:1710 views/generic/usage.py:88 views/pages/copy.py:92 views/pages/create.py:219 views/pages/edit.py:306 views/pages/move.py:151 views/workflows.py:245 views/workflows.py:371 viewsets/chooser.py:34 wagtail_hooks.py:251
+msgid "Edit"
+msgstr "Redakti"
+
+#: forms/collections.py:372
+msgid "Edit collections"
+msgstr "Redakti kolektojn"
+
+#: forms/collections.py:373 templates/wagtailadmin/generic/multiple_upload/edit_form.html:24 templates/wagtailadmin/pages/bulk_actions/confirm_bulk_delete.html:11 templates/wagtailadmin/pages/confirm_delete.html:6 templates/wagtailadmin/panels/inline_panel_child.html:12 templates/wagtailadmin/permissions/includes/collection_member_permissions_form.html:16 templates/wagtailadmin/workflows/includes/workflow_pages_form.html:8 views/generic/models.py:403 views/generic/models.py:818 views/generic/models.py:1166 views/generic/models.py:1334 views/pages/bulk_actions/delete.py:12 wagtail_hooks.py:306
+msgid "Delete"
+msgstr "Forigi"
+
+#: forms/collections.py:373
+msgid "Delete collections"
+msgstr "Forigi kolektojn"
+
+#: forms/comments.py:29 forms/comments.py:73
+msgid "You cannot edit another user's comment."
+msgstr "Vi ne povas redakti la komenton de alia uzanto."
+
+#: forms/models.py:249
+msgid "Go live date/time must be before expiry date/time"
+msgstr "La dato/horo de publikigo devas esti antaŭ la dato/horo de eksvalidiĝo"
+
+#: forms/models.py:257
+msgid "Expiry date/time must be in the future."
+msgstr "La dato/horo de eksvalidiĝo devas esti en la estonteco."
+
+#: forms/pages.py:28
+msgid "New title"
+msgstr "Nova titolo"
+
+#: forms/pages.py:33
+msgid "New slug"
+msgstr "Nova URL-ero"
+
+#: forms/pages.py:45 forms/pages.py:284
+msgid "New parent page"
+msgstr "Nova patra paĝo"
+
+#: forms/pages.py:46
+msgid "This copy will be a child of this given parent page."
+msgstr "Ĉi tiu kopio estos subpaĝo de la indikita patra paĝo."
+
+#: forms/pages.py:54
+msgid "Copy subpages"
+msgstr "Kopii subpaĝojn"
+
+#: forms/pages.py:56
+#, python-format
+msgid "This will copy %(count)s subpage."
+msgid_plural "This will copy %(count)s subpages."
+msgstr[0] "Tio kopios %(count)s subpaĝon."
+msgstr[1] "Tio kopios %(count)s subpaĝojn."
+
+#: forms/pages.py:68
+msgid "Publish copied page"
+msgstr "Publikigi la kopiitan paĝon"
+
+#: forms/pages.py:70
+msgid "This page is live. Would you like to publish its copy as well?"
+msgstr "Ĉi tiu paĝo estas publikigita. Ĉu vi volas publikigi ankaŭ ĝian kopion?"
+
+#: forms/pages.py:73
+msgid "Publish copies"
+msgstr "Publikigi la kopiojn"
+
+#: forms/pages.py:75
+#, python-format
+msgid "%(count)s of the pages being copied is live. Would you like to publish its copy?"
+msgid_plural "%(count)s of the pages being copied are live. Would you like to publish their copies?"
+msgstr[0] "%(count)s el la kopiataj paĝoj estas publikigita. Ĉu vi volas publikigi ĝian kopion?"
+msgstr[1] "%(count)s el la kopiataj paĝoj estas publikigitaj. Ĉu vi volas publikigi iliajn kopiojn?"
+
+#: forms/pages.py:89
+msgid "Alias"
+msgstr "Kromnomo"
+
+#: forms/pages.py:90
+msgid "Keep the new pages updated with future changes"
+msgstr "Teni la novajn paĝojn ĝisdataj laŭ estontaj ŝanĝoj"
+
+#: forms/pages.py:112
+#, python-format
+msgid "You do not have permission to publish pages at \"%(page_title)s\""
+msgstr "Vi ne havas permeson publikigi paĝojn sub \"%(page_title)s\""
+
+#: forms/pages.py:123
+#, python-format
+msgid "You do not have permission to copy to page \"%(page_title)s\""
+msgstr "Vi ne havas permeson kopii al la paĝo \"%(page_title)s\""
+
+#: forms/pages.py:135
+#, python-format
+msgid "This slug is already in use within the context of its parent page \"%(parent_page_title)s\""
+msgstr "Ĉi tiu URL-ero jam estas uzata ene de ĝia patra paĝo \"%(parent_page_title)s\""
+
+#: forms/pages.py:148
+msgid "You cannot copy a page into itself when copying subpages"
+msgstr "Vi ne povas kopii paĝon en sin mem dum kopiado de subpaĝoj"
+
+#: forms/pages.py:249
+#, python-format
+msgid "The slug '%(page_slug)s' is already in use within the parent page."
+msgstr "La URL-ero '%(page_slug)s' jam estas uzata ene de la patra paĝo."
+
+#: forms/pages.py:285
+msgid "Select a new parent for this page."
+msgstr "Elektu novan patron por ĉi tiu paĝo."
+
+#: forms/pages.py:302
+msgid "Parent page"
+msgstr "Patra paĝo"
+
+#: forms/pages.py:303
+msgid "The new page will be a child of this given parent page."
+msgstr "La nova paĝo estos subpaĝo de la indikita patra paĝo."
+
+#: forms/pages.py:310
+#, python-format
+msgid "You do not have permission to create a page under \"%(page_title)s\"."
+msgstr "Vi ne havas permeson krei paĝon sub \"%(page_title)s\"."
+
+#: forms/pages.py:316
+#, python-format
+msgid "You cannot create a page of type \"%(page_type)s\" under \"%(page_title)s\"."
+msgstr "Vi ne povas krei paĝon de la tipo \"%(page_type)s\" sub \"%(page_title)s\"."
+
+#: forms/search.py:8 forms/workflows.py:30
+msgid "Search…"
+msgstr "Serĉi…"
+
+#: forms/tags.py:22
+#, python-format
+msgid "Tag(s) %(value_too_long)s are over %(max_tag_length)d characters."
+msgstr "La etikedo(j) %(value_too_long)s superas %(max_tag_length)d signojn."
+
+#: forms/view_restrictions.py:11
+msgid "Visibility"
+msgstr "Videbleco"
+
+#: forms/view_restrictions.py:28
+msgid "This field is required."
+msgstr "Ĉi tiu kampo estas deviga."
+
+#: forms/view_restrictions.py:38
+msgid "Please select at least one group."
+msgstr "Bonvolu elekti almenaŭ unu grupon."
+
+#: forms/workflows.py:39
+msgid "All types"
+msgstr "Ĉiuj tipoj"
+
+#: forms/workflows.py:109
+#, python-format
+msgid "This page already has workflow '%(workflow_name)s' assigned."
+msgstr "Al ĉi tiu paĝo jam estas atribuita la laborfluo '%(workflow_name)s'."
+
+#: forms/workflows.py:145
+msgid "You cannot assign this workflow to the same page multiple times."
+msgstr "Vi ne povas atribui ĉi tiun laborfluon plurfoje al la sama paĝo."
+
+#: forms/workflows.py:221
+#, python-format
+msgid "Snippet '%(content_type)s' already has workflow '%(workflow_name)s' assigned."
+msgstr "Al la fragmento '%(content_type)s' jam estas atribuita la laborfluo '%(workflow_name)s'."
+
+#: forms/workflows.py:309
+msgid "Give your workflow a name"
+msgstr "Donu nomon al via laborfluo"
+
+#: forms/workflows.py:315
+msgid "Add tasks to your workflow"
+msgstr "Aldonu taskojn al via laborfluo"
+
+#: forms/workflows.py:316
+msgid "task"
+msgstr "tasko"
+
+#: localization.py:66
+msgid "1 page selected"
+msgstr "1 paĝo elektita"
+
+#: localization.py:67
+#, python-format
+msgid "%(objects)s pages selected"
+msgstr "%(objects)s paĝoj elektitaj"
+
+#: localization.py:68
+#, python-format
+msgid "All %(objects)s pages on this screen selected"
+msgstr "Ĉiuj %(objects)s paĝoj en ĉi tiu ekrano elektitaj"
+
+#: localization.py:69
+msgid "All pages in listing selected"
+msgstr "Ĉiuj paĝoj en la listo elektitaj"
+
+#: localization.py:72
+msgid "1 document selected"
+msgstr "1 dokumento elektita"
+
+#: localization.py:73
+#, python-format
+msgid "%(objects)s documents selected"
+msgstr "%(objects)s dokumentoj elektitaj"
+
+#: localization.py:74
+#, python-format
+msgid "All %(objects)s documents on this screen selected"
+msgstr "Ĉiuj %(objects)s dokumentoj en ĉi tiu ekrano elektitaj"
+
+#: localization.py:75
+msgid "All documents in listing selected"
+msgstr "Ĉiuj dokumentoj en la listo elektitaj"
+
+#: localization.py:78
+msgid "1 image selected"
+msgstr "1 bildo elektita"
+
+#: localization.py:79
+#, python-format
+msgid "%(objects)s images selected"
+msgstr "%(objects)s bildoj elektitaj"
+
+#: localization.py:80
+#, python-format
+msgid "All %(objects)s images on this screen selected"
+msgstr "Ĉiuj %(objects)s bildoj en ĉi tiu ekrano elektitaj"
+
+#: localization.py:81
+msgid "All images in listing selected"
+msgstr "Ĉiuj bildoj en la listo elektitaj"
+
+#: localization.py:84
+msgid "1 user selected"
+msgstr "1 uzanto elektita"
+
+#: localization.py:85
+#, python-format
+msgid "%(objects)s users selected"
+msgstr "%(objects)s uzantoj elektitaj"
+
+#: localization.py:86
+#, python-format
+msgid "All %(objects)s users on this screen selected"
+msgstr "Ĉiuj %(objects)s uzantoj en ĉi tiu ekrano elektitaj"
+
+#: localization.py:87
+msgid "All users in listing selected"
+msgstr "Ĉiuj uzantoj en la listo elektitaj"
+
+#: localization.py:90
+msgid "1 snippet selected"
+msgstr "1 fragmento elektita"
+
+#: localization.py:91
+#, python-format
+msgid "%(objects)s snippets selected"
+msgstr "%(objects)s fragmentoj elektitaj"
+
+#: localization.py:92
+#, python-format
+msgid "All %(objects)s snippets on this screen selected"
+msgstr "Ĉiuj %(objects)s fragmentoj en ĉi tiu ekrano elektitaj"
+
+#: localization.py:93
+msgid "All snippets in listing selected"
+msgstr "Ĉiuj fragmentoj en la listo elektitaj"
+
+#: localization.py:96
+msgid "1 item selected"
+msgstr "1 elemento elektita"
+
+#: localization.py:97
+#, python-format
+msgid "%(objects)s items selected"
+msgstr "%(objects)s elementoj elektitaj"
+
+#: localization.py:98
+#, python-format
+msgid "All %(objects)s items on this screen selected"
+msgstr "Ĉiuj %(objects)s elementoj en ĉi tiu ekrano elektitaj"
+
+#: localization.py:99
+msgid "All items in listing selected"
+msgstr "Ĉiuj elementoj en la listo elektitaj"
+
+#: models.py:20
+msgid "Can access Wagtail admin"
+msgstr "Rajtas aliri la Wagtail-administradon"
+
+#: paginator.py:17
+msgid "item"
+msgstr "elemento"
+
+#: paginator.py:23
+msgid "items"
+msgstr "elementoj"
+
+#: panels/page_utils.py:21
+msgid "Content"
+msgstr "Enhavo"
+
+#: panels/page_utils.py:23
+msgid "Promote"
+msgstr "Reklamo"
+
+#: panels/page_utils.py:26 wagtail_hooks.py:134
+msgid "Settings"
+msgstr "Agordoj"
+
+#: panels/title_field_panel.py:104 templates/wagtailadmin/home/locked_pages.html:14 templates/wagtailadmin/home/recent_edits.html:15 templates/wagtailadmin/home/user_objects_in_workflow_moderation.html:15 templates/wagtailadmin/home/workflow_objects_to_moderate.html:14 templates/wagtailadmin/reports/aging_pages_results.html:9 templates/wagtailadmin/reports/listing/_list_page_report.html:12 templates/wagtailadmin/shared/content_checks/metadata.html:28 views/chooser.py:190 views/chooser.py:418 views/generic/base.py:200 views/generic/chooser.py:230 views/generic/chooser.py:237 views/pages/listing.py:142
+msgid "Title"
+msgstr "Titolo"
+
+#: panels/title_field_panel.py:107
+msgid "Page title"
+msgstr "Titolo de la paĝo"
+
+#: templates/wagtailadmin/404.html:3
+msgid "Error 404: Page not found"
+msgstr "Eraro 404: paĝo ne trovita"
+
+#: templates/wagtailadmin/404.html:20
+msgid "Error 404"
+msgstr "Eraro 404"
+
+#: templates/wagtailadmin/404.html:24
+msgid "The requested page could not be found."
+msgstr "La petita paĝo ne troveblis."
+
+#: templates/wagtailadmin/404.html:27 templates/wagtailadmin/userbar/item_admin.html:8
+msgid "Go to Wagtail admin"
+msgstr "Iri al la Wagtail-administrado"
+
+#: templates/wagtailadmin/account/account.html:13 templates/wagtailadmin/shared/dropdown/dropdown_button.html:19
+msgid "More actions"
+msgstr "Pliaj agoj"
+
+#: templates/wagtailadmin/account/password_reset/complete.html:3 templates/wagtailadmin/account/password_reset/confirm.html:24 templates/wagtailadmin/account/password_reset/done.html:3 templates/wagtailadmin/account/password_reset/form.html:3 templates/wagtailadmin/account/password_reset/form.html:27
+msgid "Reset password"
+msgstr "Restarigi pasvorton"
+
+#: templates/wagtailadmin/account/password_reset/complete.html:8
+msgid "Password change successful"
+msgstr "Pasvorto sukcese ŝanĝita"
+
+#: templates/wagtailadmin/account/password_reset/complete.html:10
+msgid "Login"
+msgstr "Ensaluti"
+
+#: templates/wagtailadmin/account/password_reset/confirm.html:5 templates/wagtailadmin/account/password_reset/confirm.html:15
+msgid "Set your new password"
+msgstr "Difinu vian novan pasvorton"
+
+#: templates/wagtailadmin/account/password_reset/confirm.html:7 templates/wagtailadmin/account/password_reset/confirm.html:28
+msgid "Invalid password reset link"
+msgstr "Nevalida ligilo por restarigi pasvorton"
+
+#: templates/wagtailadmin/account/password_reset/confirm.html:34
+msgid "The password reset link was invalid, possibly because it has already been used."
+msgstr "La ligilo por restarigi pasvorton estis nevalida, eble ĉar ĝi jam estis uzita."
+
+#: templates/wagtailadmin/account/password_reset/confirm.html:41
+msgid "Request a new password reset"
+msgstr "Peti novan restarigon de pasvorto"
+
+#: templates/wagtailadmin/account/password_reset/done.html:8
+msgid "Check your email"
+msgstr "Kontrolu vian retpoŝton"
+
+#: templates/wagtailadmin/account/password_reset/done.html:9
+msgid "A link to reset your password has been emailed to you if an account exists for this address."
+msgstr "Se konto ekzistas por ĉi tiu adreso, ligilo por restarigi vian pasvorton estis sendita al vi retpoŝte."
+
+#: templates/wagtailadmin/account/password_reset/email.txt:2
+msgid "Please follow the link below to reset your password:"
+msgstr "Bonvolu sekvi la suban ligilon por restarigi vian pasvorton:"
+
+#: templates/wagtailadmin/account/password_reset/email.txt:6
+msgid "Your username (in case you've forgotten):"
+msgstr "Via uzantnomo (se vi forgesis ĝin):"
+
+#: templates/wagtailadmin/account/password_reset/email_subject.txt:2
+msgid "Password reset"
+msgstr "Restarigo de pasvorto"
+
+#: templates/wagtailadmin/account/password_reset/form.html:8
+msgid "Reset your password"
+msgstr "Restarigi vian pasvorton"
+
+#: templates/wagtailadmin/account/settings_panels/avatar.html:7
+msgid "Reset to default"
+msgstr "Restarigi al defaŭlto"
+
+#: templates/wagtailadmin/account/settings_panels/avatar.html:8
+msgid "Default avatar"
+msgstr "Defaŭlta profilbildo"
+
+#: templates/wagtailadmin/account/settings_panels/avatar.html:13
+msgid "Upload a profile picture:"
+msgstr "Alŝuti profilbildon:"
+
+#: templates/wagtailadmin/base.html:7
+msgid "Sidebar"
+msgstr "Flanka breto"
+
+#: templates/wagtailadmin/base.html:40
+msgid "Go to the first error"
+msgstr "Iri al la unua eraro"
+
+#: templates/wagtailadmin/bulk_actions/confirmation/go_back.html:2
+msgid "Go back"
+msgstr "Reiri"
+
+#: templates/wagtailadmin/bulk_actions/footer.html:3
+msgid "Bulk actions"
+msgstr "Amasaj agoj"
+
+#: templates/wagtailadmin/bulk_actions/listing_checkbox_cell.html:18 views/chooser.py:212 views/chooser.py:443 views/generic/chooser.py:250
+msgid "Select"
+msgstr "Elekti"
+
+#: templates/wagtailadmin/bulk_actions/select_all_checkbox_cell.html:2
+msgid "Select row"
+msgstr "Elekti vicon"
+
+#: templates/wagtailadmin/bulk_actions/select_all_checkbox_input.html:2
+msgid "Select all"
+msgstr "Elekti ĉiujn"
+
+#: templates/wagtailadmin/chooser/_link_types.html:5 templates/wagtailadmin/chooser/_link_types.html:8 templates/wagtailadmin/chooser/_link_types.html:10
+msgid "Internal link"
+msgstr "Interna ligilo"
+
+#: templates/wagtailadmin/chooser/_link_types.html:15 templates/wagtailadmin/chooser/_link_types.html:17
+msgid "External link"
+msgstr "Ekstera ligilo"
+
+#: templates/wagtailadmin/chooser/_link_types.html:21 templates/wagtailadmin/chooser/_link_types.html:23
+msgid "Email link"
+msgstr "Retpoŝta ligilo"
+
+#: templates/wagtailadmin/chooser/_link_types.html:27 templates/wagtailadmin/chooser/_link_types.html:29
+msgid "Phone link"
+msgstr "Telefona ligilo"
+
+#: templates/wagtailadmin/chooser/_link_types.html:33 templates/wagtailadmin/chooser/_link_types.html:35
+msgid "Anchor link"
+msgstr "Ankra ligilo"
+
+#: templates/wagtailadmin/chooser/_search_results.html:5 templates/wagtailadmin/generic/chooser/results.html:8 templates/wagtailadmin/generic/listing_results.html:13 templates/wagtailadmin/workflows/task_chooser/includes/results.html:6
+#, python-format
+msgid "There is %(counter)s match"
+msgid_plural "There are %(counter)s matches"
+msgstr[0] "Estas %(counter)s trafo"
+msgstr[1] "Estas %(counter)s trafoj"
+
+#: templates/wagtailadmin/chooser/anchor_link.html:2
+msgid "Add an anchor link"
+msgstr "Aldoni ankran ligilon"
+
+#: templates/wagtailadmin/chooser/anchor_link.html:13
+msgid "Insert anchor"
+msgstr "Enmeti ankron"
+
+#: templates/wagtailadmin/chooser/browse.html:3 views/generic/chooser.py:130 viewsets/chooser.py:28
+msgid "Choose"
+msgstr "Elekti"
+
+#: templates/wagtailadmin/chooser/browse.html:5 widgets/chooser.py:222
+msgid "Choose a page"
+msgstr "Elekti paĝon"
+
+#: templates/wagtailadmin/chooser/browse.html:17
+#, python-format
+msgid "Only pages of type \"%(type)s\" may be chosen for this field. Search results will exclude pages of other types."
+msgid_plural "Only the following page types may be chosen for this field: %(type)s. Search results will exclude pages of other types."
+msgstr[0] "Nur paĝoj de la tipo \"%(type)s\" estas elekteblaj por ĉi tiu kampo. La serĉrezultoj ekskludos paĝojn de aliaj tipoj."
+msgstr[1] "Nur la jenaj paĝotipoj estas elekteblaj por ĉi tiu kampo: %(type)s. La serĉrezultoj ekskludos paĝojn de aliaj tipoj."
+
+#: templates/wagtailadmin/chooser/browse.html:32 templates/wagtailadmin/generic/chooser/chooser.html:57
+msgid "Confirm selection"
+msgstr "Konfirmi la elekton"
+
+#: templates/wagtailadmin/chooser/confirm_external_to_internal.html:2 templates/wagtailadmin/chooser/confirm_external_to_internal.html:19
+msgid "Convert to internal link"
+msgstr "Konverti al interna ligilo"
+
+#: templates/wagtailadmin/chooser/confirm_external_to_internal.html:7
+#, python-format
+msgid "The URL you entered, <a target=\"_blank\" rel=\"noreferrer\" href=\"%(submitted_url)s\">%(submitted_url)s</a>, looks like it matches the internal page %(page)s, which has the URL <a target=\"_blank\" rel=\"noreferrer\" href=\"%(internal_url)s\">%(internal_url)s</a>."
+msgstr "La URL, kiun vi entajpis, <a target=\"_blank\" rel=\"noreferrer\" href=\"%(submitted_url)s\">%(submitted_url)s</a>, ŝajne kongruas kun la interna paĝo %(page)s, kies URL estas <a target=\"_blank\" rel=\"noreferrer\" href=\"%(internal_url)s\">%(internal_url)s</a>."
+
+#: templates/wagtailadmin/chooser/confirm_external_to_internal.html:14
+#, python-format
+msgid "Converting this to an internal link to %(page)s would make the link automatically update if the underlying page changes its URL. Would you like to do this?"
+msgstr "Konverti ĉi tion al interna ligilo al %(page)s aŭtomate ĝisdatigus la ligilon, se la koncerna paĝo ŝanĝos sian URL. Ĉu vi volas fari tion?"
+
+#: templates/wagtailadmin/chooser/confirm_external_to_internal.html:20
+msgid "Use external link"
+msgstr "Uzi eksteran ligilon"
+
+#: templates/wagtailadmin/chooser/email_link.html:2
+msgid "Add an email link"
+msgstr "Aldoni retpoŝtan ligilon"
+
+#: templates/wagtailadmin/chooser/email_link.html:13 templates/wagtailadmin/chooser/external_link.html:13 templates/wagtailadmin/chooser/phone_link.html:13
+msgid "Insert link"
+msgstr "Enmeti ligilon"
+
+#: templates/wagtailadmin/chooser/external_link.html:2
+msgid "Add an external link"
+msgstr "Aldoni eksteran ligilon"
+
+#: templates/wagtailadmin/chooser/phone_link.html:2
+msgid "Add a phone link"
+msgstr "Aldoni telefonan ligilon"
+
+#: templates/wagtailadmin/chooser/tables/page_checkbox_select_cell.html:3 templates/wagtailadmin/generic/chooser/checkbox_select_cell.html:3
+#, python-format
+msgid "Select %(title)s"
+msgstr "Elekti %(title)s"
+
+#: templates/wagtailadmin/chooser/tables/page_navigate_to_children_cell.html:4
+#, python-format
+msgid "Explore subpages of '%(title)s'"
+msgstr "Esplori la subpaĝojn de '%(title)s'"
+
+#: templates/wagtailadmin/chooser/tables/page_navigate_to_children_cell.html:4
+msgid "Explore"
+msgstr "Esplori"
+
+#: templates/wagtailadmin/collection_privacy/ancestor_privacy.html:2
+msgid "This collection has been made private by a parent collection."
+msgstr "Ĉi tiu kolekto fariĝis privata pro patra kolekto."
+
+#: templates/wagtailadmin/collection_privacy/ancestor_privacy.html:3
+msgid "You can edit the privacy settings on:"
+msgstr "Vi povas redakti la agordojn de privateco ĉe:"
+
+#: templates/wagtailadmin/collections/_privacy_switch.html:7 templates/wagtailadmin/shared/side_panels/includes/status/privacy.html:46 templates/wagtailadmin/shared/side_panels/includes/status/privacy.html:58
+msgid "Change privacy"
+msgstr "Ŝanĝi privatecon"
+
+#: templates/wagtailadmin/collections/_privacy_switch.html:7
+msgid "Privacy settings determine who is able to view documents in this collection."
+msgstr "La agordoj de privateco difinas, kiu povas vidi la dokumentojn en ĉi tiu kolekto."
+
+#: templates/wagtailadmin/collections/_privacy_switch.html:18
+msgid "Privacy"
+msgstr "Privateco"
+
+#: templates/wagtailadmin/collections/_privacy_switch.html:21
+msgid "Set collection privacy. Current status: Public"
+msgstr "Agordi la privatecon de la kolekto. Nuna stato: publika"
+
+#: templates/wagtailadmin/collections/_privacy_switch.html:23
+msgid "Public"
+msgstr "Publika"
+
+#: templates/wagtailadmin/collections/_privacy_switch.html:25
+msgid "Set collection privacy. Current status: Private"
+msgstr "Agordi la privatecon de la kolekto. Nuna stato: privata"
+
+#: templates/wagtailadmin/collections/_privacy_switch.html:27 templates/wagtailadmin/shared/page_status_tag_new.html:41 templates/wagtailadmin/shared/side_panels/includes/status/privacy.html:28
+msgid "Private"
+msgstr "Privata"
+
+#: templates/wagtailadmin/collections/delete_not_empty.html:6
+msgid "This collection cannot be deleted, because it is not empty. It contains:"
+msgstr "Ĉi tiu kolekto ne povas esti forigita, ĉar ĝi ne estas malplena. Ĝi enhavas:"
+
+#: templates/wagtailadmin/collections/index_results.html:6
+#, python-format
+msgid "No collections have been created. Why not <a href=\"%(add_collection_url)s\">add one</a>?"
+msgstr "Neniu kolekto estis kreita. Kial ne <a href=\"%(add_collection_url)s\">aldoni unu</a>?"
+
+#: templates/wagtailadmin/generic/chooser/results.html:27
+#, python-format
+msgid "Sorry, there are no matches for \"<em>%(search_query)s</em>\""
+msgstr "Bedaŭrinde estas neniu trafo por \"<em>%(search_query)s</em>\""
+
+#: templates/wagtailadmin/generic/chooser/results.html:31 views/generic/base.py:452
+msgid "There are no results."
+msgstr "Estas neniu rezulto."
+
+#: templates/wagtailadmin/generic/confirm_delete.html:17 templates/wagtailadmin/pages/bulk_actions/confirm_bulk_delete.html:51 templates/wagtailadmin/workflows/confirm_delete.html:13
+msgid "Yes, delete"
+msgstr "Jes, forigi"
+
+#: templates/wagtailadmin/generic/confirm_delete.html:18 templates/wagtailadmin/pages/bulk_actions/confirm_bulk_delete.html:52
+msgid "No, don't delete"
+msgstr "Ne, ne forigi"
+
+#: templates/wagtailadmin/generic/confirm_unpublish.html:10
+#, python-format
+msgid "Are you sure you want to unpublish this %(model_name)s?"
+msgstr "Ĉu vi certe volas malpublikigi ĉi tiun %(model_name)s?"
+
+#: templates/wagtailadmin/generic/confirm_unpublish.html:23
+msgid "Yes, unpublish it"
+msgstr "Jes, malpublikigi"
+
+#: templates/wagtailadmin/generic/confirm_unpublish.html:24 templates/wagtailadmin/pages/bulk_actions/confirm_bulk_unpublish.html:48
+msgid "No, don't unpublish"
+msgstr "Ne, ne malpublikigi"
+
+#: templates/wagtailadmin/generic/confirm_workflow_cancellation.html:2
+#, python-format
+msgid "Publish %(model_name)s"
+msgstr "Publikigi %(model_name)s"
+
+#: templates/wagtailadmin/generic/confirm_workflow_cancellation.html:10
+#, python-format
+msgid "This %(model_name)s was marked as needing changes at <strong>%(task)s</strong> in <strong>%(workflow)s</strong>."
+msgstr "Ĉi tiu %(model_name)s estis markita kiel bezonanta ŝanĝojn ĉe <strong>%(task)s</strong> en <strong>%(workflow)s</strong>."
+
+#: templates/wagtailadmin/generic/confirm_workflow_cancellation.html:14
+#, python-format
+msgid "This %(model_name)s is currently at <strong>%(task)s</strong> in <strong>%(workflow)s</strong>."
+msgstr "Ĉi tiu %(model_name)s nun estas ĉe <strong>%(task)s</strong> en <strong>%(workflow)s</strong>."
+
+#: templates/wagtailadmin/generic/confirm_workflow_cancellation.html:20
+#, python-format
+msgid "Publishing this %(model_name)s will cancel the current workflow."
+msgstr "Publikigi ĉi tiun %(model_name)s nuligos la nunan laborfluon."
+
+#: templates/wagtailadmin/generic/confirm_workflow_cancellation.html:25
+#, python-format
+msgid "Would you still like to publish this %(model_name)s?"
+msgstr "Ĉu vi tamen volas publikigi ĉi tiun %(model_name)s?"
+
+#: templates/wagtailadmin/generic/confirm_workflow_cancellation.html:30 templates/wagtailadmin/pages/confirm_workflow_cancellation.html:19
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: templates/wagtailadmin/generic/form.html:67
+msgid "Actions (footer)"
+msgstr "Agoj (piedlinio)"
+
+#: templates/wagtailadmin/generic/history/action_cell.html:15
+msgid "Comment"
+msgstr "Komento"
+
+#. Translators: Shortcuts for admin actions that can be taken while working on core models
+#: templates/wagtailadmin/generic/history/action_cell.html:20 templates/wagtailadmin/home/locked_pages.html:47 templates/wagtailadmin/home/recent_edits.html:50 templates/wagtailadmin/home/workflow_objects_to_moderate.html:76 templates/wagtailadmin/pages/listing/_page_header_buttons.html:3 templates/wagtailadmin/widgets/chooser.html:20 templatetags/wagtailadmin_tags.py:1371 views/generic/base.py:86
+msgid "Actions"
+msgstr "Agoj"
+
+#: templates/wagtailadmin/generic/index_results.html:14
+#, python-format
+msgid "There are no %(model_name)s to display. Why not <a href=\"%(add_url)s\">add one</a>?"
+msgstr "Ne estas %(model_name)s por montri. Kial ne <a href=\"%(add_url)s\">aldoni unu</a>?"
+
+#: templates/wagtailadmin/generic/multiple_upload/edit_form.html:22
+msgid "Update"
+msgstr "Ĝisdatigi"
+
+#: templates/wagtailadmin/generic/preview_error.html:4 templates/wagtailadmin/generic/preview_error.html:9
+msgid "Preview not available"
+msgstr "Antaŭvido ne disponebla"
+
+#: templates/wagtailadmin/generic/preview_error.html:12
+msgid "Preview cannot display due to validation errors. <br /> Click save to highlight the relevant fields."
+msgstr "La antaŭvido ne povas montriĝi pro validigaj eraroj. <br /> Alklaku Konservi por emfazi la koncernajn kampojn."
+
+#: templates/wagtailadmin/generic/revisions/compare.html:11
+msgid "Fields"
+msgstr "Kampoj"
+
+#: templates/wagtailadmin/generic/revisions/compare.html:12
+msgid "Changes"
+msgstr "Ŝanĝoj"
+
+#: templates/wagtailadmin/generic/revisions/compare.html:34
+#, python-format
+msgid "Moved down 1 place."
+msgid_plural "Moved down %(counter)s places."
+msgstr[0] "Movita 1 lokon malsupren."
+msgstr[1] "Movita %(counter)s lokojn malsupren."
+
+#: templates/wagtailadmin/generic/revisions/compare.html:40
+#, python-format
+msgid "Moved up 1 place."
+msgid_plural "Moved up %(counter)s places."
+msgstr[0] "Movita 1 lokon supren."
+msgstr[1] "Movita %(counter)s lokojn supren."
+
+#: templates/wagtailadmin/generic/revisions/compare.html:65
+msgid "There are no differences between these two versions"
+msgstr "Ne estas diferencoj inter ĉi tiuj du versioj"
+
+#: templates/wagtailadmin/home.html:42
+msgid "This is your dashboard on which helpful information about content you've created will be displayed."
+msgstr "Ĉi tio estas via panelo, sur kiu montriĝos utilaj informoj pri la enhavo, kiun vi kreis."
+
+#: templates/wagtailadmin/home/account_summary.html:9 templatetags/wagtailadmin_tags.py:893 views/account.py:232
+msgid "Account"
+msgstr "Konto"
+
+#: templates/wagtailadmin/home/account_summary.html:18
+#, python-format
+msgid "Wagtail %(current_version)s editor guide"
+msgstr "Gvidilo por redaktantoj de Wagtail %(current_version)s"
+
+#: templates/wagtailadmin/home/locked_pages.html:4
+msgid "Your locked pages"
+msgstr "Viaj ŝlositaj paĝoj"
+
+#: templates/wagtailadmin/home/locked_pages.html:15 templates/wagtailadmin/home/recent_edits.html:16 templates/wagtailadmin/home/user_objects_in_workflow_moderation.html:16 templates/wagtailadmin/home/workflow_objects_to_moderate.html:15
+msgid "Language"
+msgstr "Lingvo"
+
+#: templates/wagtailadmin/home/locked_pages.html:16 templates/wagtailadmin/home/recent_edits.html:17 templates/wagtailadmin/home/user_objects_in_workflow_moderation.html:17 templates/wagtailadmin/home/workflow_objects_to_moderate.html:16
+msgid "Privacy and access"
+msgstr "Privateco kaj aliro"
+
+#: templates/wagtailadmin/home/locked_pages.html:17 templates/wagtailadmin/home/recent_edits.html:18 templates/wagtailadmin/reports/aging_pages_results.html:12 templates/wagtailadmin/reports/listing/_list_page_report.html:21 templates/wagtailadmin/reports/workflow_results.html:15 templates/wagtailadmin/reports/workflow_tasks_results.html:15 templates/wagtailadmin/shared/workflow_history/listing_results.html:9 ui/side_panels.py:64 ui/tables/__init__.py:392 views/chooser.py:205 views/chooser.py:437 views/pages/listing.py:165 views/reports/aging_pages.py:41 views/reports/base.py:45 views/reports/workflows.py:156 views/reports/workflows.py:240
+msgid "Status"
+msgstr "Stato"
+
+#: templates/wagtailadmin/home/locked_pages.html:18 views/reports/locked_pages.py:27
+msgid "Locked at"
+msgstr "Ŝlosita je"
+
+#: templates/wagtailadmin/home/locked_pages.html:28 templates/wagtailadmin/home/recent_edits.html:29 templates/wagtailadmin/pages/listing/_page_title_explore.html:28 templates/wagtailadmin/userbar/item_page_edit.html:8 widgets/chooser.py:224
+msgid "Edit this page"
+msgstr "Redakti ĉi tiun paĝon"
+
+#: templates/wagtailadmin/home/locked_pages.html:55 templates/wagtailadmin/reports/listing/_list_unlock.html:42 views/generic/mixins.py:728 views/pages/edit.py:442
+msgid "Unlock"
+msgstr "Malŝlosi"
+
+#: templates/wagtailadmin/home/locked_pages.html:60 templates/wagtailadmin/home/recent_edits.html:53 templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:71 templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:85
+msgid "Draft"
+msgstr "Malneto"
+
+#: templates/wagtailadmin/home/locked_pages.html:65 templates/wagtailadmin/home/recent_edits.html:58 templates/wagtailadmin/shared/page_status_tag_new.html:14 templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:18 templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:88 views/generic/models.py:1490
+msgid "Live"
+msgstr "Publikigita"
+
+#: templates/wagtailadmin/home/recent_edits.html:5
+msgid "Your most recent edits"
+msgstr "Viaj plej lastaj redaktoj"
+
+#: templates/wagtailadmin/home/recent_edits.html:19 views/generic/history.py:58 views/generic/history.py:230
+msgid "Date"
+msgstr "Dato"
+
+#: templates/wagtailadmin/home/site_summary.html:4
+msgid "Site summary"
+msgstr "Resumo de la retejo"
+
+#: templates/wagtailadmin/home/site_summary_pages.html:6
+#, python-format
+msgid "%(total)s Page <span class=\"w-sr-only\">created in %(site_name)s</span>"
+msgid_plural "%(total)s Pages <span class=\"w-sr-only\">created in %(site_name)s</span>"
+msgstr[0] "%(total)s paĝo <span class=\"w-sr-only\">kreita en %(site_name)s</span>"
+msgstr[1] "%(total)s paĝoj <span class=\"w-sr-only\">kreitaj en %(site_name)s</span>"
+
+#: templates/wagtailadmin/home/upgrade_notification.html:12
+msgid "Wagtail upgrade available"
+msgstr "Ĝisdatigo de Wagtail disponebla"
+
+#: templates/wagtailadmin/home/upgrade_notification.html:14
+#, python-format
+msgid "Your version: <strong>%(current_version)s</strong>. New version: <strong data-w-upgrade-target=\"latestVersion\"></strong>."
+msgstr "Via versio: <strong>%(current_version)s</strong>. Nova versio: <strong data-w-upgrade-target=\"latestVersion\"></strong>."
+
+#: templates/wagtailadmin/home/upgrade_notification.html:19
+msgid "Read the release notes."
+msgstr "Legi la eldonnotojn."
+
+#: templates/wagtailadmin/home/upgrade_notification.html:28 templates/wagtailadmin/home/whats_new_in_wagtail_version.html:13
+msgid "Close"
+msgstr "Fermi"
+
+#: templates/wagtailadmin/home/user_objects_in_workflow_moderation.html:5
+msgid "Your pages and snippets in a workflow"
+msgstr "Viaj paĝoj kaj fragmentoj en laborfluo"
+
+#: templates/wagtailadmin/home/user_objects_in_workflow_moderation.html:18 templates/wagtailadmin/reports/workflow_tasks_results.html:9
+msgid "Task"
+msgstr "Tasko"
+
+#: templates/wagtailadmin/home/user_objects_in_workflow_moderation.html:19 templates/wagtailadmin/home/workflow_objects_to_moderate.html:19
+msgid "Task started"
+msgstr "Tasko komenciĝis"
+
+#: templates/wagtailadmin/home/user_objects_in_workflow_moderation.html:58
+msgid "Changes requested at"
+msgstr "Ŝanĝoj petitaj je"
+
+#: templates/wagtailadmin/home/user_objects_in_workflow_moderation.html:60
+msgid "Awaiting"
+msgstr "Atendanta"
+
+#: templates/wagtailadmin/home/whats_new_in_wagtail_version.html:20
+#, python-format
+msgid "Things in Wagtail %(version)s have changed!"
+msgstr "Aferoj ŝanĝiĝis en Wagtail %(version)s!"
+
+#: templates/wagtailadmin/home/whats_new_in_wagtail_version.html:26
+#, python-format
+msgid "Don't worry, we've got your back. Check out the <a class=\"w-whats-new__link\" href=\"%(editor_guide_link)s\" target=\"_blank\" rel=\"noreferrer\">Wagtail Editor Guide</a> to get the low down on what's changed and some exciting new features!"
+msgstr "Ne zorgu, ni helpos vin. Konsultu la <a class=\"w-whats-new__link\" href=\"%(editor_guide_link)s\" target=\"_blank\" rel=\"noreferrer\">gvidilon por redaktantoj de Wagtail</a> por ekscii, kio ŝanĝiĝis, kaj malkovri kelkajn novajn interesajn funkciojn!"
+
+#: templates/wagtailadmin/home/workflow_objects_to_moderate.html:3
+msgid "Awaiting your review"
+msgstr "Atendas vian kontrolon"
+
+#: templates/wagtailadmin/home/workflow_objects_to_moderate.html:17 templates/wagtailadmin/reports/workflow_results.html:18 templates/wagtailadmin/shared/workflow_history/detail.html:25 templates/wagtailadmin/shared/workflow_history/listing_results.html:12 templates/wagtailadmin/workflows/task_chooser/includes/results.html:14 views/workflows.py:135
+msgid "Tasks"
+msgstr "Taskoj"
+
+#: templates/wagtailadmin/home/workflow_objects_to_moderate.html:18
+msgid "Task submitted by"
+msgstr "Tasko sendita de"
+
+#: templates/wagtailadmin/home/workflow_objects_to_moderate.html:84 templates/wagtailadmin/shared/side_panels/preview.html:94 templatetags/wagtailadmin_tags.py:1373 ui/side_panels.py:367 views/generic/history.py:133
+msgid "Preview"
+msgstr "Antaŭvidi"
+
+#: templates/wagtailadmin/home/workflow_objects_to_moderate.html:87 templates/wagtailadmin/workflows/workflow_status.html:83 views/pages/edit.py:324
+msgid "Compare with live version"
+msgstr "Kompari kun la publikigita versio"
+
+#: templates/wagtailadmin/home/workflow_objects_to_moderate.html:90 templates/wagtailadmin/workflows/workflow_status.html:93 views/generic/history.py:156
+msgid "Compare with previous version"
+msgstr "Kompari kun la antaŭa versio"
+
+#: templates/wagtailadmin/login.html:3 templates/wagtailadmin/login.html:62
+msgid "Sign in"
+msgstr "Ensaluti"
+
+#: templates/wagtailadmin/login.html:8
+msgid "Sign in to Wagtail"
+msgstr "Ensaluti al Wagtail"
+
+#: templates/wagtailadmin/login.html:40
+msgid "Forgotten password?"
+msgstr "Ĉu vi forgesis vian pasvorton?"
+
+#: templates/wagtailadmin/login.html:49
+msgid "Remember me"
+msgstr "Memori min"
+
+#: templates/wagtailadmin/login.html:59
+msgid "Signing in…"
+msgstr "Ensalutante…"
+
+#: templates/wagtailadmin/notifications/approved.html:5 templates/wagtailadmin/notifications/approved.txt:5
+#, python-format
+msgid "The page \"%(title)s\" has been approved."
+msgstr "La paĝo \"%(title)s\" estis aprobita."
+
+#: templates/wagtailadmin/notifications/approved.html:6 templates/wagtailadmin/notifications/approved.txt:7 templates/wagtailadmin/notifications/workflow_state_approved.html:7 templates/wagtailadmin/notifications/workflow_state_approved.txt:6
+msgid "You can view the page here:"
+msgstr "Vi povas vidi la paĝon ĉi tie:"
+
+#: templates/wagtailadmin/notifications/approved_subject.txt:3
+#, python-format
+msgid "The page \"%(title)s\" has been approved"
+msgstr "La paĝo \"%(title)s\" estis aprobita"
+
+#: templates/wagtailadmin/notifications/base.html:114 templates/wagtailadmin/notifications/base.txt:5
+#, python-format
+msgid "Hello %(username)s,"
+msgstr "Saluton %(username)s,"
+
+#: templates/wagtailadmin/notifications/base.html:122 templates/wagtailadmin/notifications/base.txt:10
+msgid "Edit your notification preferences here:"
+msgstr "Redaktu viajn preferojn pri sciigoj ĉi tie:"
+
+#: templates/wagtailadmin/notifications/rejected.html:6 templates/wagtailadmin/notifications/rejected.txt:6
+#, python-format
+msgid "The page \"%(title)s\" has been rejected."
+msgstr "La paĝo \"%(title)s\" estis malaprobita."
+
+#: templates/wagtailadmin/notifications/rejected.html:7 templates/wagtailadmin/notifications/rejected.txt:8 templates/wagtailadmin/notifications/task_state_approved.html:8 templates/wagtailadmin/notifications/task_state_approved.txt:7 templates/wagtailadmin/notifications/task_state_rejected.html:8 templates/wagtailadmin/notifications/task_state_rejected.txt:7 templates/wagtailadmin/notifications/task_state_submitted.html:11 templates/wagtailadmin/notifications/task_state_submitted.txt:9 templates/wagtailadmin/notifications/updated_comments.html:56 templates/wagtailadmin/notifications/updated_comments.txt:33 templates/wagtailadmin/notifications/workflow_state_rejected.html:15 templates/wagtailadmin/notifications/workflow_state_rejected.txt:14 templates/wagtailadmin/notifications/workflow_state_submitted.html:14 templates/wagtailadmin/notifications/workflow_state_submitted.txt:10
+msgid "You can edit the page here:"
+msgstr "Vi povas redakti la paĝon ĉi tie:"
+
+#: templates/wagtailadmin/notifications/rejected_subject.txt:3
+#, python-format
+msgid "The page \"%(title)s\" has been rejected"
+msgstr "La paĝo \"%(title)s\" estis malaprobita"
+
+#: templates/wagtailadmin/notifications/task_state_approved.html:7 templates/wagtailadmin/notifications/task_state_approved.txt:6
+#, python-format
+msgid "The page \"%(title)s\" has been approved in moderation stage \"%(task)s\"."
+msgstr "La paĝo \"%(title)s\" estis aprobita en la moderiga etapo \"%(task)s\"."
+
+#: templates/wagtailadmin/notifications/task_state_approved.html:13 templates/wagtailadmin/notifications/task_state_approved.txt:8
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been approved in moderation stage \"%(task)s\"."
+msgstr "%(model_name)s \"%(title)s\" estis aprobita en la moderiga etapo \"%(task)s\"."
+
+#: templates/wagtailadmin/notifications/task_state_approved.html:20 templates/wagtailadmin/notifications/task_state_approved.txt:11 templates/wagtailadmin/notifications/task_state_rejected.html:20 templates/wagtailadmin/notifications/task_state_rejected.txt:11 templates/wagtailadmin/notifications/task_state_submitted.html:36 templates/wagtailadmin/notifications/task_state_submitted.txt:16 templates/wagtailadmin/notifications/workflow_state_rejected.html:43 templates/wagtailadmin/notifications/workflow_state_rejected.txt:28 templates/wagtailadmin/notifications/workflow_state_submitted.html:36 templates/wagtailadmin/notifications/workflow_state_submitted.txt:19
+#, python-format
+msgid "You can edit the %(model_name)s here:"
+msgstr "Vi povas redakti ĝin (%(model_name)s) ĉi tie:"
+
+#: templates/wagtailadmin/notifications/task_state_approved_subject.txt:4
+#, python-format
+msgid "The page \"%(title)s\" has been approved in \"%(task)s\"."
+msgstr "La paĝo \"%(title)s\" estis aprobita en \"%(task)s\"."
+
+#: templates/wagtailadmin/notifications/task_state_approved_subject.txt:7
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been approved in \"%(task)s\"."
+msgstr "%(model_name)s \"%(title)s\" estis aprobita en \"%(task)s\"."
+
+#: templates/wagtailadmin/notifications/task_state_rejected.html:7 templates/wagtailadmin/notifications/task_state_rejected.txt:6
+#, python-format
+msgid "The page \"%(title)s\" has been rejected in moderation stage \"%(task)s\"."
+msgstr "La paĝo \"%(title)s\" estis malaprobita en la moderiga etapo \"%(task)s\"."
+
+#: templates/wagtailadmin/notifications/task_state_rejected.html:13 templates/wagtailadmin/notifications/task_state_rejected.txt:8
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been rejected in moderation stage \"%(task)s\"."
+msgstr "%(model_name)s \"%(title)s\" estis malaprobita en la moderiga etapo \"%(task)s\"."
+
+#: templates/wagtailadmin/notifications/task_state_rejected_subject.txt:4
+#, python-format
+msgid "The page \"%(title)s\" has been rejected during \"%(task)s\"."
+msgstr "La paĝo \"%(title)s\" estis malaprobita dum \"%(task)s\"."
+
+#: templates/wagtailadmin/notifications/task_state_rejected_subject.txt:7
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been rejected during \"%(task)s\"."
+msgstr "%(model_name)s \"%(title)s\" estis malaprobita dum \"%(task)s\"."
+
+#: templates/wagtailadmin/notifications/task_state_submitted.html:7
+#, python-format
+msgid "The page \"%(title)s\" has been submitted for approval in moderation stage \"%(task)s\"."
+msgstr "La paĝo \"%(title)s\" estis sendita por aprobo en la moderiga etapo \"%(task)s\"."
+
+#: templates/wagtailadmin/notifications/task_state_submitted.html:10 templates/wagtailadmin/notifications/task_state_submitted.txt:8
+msgid "You can preview the page here:"
+msgstr "Vi povas antaŭvidi la paĝon ĉi tie:"
+
+#: templates/wagtailadmin/notifications/task_state_submitted.html:19
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been submitted for approval in moderation stage \"%(task)s\"."
+msgstr "%(model_name)s \"%(title)s\" estis sendita por aprobo en la moderiga etapo \"%(task)s\"."
+
+#: templates/wagtailadmin/notifications/task_state_submitted.html:28 templates/wagtailadmin/notifications/task_state_submitted.txt:13
+#, python-format
+msgid "You can preview the %(model_name)s here:"
+msgstr "Vi povas antaŭvidi ĝin (%(model_name)s) ĉi tie:"
+
+#: templates/wagtailadmin/notifications/task_state_submitted.txt:6
+#, python-format
+msgid "The page \"%(title)s\" has been submitted for approval to moderation stage \"%(task)s\"."
+msgstr "La paĝo \"%(title)s\" estis sendita por aprobo al la moderiga etapo \"%(task)s\"."
+
+#: templates/wagtailadmin/notifications/task_state_submitted.txt:10
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been submitted for approval to moderation stage \"%(task)s\"."
+msgstr "%(model_name)s \"%(title)s\" estis sendita por aprobo al la moderiga etapo \"%(task)s\"."
+
+#: templates/wagtailadmin/notifications/task_state_submitted_subject.txt:4
+#, python-format
+msgid "The page \"%(title)s\" has been submitted for approval in moderation stage \"%(task)s\""
+msgstr "La paĝo \"%(title)s\" estis sendita por aprobo en la moderiga etapo \"%(task)s\""
+
+#: templates/wagtailadmin/notifications/task_state_submitted_subject.txt:7
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been submitted for approval in moderation stage \"%(task)s\""
+msgstr "%(model_name)s \"%(title)s\" estis sendita por aprobo en la moderiga etapo \"%(task)s\""
+
+#: templates/wagtailadmin/notifications/updated_comments.html:7 templates/wagtailadmin/notifications/updated_comments.txt:5
+#, python-format
+msgid "%(editor)s has updated comments on \"%(title)s\"."
+msgstr "%(editor)s ĝisdatigis komentojn pri \"%(title)s\"."
+
+#: templates/wagtailadmin/notifications/updated_comments.html:11
+msgid "New comments"
+msgstr "Novaj komentoj"
+
+#: templates/wagtailadmin/notifications/updated_comments.html:21
+msgid "Resolved comments"
+msgstr "Solvitaj komentoj"
+
+#: templates/wagtailadmin/notifications/updated_comments.html:31
+msgid "Deleted comments"
+msgstr "Forigitaj komentoj"
+
+#: templates/wagtailadmin/notifications/updated_comments.html:41
+msgid "New replies"
+msgstr "Novaj respondoj"
+
+#: templates/wagtailadmin/notifications/updated_comments.html:45 templates/wagtailadmin/notifications/updated_comments.txt:30
+msgid "New replies to:"
+msgstr "Novaj respondoj al:"
+
+#: templates/wagtailadmin/notifications/updated_comments.txt:10
+msgid "New comments:"
+msgstr "Novaj komentoj:"
+
+#: templates/wagtailadmin/notifications/updated_comments.txt:16
+msgid "Resolved comments:"
+msgstr "Solvitaj komentoj:"
+
+#: templates/wagtailadmin/notifications/updated_comments.txt:22
+msgid "Deleted comments:"
+msgstr "Forigitaj komentoj:"
+
+#: templates/wagtailadmin/notifications/updated_comments.txt:28
+msgid "New replies:"
+msgstr "Novaj respondoj:"
+
+#: templates/wagtailadmin/notifications/updated_comments_subject.txt:3
+#, python-format
+msgid "%(editor)s has updated comments on \"%(title)s\""
+msgstr "%(editor)s ĝisdatigis komentojn pri \"%(title)s\""
+
+#: templates/wagtailadmin/notifications/workflow_state_approved.html:6 templates/wagtailadmin/notifications/workflow_state_approved.txt:5
+#, python-format
+msgid "The page \"%(title)s\" has been approved in workflow \"%(workflow)s\"."
+msgstr "La paĝo \"%(title)s\" estis aprobita en la laborfluo \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_approved.html:12 templates/wagtailadmin/notifications/workflow_state_approved.txt:7
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been approved in workflow \"%(workflow)s\"."
+msgstr "%(model_name)s \"%(title)s\" estis aprobita en la laborfluo \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_approved_subject.txt:4
+#, python-format
+msgid "The page \"%(title)s\" has been approved in \"%(workflow)s\"."
+msgstr "La paĝo \"%(title)s\" estis aprobita en \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_approved_subject.txt:7
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been approved in \"%(workflow)s\"."
+msgstr "%(model_name)s \"%(title)s\" estis aprobita en \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_rejected.html:8 templates/wagtailadmin/notifications/workflow_state_rejected.txt:7
+#, python-format
+msgid "The page \"%(title)s\" has been rejected during \"%(task)s\" in workflow \"%(workflow)s\" by %(rejector)s."
+msgstr "La paĝo \"%(title)s\" estis malaprobita de %(rejector)s dum \"%(task)s\" en la laborfluo \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_rejected.html:10 templates/wagtailadmin/notifications/workflow_state_rejected.txt:9
+#, python-format
+msgid "The page \"%(title)s\" has been rejected during \"%(task)s\" in workflow \"%(workflow)s\"."
+msgstr "La paĝo \"%(title)s\" estis malaprobita dum \"%(task)s\" en la laborfluo \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_rejected.html:13 templates/wagtailadmin/notifications/workflow_state_rejected.html:36 templates/wagtailadmin/notifications/workflow_state_rejected.txt:12 templates/wagtailadmin/notifications/workflow_state_rejected.txt:24
+#, python-format
+msgid "The following comment was left: \"%(comment)s\""
+msgstr "La jena komento estis lasita: \"%(comment)s\""
+
+#: templates/wagtailadmin/notifications/workflow_state_rejected.html:21 templates/wagtailadmin/notifications/workflow_state_rejected.txt:15
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been rejected during \"%(task)s\" in workflow \"%(workflow)s\" by %(rejector)s."
+msgstr "%(model_name)s \"%(title)s\" estis malaprobita de %(rejector)s dum \"%(task)s\" en la laborfluo \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_rejected.html:28 templates/wagtailadmin/notifications/workflow_state_rejected.txt:19
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been rejected during \"%(task)s\" in workflow \"%(workflow)s\"."
+msgstr "%(model_name)s \"%(title)s\" estis malaprobita dum \"%(task)s\" en la laborfluo \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_rejected_subject.txt:4
+#, python-format
+msgid "The page \"%(title)s\" has been rejected during \"%(workflow)s\"."
+msgstr "La paĝo \"%(title)s\" estis malaprobita dum \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_rejected_subject.txt:7
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been rejected during \"%(workflow)s\"."
+msgstr "%(model_name)s \"%(title)s\" estis malaprobita dum \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_submitted.html:8 templates/wagtailadmin/notifications/workflow_state_submitted.txt:6
+#, python-format
+msgid "The page \"%(title)s\" has been submitted for moderation to workflow \"%(workflow)s\" by %(requester)s."
+msgstr "La paĝo \"%(title)s\" estis sendita de %(requester)s por moderigo al la laborfluo \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_submitted.html:10 templates/wagtailadmin/notifications/workflow_state_submitted.txt:7
+#, python-format
+msgid "The page \"%(title)s\" has been submitted for moderation to workflow \"%(workflow)s\"."
+msgstr "La paĝo \"%(title)s\" estis sendita por moderigo al la laborfluo \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_submitted.html:21 templates/wagtailadmin/notifications/workflow_state_submitted.txt:11
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been submitted for moderation to workflow \"%(workflow)s\" by %(requester)s."
+msgstr "%(model_name)s \"%(title)s\" estis sendita de %(requester)s por moderigo al la laborfluo \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_submitted.html:28 templates/wagtailadmin/notifications/workflow_state_submitted.txt:14
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been submitted for moderation to workflow \"%(workflow)s\"."
+msgstr "%(model_name)s \"%(title)s\" estis sendita por moderigo al la laborfluo \"%(workflow)s\"."
+
+#: templates/wagtailadmin/notifications/workflow_state_submitted_subject.txt:4
+#, python-format
+msgid "The page \"%(title)s\" has been submitted to workflow \"%(workflow)s\""
+msgstr "La paĝo \"%(title)s\" estis sendita al la laborfluo \"%(workflow)s\""
+
+#: templates/wagtailadmin/notifications/workflow_state_submitted_subject.txt:7
+#, python-format
+msgid "The %(model_name)s \"%(title)s\" has been submitted to workflow \"%(workflow)s\""
+msgstr "%(model_name)s \"%(title)s\" estis sendita al la laborfluo \"%(workflow)s\""
+
+#: templates/wagtailadmin/page_privacy/no_privacy.html:2
+msgid "Changing the privacy for this page has been disabled."
+msgstr "Ŝanĝi la privatecon de ĉi tiu paĝo estis malŝaltita."
+
+#: templates/wagtailadmin/pages/action_menu/publish.html:9
+msgid "Scheduling…"
+msgstr "Planante…"
+
+#: templates/wagtailadmin/pages/action_menu/publish.html:9
+msgid "Publishing…"
+msgstr "Publikigante…"
+
+#: templates/wagtailadmin/pages/action_menu/publish.html:13
+msgid "Schedule to publish"
+msgstr "Plani publikigon"
+
+#: templates/wagtailadmin/pages/action_menu/publish.html:13
+msgid "Publish this version"
+msgstr "Publikigi ĉi tiun version"
+
+#: templates/wagtailadmin/pages/action_menu/save_draft.html:9 templates/wagtailadmin/panels/publishing/schedule_publishing_panel.html:28 templates/wagtailadmin/shared/autosave/indicator.html:21 views/generic/models.py:822
+msgid "Saving…"
+msgstr "Konservante…"
+
+#: templates/wagtailadmin/pages/action_menu/save_draft.html:13
+msgid "Replace current draft"
+msgstr "Anstataŭigi la nunan malneton"
+
+#: templates/wagtailadmin/pages/action_menu/save_draft.html:13
+msgid "Save draft"
+msgstr "Konservi malneton"
+
+#: templates/wagtailadmin/pages/add_subpage.html:5
+#, python-format
+msgid "Create a page in %(title)s"
+msgstr "Krei paĝon en %(title)s"
+
+#: templates/wagtailadmin/pages/add_subpage.html:8
+msgid "Create a page in"
+msgstr "Krei paĝon en"
+
+#: templates/wagtailadmin/pages/add_subpage.html:12
+msgid "Choose which type of page you'd like to create."
+msgstr "Elektu, kiun tipon de paĝo vi volas krei."
+
+#: templates/wagtailadmin/pages/add_subpage.html:14
+msgid "Sorry, you cannot create a page at this location."
+msgstr "Bedaŭrinde vi ne povas krei paĝon ĉe ĉi tiu loko."
+
+#: templates/wagtailadmin/pages/add_subpage.html:37
+#, python-format
+msgid "Pages using %(page_type)s"
+msgstr "Paĝoj uzantaj %(page_type)s"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_delete.html:6
+#, python-format
+msgid "Delete 1 page"
+msgid_plural "Delete %(counter)s pages"
+msgstr[0] "Forigi 1 paĝon"
+msgstr[1] "Forigi %(counter)s paĝojn"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_delete.html:17
+msgid "Are you sure you want to delete these pages?"
+msgstr "Ĉu vi certas, ke vi volas forigi ĉi tiujn paĝojn?"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_delete.html:26
+#, python-format
+msgid "This will also delete one more subpage."
+msgid_plural "This will also delete %(counter)s more subpages."
+msgstr[0] "Tio ankaŭ forigos unu plian subpaĝon."
+msgstr[1] "Tio ankaŭ forigos %(counter)s pliajn subpaĝojn."
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_delete.html:44
+msgid "You don't have permission to delete this page"
+msgid_plural "You don't have permission to delete these pages"
+msgstr[0] "Vi ne havas permeson forigi ĉi tiun paĝon"
+msgstr[1] "Vi ne havas permeson forigi ĉi tiujn paĝojn"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_move.html:6
+#, python-format
+msgid "Move 1 page"
+msgid_plural "Move %(counter)s pages"
+msgstr[0] "Movi 1 paĝon"
+msgstr[1] "Movi %(counter)s paĝojn"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_move.html:11 templates/wagtailadmin/pages/confirm_move.html:5 templates/wagtailadmin/pages/move_choose_destination.html:5 views/pages/bulk_actions/move.py:33 wagtail_hooks.py:288
+msgid "Move"
+msgstr "Movi"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_move.html:16
+msgid "Are you sure you want to move these pages?"
+msgstr "Ĉu vi certas, ke vi volas movi ĉi tiujn paĝojn?"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_move.html:24
+#, python-format
+msgid "This page has one child page"
+msgid_plural "This page has %(counter)s child pages"
+msgstr[0] "Ĉi tiu paĝo havas unu subpaĝon"
+msgstr[1] "Ĉi tiu paĝo havas %(counter)s subpaĝojn"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_move.html:40
+msgid "You don't have permission to move this page"
+msgid_plural "You don't have permission to move these pages"
+msgstr[0] "Vi ne havas permeson movi ĉi tiun paĝon"
+msgstr[1] "Vi ne havas permeson movi ĉi tiujn paĝojn"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_move.html:43
+#, python-format
+msgid "The following page cannot be moved to %(dest_title)s"
+msgid_plural "The following pages cannot be moved to %(dest_title)s"
+msgstr[0] "La jena paĝo ne povas esti movita al %(dest_title)s"
+msgstr[1] "La jenaj paĝoj ne povas esti movitaj al %(dest_title)s"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_move.html:46
+msgid "The following page cannot be moved due to duplicate slug"
+msgid_plural "The following pages cannot be moved due to duplicate slugs"
+msgstr[0] "La jena paĝo ne povas esti movita pro duobla URL-ero"
+msgstr[1] "La jenaj paĝoj ne povas esti movitaj pro duoblaj URL-eroj"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_move.html:49
+msgid "There is no valid destination page for these pages"
+msgstr "Ne ekzistas valida celpaĝo por ĉi tiuj paĝoj"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_move.html:56
+msgid "Yes, move these pages"
+msgstr "Jes, movi ĉi tiujn paĝojn"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_move.html:57
+msgid "No, don't move"
+msgstr "Ne, ne movi"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_publish.html:6
+#, python-format
+msgid "Publish 1 page"
+msgid_plural "Publish %(counter)s pages"
+msgstr[0] "Publikigi 1 paĝon"
+msgstr[1] "Publikigi %(counter)s paĝojn"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_publish.html:16
+msgid "Are you sure you want to publish these pages?"
+msgstr "Ĉu vi certas, ke vi volas publikigi ĉi tiujn paĝojn?"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_publish.html:24
+#, python-format
+msgid "This page has one unpublished subpage"
+msgid_plural "This page has %(counter)s unpublished subpages"
+msgstr[0] "Ĉi tiu paĝo havas unu malpublikigitan subpaĝon"
+msgstr[1] "Ĉi tiu paĝo havas %(counter)s malpublikigitajn subpaĝojn"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_publish.html:40
+msgid "You don't have permission to publish this page"
+msgid_plural "You don't have permission to publish these pages"
+msgstr[0] "Vi ne havas permeson publikigi ĉi tiun paĝon"
+msgstr[1] "Vi ne havas permeson publikigi ĉi tiujn paĝojn"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_publish.html:47
+msgid "Yes, publish"
+msgstr "Jes, publikigi"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_publish.html:48
+msgid "No, don't publish"
+msgstr "Ne, ne publikigi"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_unpublish.html:6
+#, python-format
+msgid "Unpublish 1 page"
+msgid_plural "Unpublish %(counter)s pages"
+msgstr[0] "Malpublikigi 1 paĝon"
+msgstr[1] "Malpublikigi %(counter)s paĝojn"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_unpublish.html:16
+msgid "Are you sure you want to unpublish these pages?"
+msgstr "Ĉu vi certas, ke vi volas malpublikigi ĉi tiujn paĝojn?"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_unpublish.html:24
+#, python-format
+msgid "This page has one subpage"
+msgid_plural "This page has %(counter)s subpages"
+msgstr[0] "Ĉi tiu paĝo havas unu subpaĝon"
+msgstr[1] "Ĉi tiu paĝo havas %(counter)s subpaĝojn"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_unpublish.html:40
+msgid "You don't have permission to unpublish this page"
+msgid_plural "You don't have permission to unpublish these pages"
+msgstr[0] "Vi ne havas permeson malpublikigi ĉi tiun paĝon"
+msgstr[1] "Vi ne havas permeson malpublikigi ĉi tiujn paĝojn"
+
+#: templates/wagtailadmin/pages/bulk_actions/confirm_bulk_unpublish.html:47
+msgid "Yes, unpublish"
+msgstr "Jes, malpublikigi"
+
+#: templates/wagtailadmin/pages/confirm_convert_alias.html:3
+#, python-format
+msgid "Convert alias %(title)s"
+msgstr "Konverti la kromnomon %(title)s"
+
+#: templates/wagtailadmin/pages/confirm_convert_alias.html:6
+msgid "Convert alias"
+msgstr "Konverti kromnomon"
+
+#: templates/wagtailadmin/pages/confirm_convert_alias.html:10
+msgid "Are you sure you want to convert this alias into an ordinary page?"
+msgstr "Ĉu vi certas, ke vi volas konverti ĉi tiun kromnomon en ordinaran paĝon?"
+
+#: templates/wagtailadmin/pages/confirm_convert_alias.html:14
+msgid "This action cannot be undone."
+msgstr "Ĉi tiu ago ne estas malfarebla."
+
+#: templates/wagtailadmin/pages/confirm_convert_alias.html:20
+msgid "Yes, convert it"
+msgstr "Jes, konverti ĝin"
+
+#: templates/wagtailadmin/pages/confirm_convert_alias.html:21
+msgid "No, leave it as an alias"
+msgstr "Ne, lasi ĝin kiel kromnomon"
+
+#: templates/wagtailadmin/pages/confirm_delete.html:3
+#, python-format
+msgid "Delete %(title)s"
+msgstr "Forigi %(title)s"
+
+#: templates/wagtailadmin/pages/confirm_delete.html:12
+msgid "Are you sure you want to delete this page?"
+msgstr "Ĉu vi certas, ke vi volas forigi ĉi tiun paĝon?"
+
+#: templates/wagtailadmin/pages/confirm_delete.html:15
+#, python-format
+msgid "Deleting this page will also delete %(descendant_count)s child page."
+msgid_plural "Deleting this page will also delete %(descendant_count)s more child pages."
+msgstr[0] "Forigo de ĉi tiu paĝo ankaŭ forigos %(descendant_count)s subpaĝon."
+msgstr[1] "Forigo de ĉi tiu paĝo ankaŭ forigos %(descendant_count)s pliajn subpaĝojn."
+
+#: templates/wagtailadmin/pages/confirm_delete.html:24
+#, python-format
+msgid "It will also delete 1 translation and its combined %(translation_descendant_count)s translated child page."
+msgid_plural "It will also delete 1 translation and its combined %(translation_descendant_count)s translated child pages."
+msgstr[0] "Tio ankaŭ forigos 1 tradukon kaj ĝian %(translation_descendant_count)s tradukitan subpaĝon."
+msgstr[1] "Tio ankaŭ forigos 1 tradukon kaj ĝiajn %(translation_descendant_count)s tradukitajn subpaĝojn."
+
+#: templates/wagtailadmin/pages/confirm_delete.html:30
+#, python-format
+msgid "It will also delete %(translation_count)s translations and their combined %(translation_descendant_count)s translated child page."
+msgid_plural "It will also delete %(translation_count)s translations and their combined %(translation_descendant_count)s translated child pages."
+msgstr[0] "Tio ankaŭ forigos %(translation_count)s tradukojn kaj iliajn entute %(translation_descendant_count)s tradukitan subpaĝon."
+msgstr[1] "Tio ankaŭ forigos %(translation_count)s tradukojn kaj iliajn entute %(translation_descendant_count)s tradukitajn subpaĝojn."
+
+#: templates/wagtailadmin/pages/confirm_delete.html:37
+#, python-format
+msgid "It will also delete %(translation_count)s translation."
+msgid_plural "It will also delete %(translation_count)s translations."
+msgstr[0] "Tio ankaŭ forigos %(translation_count)s tradukon."
+msgstr[1] "Tio ankaŭ forigos %(translation_count)s tradukojn."
+
+#: templates/wagtailadmin/pages/confirm_delete.html:47
+#, python-format
+msgid "Deleting this page will also delete 1 translation and its combined %(translation_descendant_count)s translated child page."
+msgid_plural "Deleting this page will also delete 1 translation and its combined %(translation_descendant_count)s translated child pages."
+msgstr[0] "Forigo de ĉi tiu paĝo ankaŭ forigos 1 tradukon kaj ĝian %(translation_descendant_count)s tradukitan subpaĝon."
+msgstr[1] "Forigo de ĉi tiu paĝo ankaŭ forigos 1 tradukon kaj ĝiajn %(translation_descendant_count)s tradukitajn subpaĝojn."
+
+#: templates/wagtailadmin/pages/confirm_delete.html:53
+#, python-format
+msgid "Deleting this page will also delete %(translation_count)s translations and their combined %(translation_descendant_count)s translated child page."
+msgid_plural "Deleting this page will also delete %(translation_count)s translations and their combined %(translation_descendant_count)s translated child pages."
+msgstr[0] "Forigo de ĉi tiu paĝo ankaŭ forigos %(translation_count)s tradukojn kaj iliajn entute %(translation_descendant_count)s tradukitan subpaĝon."
+msgstr[1] "Forigo de ĉi tiu paĝo ankaŭ forigos %(translation_count)s tradukojn kaj iliajn entute %(translation_descendant_count)s tradukitajn subpaĝojn."
+
+#: templates/wagtailadmin/pages/confirm_delete.html:60
+#, python-format
+msgid "Deleting this page will also delete %(translation_count)s translation of this page."
+msgid_plural "This will also delete %(descendant_count)s more child pages. Deleting this page will also delete %(translation_count)s translations of this page."
+msgstr[0] "Forigo de ĉi tiu paĝo ankaŭ forigos %(translation_count)s tradukon de ĉi tiu paĝo."
+msgstr[1] "Tio ankaŭ forigos %(descendant_count)s pliajn subpaĝojn. Forigo de ĉi tiu paĝo ankaŭ forigos %(translation_count)s tradukojn de ĉi tiu paĝo."
+
+#: templates/wagtailadmin/pages/confirm_delete.html:76
+msgid "Yes, delete it"
+msgstr "Jes, forigi ĝin"
+
+#: templates/wagtailadmin/pages/confirm_delete.html:77
+msgid "No, don't delete it"
+msgstr "Ne, ne forigi ĝin"
+
+#: templates/wagtailadmin/pages/confirm_delete.html:84
+#, python-format
+msgid "Alternatively you can <a href=\"%(unpublish_url)s\">unpublish the page</a>. This removes the page from public view and you can edit or publish it again later."
+msgstr "Alternative vi povas <a href=\"%(unpublish_url)s\">malpublikigi la paĝon</a>. Tio forigas la paĝon el la publika vido, kaj vi povos redakti aŭ publikigi ĝin denove poste."
+
+#: templates/wagtailadmin/pages/confirm_move.html:3 templates/wagtailadmin/pages/move_choose_destination.html:3
+#, python-format
+msgid "Move %(title)s"
+msgstr "Movi %(title)s"
+
+#: templates/wagtailadmin/pages/confirm_move.html:10
+#, python-format
+msgid "Are you sure you want to move this page into '%(title)s'?"
+msgstr "Ĉu vi certas, ke vi volas movi ĉi tiun paĝon en '%(title)s'?"
+
+#: templates/wagtailadmin/pages/confirm_move.html:12
+#, python-format
+msgid "Are you sure you want to move this page and all of its children into '%(title)s'?"
+msgstr "Ĉu vi certas, ke vi volas movi ĉi tiun paĝon kaj ĉiujn ĝiajn subpaĝojn en '%(title)s'?"
+
+#: templates/wagtailadmin/pages/confirm_move.html:15
+#, python-format
+msgid "This will also move one translation of this page and its child pages"
+msgid_plural "This will also move %(translations_to_move_count)s translations of this page and their child pages"
+msgstr[0] "Tio ankaŭ movos unu tradukon de ĉi tiu paĝo kaj ĝiajn subpaĝojn"
+msgstr[1] "Tio ankaŭ movos %(translations_to_move_count)s tradukojn de ĉi tiu paĝo kaj iliajn subpaĝojn"
+
+#: templates/wagtailadmin/pages/confirm_move.html:25
+msgid "Yes, move this page"
+msgstr "Jes, movi ĉi tiun paĝon"
+
+#: templates/wagtailadmin/pages/confirm_unpublish.html:6
+msgid "Are you sure you want to unpublish this page?"
+msgstr "Ĉu vi certas, ke vi volas malpublikigi ĉi tiun paĝon?"
+
+#: templates/wagtailadmin/pages/confirm_unpublish.html:8
+#, python-format
+msgid "This will also unpublish one translation of the page."
+msgid_plural "This will also unpublish all %(translation_count)s translations of the page."
+msgstr[0] "Tio ankaŭ malpublikigos unu tradukon de la paĝo."
+msgstr[1] "Tio ankaŭ malpublikigos ĉiujn %(translation_count)s tradukojn de la paĝo."
+
+#: templates/wagtailadmin/pages/confirm_unpublish.html:24
+#, python-format
+msgid "This page has one subpage and its translations have a combined one translated child page. Unpublish these too"
+msgid_plural "This page has %(live_descendant_count)s child pages and its translations have a combined one translated child page. Unpublish these too"
+msgstr[0] "Ĉi tiu paĝo havas unu subpaĝon kaj ĝiaj tradukoj havas entute unu tradukitan subpaĝon. Malpublikigi ankaŭ ilin"
+msgstr[1] "Ĉi tiu paĝo havas %(live_descendant_count)s subpaĝojn kaj ĝiaj tradukoj havas entute unu tradukitan subpaĝon. Malpublikigi ankaŭ ilin"
+
+#: templates/wagtailadmin/pages/confirm_unpublish.html:30
+#, python-format
+msgid "This page has one child page and its translations have a combined %(translation_descendant_count)s translated child pages. Unpublish these too"
+msgid_plural "This page has %(live_descendant_count)s child pages and its translations have a combined %(translation_descendant_count)s translated child pages. Unpublish these too"
+msgstr[0] "Ĉi tiu paĝo havas unu subpaĝon kaj ĝiaj tradukoj havas entute %(translation_descendant_count)s tradukitajn subpaĝojn. Malpublikigi ankaŭ ilin"
+msgstr[1] "Ĉi tiu paĝo havas %(live_descendant_count)s subpaĝojn kaj ĝiaj tradukoj havas entute %(translation_descendant_count)s tradukitajn subpaĝojn. Malpublikigi ankaŭ ilin"
+
+#: templates/wagtailadmin/pages/confirm_unpublish.html:37
+#, python-format
+msgid "This page has one subpage. Unpublish this too"
+msgid_plural "This page has %(live_descendant_count)s subpages. Unpublish these too"
+msgstr[0] "Ĉi tiu paĝo havas unu subpaĝon. Malpublikigi ankaŭ ĝin"
+msgstr[1] "Ĉi tiu paĝo havas %(live_descendant_count)s subpaĝojn. Malpublikigi ankaŭ ilin"
+
+#: templates/wagtailadmin/pages/confirm_workflow_cancellation.html:2
+msgid "Publish page"
+msgstr "Publikigi paĝon"
+
+#: templates/wagtailadmin/pages/confirm_workflow_cancellation.html:7
+#, python-format
+msgid "This page was marked as needing changes at <strong>%(task)s</strong> in <strong>%(workflow)s</strong>."
+msgstr "Ĉi tiu paĝo estis markita kiel bezonanta ŝanĝojn ĉe <strong>%(task)s</strong> en <strong>%(workflow)s</strong>."
+
+#: templates/wagtailadmin/pages/confirm_workflow_cancellation.html:11
+#, python-format
+msgid "This page is currently at <strong>%(task)s</strong> in <strong>%(workflow)s</strong>."
+msgstr "Ĉi tiu paĝo nun estas ĉe <strong>%(task)s</strong> en <strong>%(workflow)s</strong>."
+
+#: templates/wagtailadmin/pages/confirm_workflow_cancellation.html:16
+msgid "Publishing this page will cancel the current workflow."
+msgstr "Publikigo de ĉi tiu paĝo nuligos la nunan laborfluon."
+
+#: templates/wagtailadmin/pages/confirm_workflow_cancellation.html:17
+msgid "Would you still like to publish this page?"
+msgstr "Ĉu vi tamen volas publikigi ĉi tiun paĝon?"
+
+#: templates/wagtailadmin/pages/copy.html:3
+#, python-format
+msgid "Copy %(title)s"
+msgstr "Kopii %(title)s"
+
+#: templates/wagtailadmin/pages/copy.html:5 templatetags/wagtailadmin_tags.py:1380 views/generic/models.py:385 views/generic/models.py:941 wagtail_hooks.py:297
+msgid "Copy"
+msgstr "Kopii"
+
+#: templates/wagtailadmin/pages/copy.html:30
+msgid "Copy this page"
+msgstr "Kopii ĉi tiun paĝon"
+
+#: templates/wagtailadmin/pages/edit_alias.html:6
+msgid "This page is an alias of another page."
+msgstr "Ĉi tiu paĝo estas kromnomo de alia paĝo."
+
+#: templates/wagtailadmin/pages/edit_alias.html:9
+msgid "Edit original page"
+msgstr "Redakti la originalan paĝon"
+
+#: templates/wagtailadmin/pages/edit_alias.html:12
+msgid "Convert this alias into an ordinary page"
+msgstr "Konverti ĉi tiun kromnomon en ordinaran paĝon"
+
+#: templates/wagtailadmin/pages/explorable_index_results.html:20
+msgid "The root level is where you can add new sites to your Wagtail installation. Pages created here will not be accessible at any URL until they are associated with a site."
+msgstr "La radika nivelo estas kie vi povas aldoni novajn retejojn al via instalaĵo de Wagtail. Paĝoj kreitaj ĉi tie ne estos atingeblaj ĉe iu ajn URL, ĝis ili estos asociitaj kun retejo."
+
+#: templates/wagtailadmin/pages/explorable_index_results.html:24 templates/wagtailadmin/pages/explorable_index_results.html:50
+msgid "Configure a site now."
+msgstr "Agordi retejon nun."
+
+#: templates/wagtailadmin/pages/explorable_index_results.html:28
+msgid "If you just want to add pages to an existing site, create them as children of the homepage instead."
+msgstr "Se vi nur volas aldoni paĝojn al ekzistanta retejo, kreu ilin anstataŭe kiel subpaĝojn de la ĉefpaĝo."
+
+#: templates/wagtailadmin/pages/explorable_index_results.html:33
+msgid "Pages created here will not be accessible at any URL. To add pages to an existing site, create them as children of the homepage."
+msgstr "Paĝoj kreitaj ĉi tie ne estos atingeblaj ĉe iu ajn URL. Por aldoni paĝojn al ekzistanta retejo, kreu ilin kiel subpaĝojn de la ĉefpaĝo."
+
+#: templates/wagtailadmin/pages/explorable_index_results.html:46
+msgid "There is no site set up for this location. Pages created here will not be accessible at any URL until a site is associated with this location."
+msgstr "Neniu retejo estas agordita por ĉi tiu loko. Paĝoj kreitaj ĉi tie ne estos atingeblaj ĉe iu ajn URL, ĝis retejo estos asociita kun ĉi tiu loko."
+
+#: templates/wagtailadmin/pages/explorable_index_results.html:53
+msgid "There is no site record for this location. Pages created here will not be accessible at any URL."
+msgstr "Ne ekzistas retejo por ĉi tiu loko. Paĝoj kreitaj ĉi tie ne estos atingeblaj ĉe iu ajn URL."
+
+#: templates/wagtailadmin/pages/listing.html:11
+msgid "Select all pages in listing"
+msgstr "Elekti ĉiujn paĝojn en la listo"
+
+#: templates/wagtailadmin/pages/listing/_locked_indicator.html:12
+msgid "This page is locked, by you, to further editing"
+msgstr "Ĉi tiu paĝo estas ŝlosita de vi kontraŭ plua redaktado"
+
+#: templates/wagtailadmin/pages/listing/_locked_indicator.html:12
+msgid "This page is locked to further editing"
+msgstr "Ĉi tiu paĝo estas ŝlosita kontraŭ plua redaktado"
+
+#: templates/wagtailadmin/pages/listing/_navigation_explore.html:11 templates/wagtailadmin/pages/listing/_navigation_explore.html:12
+#, python-format
+msgid "Explore child pages of '%(title)s'"
+msgstr "Esplori subpaĝojn de '%(title)s'"
+
+#: templates/wagtailadmin/pages/listing/_navigation_explore.html:17 templates/wagtailadmin/pages/listing/_navigation_explore.html:18
+#, python-format
+msgid "Add a child page to '%(title)s'"
+msgstr "Aldoni subpaĝon al '%(title)s'"
+
+#: templates/wagtailadmin/pages/listing/_page_title_column_header.html:7
+#, python-format
+msgid "%(start_index)s-%(end_index)s of %(items_count)s %(model_name)s across entire site."
+msgstr "%(start_index)s-%(end_index)s el %(items_count)s %(model_name)s en la tuta retejo."
+
+#: templates/wagtailadmin/pages/listing/_page_title_column_header.html:11
+msgid "No results across entire site."
+msgstr "Neniu rezulto en la tuta retejo."
+
+#: templates/wagtailadmin/pages/listing/_page_title_column_header.html:16
+#, python-format
+msgid "Search in '<span class=\"w-title-ellipsis\">%(title)s</span>'"
+msgstr "Serĉi en '<span class=\"w-title-ellipsis\">%(title)s</span>'"
+
+#: templates/wagtailadmin/pages/listing/_page_title_column_header.html:20
+#, python-format
+msgid "%(start_index)s-%(end_index)s of %(items_count)s %(model_name)s in '<span class=\"w-title-ellipsis\">%(title)s</span>'."
+msgstr "%(start_index)s-%(end_index)s el %(items_count)s %(model_name)s en '<span class=\"w-title-ellipsis\">%(title)s</span>'."
+
+#: templates/wagtailadmin/pages/listing/_page_title_column_header.html:24
+#, python-format
+msgid "No results in '<span class=\"w-title-ellipsis\">%(title)s</span>'."
+msgstr "Neniu rezulto en '<span class=\"w-title-ellipsis\">%(title)s</span>'."
+
+#: templates/wagtailadmin/pages/listing/_page_title_column_header.html:29
+msgid "Search the whole site"
+msgstr "Serĉi en la tuta retejo"
+
+#: templates/wagtailadmin/pages/listing/_page_title_column_header.html:32
+#, python-format
+msgid "%(start_index)s-%(end_index)s of %(items_count)s %(model_name)s"
+msgstr "%(start_index)s-%(end_index)s el %(items_count)s %(model_name)s"
+
+#: templates/wagtailadmin/pages/listing/_page_title_explore.html:8
+msgid "Sites menu"
+msgstr "Menuo de retejoj"
+
+#: templates/wagtailadmin/pages/listing/_pagination.html:7 templates/wagtailadmin/shared/pagination_nav.html:11
+msgid "Pagination"
+msgstr "Paĝigo"
+
+#: templates/wagtailadmin/pages/listing/_pagination.html:8
+#, python-format
+msgid "Page %(page_number)s of %(num_pages)s."
+msgstr "Paĝo %(page_number)s el %(num_pages)s."
+
+#: templates/wagtailadmin/pages/listing/_pagination.html:16 templates/wagtailadmin/shared/pagination_nav.html:19
+msgid "Previous"
+msgstr "Antaŭa"
+
+#: templates/wagtailadmin/pages/listing/_pagination.html:23 templates/wagtailadmin/shared/pagination_nav.html:35
+msgid "Next"
+msgstr "Sekva"
+
+#: templates/wagtailadmin/pages/listing/_privacy_indicator.html:13
+msgid "This page is protected from public view"
+msgstr "Ĉi tiu paĝo estas protektita kontraŭ publika vido"
+
+#: templates/wagtailadmin/pages/move_choose_destination.html:15
+msgid "Confirm"
+msgstr "Konfirmi"
+
+#: templates/wagtailadmin/pages/search_results.html:10
+msgid "Page types"
+msgstr "Paĝotipoj"
+
+#: templates/wagtailadmin/pages/search_results.html:32
+#, python-format
+msgid "There is one matching page"
+msgid_plural "There are %(counter)s matching pages"
+msgstr[0] "Estas unu kongrua paĝo"
+msgstr[1] "Estas %(counter)s kongruaj paĝoj"
+
+#: templates/wagtailadmin/pages/search_results.html:41
+#, python-format
+msgid "Sorry, no pages match <em>%(query_string)s</em>"
+msgstr "Bedaŭrinde neniu paĝo kongruas kun <em>%(query_string)s</em>"
+
+#: templates/wagtailadmin/pages/search_results.html:44
+msgid "Enter a search term above"
+msgstr "Entajpu serĉterminon supre"
+
+#: templates/wagtailadmin/panels/inline_panel.html:39 templates/wagtailadmin/panels/multiple_chooser_panel.html:6
+#, python-format
+msgid "Add %(label)s"
+msgstr "Aldoni %(label)s"
+
+#: templates/wagtailadmin/panels/inline_panel_child.html:8
+msgid "Move up"
+msgstr "Movi supren"
+
+#: templates/wagtailadmin/panels/inline_panel_child.html:9
+msgid "Move down"
+msgstr "Movi malsupren"
+
+#: templates/wagtailadmin/panels/inline_panel_child.html:10 templates/wagtailadmin/tables/ordering_cell.html:12
+msgid "Drag"
+msgstr "Treni"
+
+#: templates/wagtailadmin/panels/publishing/schedule_publishing_panel.html:3
+#, python-format
+msgid "Choose when this %(model_name)s should go live and/or expire"
+msgstr "Elektu, kiam ĉi tio (%(model_name)s) estu publikigita kaj/aŭ eksvalidiĝu"
+
+#: templates/wagtailadmin/panels/publishing/schedule_publishing_panel.html:9
+msgid "Choose when this page should go live and/or expire"
+msgstr "Elektu, kiam ĉi tiu paĝo estu publikigita kaj/aŭ eksvalidiĝu"
+
+#: templates/wagtailadmin/panels/publishing/schedule_publishing_panel.html:11
+msgid "This publishing schedule will only take effect after you select the \"Schedule to publish\" option"
+msgstr "Ĉi tiu publikiga plano efikos nur post kiam vi elektos la opcion \"Plani publikigon\""
+
+#: templates/wagtailadmin/panels/publishing/schedule_publishing_panel.html:13
+msgid "Anyone with editing permissions can create schedules"
+msgstr "Ĉiu kun redaktaj permesoj povas krei planojn"
+
+#: templates/wagtailadmin/panels/publishing/schedule_publishing_panel.html:14
+msgid "But only those with publishing permissions can make them effective."
+msgstr "Sed nur tiuj kun publikigaj permesoj povas efektivigi ilin."
+
+#: templates/wagtailadmin/panels/publishing/schedule_publishing_panel.html:18
+msgid "Set publishing schedule"
+msgstr "Agordi publikigan planon"
+
+#: templates/wagtailadmin/panels/publishing/schedule_publishing_panel.html:30
+msgid "Save schedule"
+msgstr "Konservi planon"
+
+#: templates/wagtailadmin/permissions/includes/collection_management_permissions_form.html:5
+msgid "Collection management permissions"
+msgstr "Permesoj pri administrado de kolektoj"
+
+#: templates/wagtailadmin/permissions/includes/collection_management_permissions_form.html:6
+msgid "Add a collection permission"
+msgstr "Aldoni kolektan permeson"
+
+#: templates/wagtailadmin/reports/aging_pages_results.html:15
+msgid "Last published"
+msgstr "Laste publikigita"
+
+#: templates/wagtailadmin/reports/aging_pages_results.html:17 views/reports/aging_pages.py:43
+msgid "Last published by"
+msgstr "Laste publikigita de"
+
+#: templates/wagtailadmin/reports/aging_pages_results.html:19 templates/wagtailadmin/reports/listing/_list_page_report.html:18 templates/wagtailadmin/reports/listing/_list_page_types_usage.html:13 templates/wagtailadmin/reports/site_history_results.html:12 views/chooser.py:201 views/chooser.py:433 views/generic/usage.py:109 views/pages/listing.py:158 views/reports/aging_pages.py:24 views/reports/aging_pages.py:44 views/reports/audit_logging.py:56 views/reports/audit_logging.py:86 views/reports/base.py:46 views/workflows.py:561 views/workflows.py:591
+msgid "Type"
+msgstr "Tipo"
+
+#: templates/wagtailadmin/reports/aging_pages_results.html:53
+msgid "No pages found."
+msgstr "Neniu paĝo trovita."
+
+#: templates/wagtailadmin/reports/base_page_report_results.html:9
+msgid "No pages match this report's criteria."
+msgstr "Neniu paĝo kongruas kun la kriterioj de ĉi tiu raporto."
+
+#: templates/wagtailadmin/reports/listing/_list_page_report.html:15 ui/tables/__init__.py:439 views/chooser.py:195 views/chooser.py:427 views/pages/listing.py:152 views/reports/base.py:44
+msgid "Updated"
+msgstr "Ĝisdatigita"
+
+#: templates/wagtailadmin/reports/listing/_list_page_types_usage.html:16
+msgid "App"
+msgstr "Aplikaĵo"
+
+#: templates/wagtailadmin/reports/listing/_list_page_types_usage.html:19 wagtail_hooks.py:111 wagtail_hooks.py:152
+msgid "Pages"
+msgstr "Paĝoj"
+
+#: templates/wagtailadmin/reports/listing/_list_page_types_usage.html:22
+msgid "Last edited page"
+msgstr "Laste redaktita paĝo"
+
+#: templates/wagtailadmin/reports/listing/_list_page_types_usage.html:25
+msgid "Last edit"
+msgstr "Lasta redakto"
+
+#: templates/wagtailadmin/reports/listing/_list_unlock.html:7
+msgid "Locking status"
+msgstr "Ŝlosa stato"
+
+#: templates/wagtailadmin/reports/listing/_list_unlock.html:20
+#, python-format
+msgid "Locked by <b>you</b> at <b>%(locking_date)s</b>"
+msgstr "Ŝlosita de <b>vi</b> je <b>%(locking_date)s</b>"
+
+#: templates/wagtailadmin/reports/listing/_list_unlock.html:24
+#, python-format
+msgid "Locked by <b>%(locked_by)s</b> at <b>%(locking_date)s</b>"
+msgstr "Ŝlosita de <b>%(locked_by)s</b> je <b>%(locking_date)s</b>"
+
+#: templates/wagtailadmin/reports/listing/_list_unlock.html:29
+#, python-format
+msgid "Locked at <b>%(locking_date)s</b>"
+msgstr "Ŝlosita je <b>%(locking_date)s</b>"
+
+#: templates/wagtailadmin/reports/listing/_list_unlock.html:35
+msgid "Locked"
+msgstr "Ŝlosita"
+
+#: templates/wagtailadmin/reports/locked_pages_results.html:8
+msgid "No locked pages found."
+msgstr "Neniu ŝlosita paĝo trovita."
+
+#: templates/wagtailadmin/reports/page_types_usage_results.html:9
+msgid "No page types found."
+msgstr "Neniu paĝotipo trovita."
+
+#: templates/wagtailadmin/reports/site_history_results.html:9 templates/wagtailadmin/workflows/task_chooser/includes/results.html:21 views/account.py:152 views/collections.py:25 views/generic/models.py:221 views/generic/usage.py:103 views/reports/audit_logging.py:54 views/reports/audit_logging.py:85 views/workflows.py:124 views/workflows.py:587
+msgid "Name"
+msgstr "Nomo"
+
+#: templates/wagtailadmin/reports/site_history_results.html:15 templates/wagtailadmin/workflows/includes/workflow_pages_formset.html:20 views/generic/history.py:48 views/generic/history.py:218
+msgid "Action"
+msgstr "Ago"
+
+#: templates/wagtailadmin/reports/site_history_results.html:18 views/generic/history.py:53 views/generic/history.py:229 views/reports/audit_logging.py:88
+msgid "User"
+msgstr "Uzanto"
+
+#: templates/wagtailadmin/reports/site_history_results.html:21
+msgid "Date / Time"
+msgstr "Dato / horo"
+
+#: templates/wagtailadmin/reports/site_history_results.html:30 widgets/chooser.py:25
+msgid "Edit this item"
+msgstr "Redakti ĉi tiun elementon"
+
+#: templates/wagtailadmin/reports/site_history_results.html:52
+msgid "No log entries found."
+msgstr "Neniu protokolero trovita."
+
+#: templates/wagtailadmin/reports/workflow_results.html:9 views/reports/workflows.py:103
+msgid "Workflow"
+msgstr "Laborfluo"
+
+#: templates/wagtailadmin/reports/workflow_results.html:12 templates/wagtailadmin/reports/workflow_tasks_results.html:12
+msgid "Page/Snippet"
+msgstr "Paĝo/fragmento"
+
+#: templates/wagtailadmin/reports/workflow_results.html:21 templates/wagtailadmin/shared/workflow_history/listing_results.html:15
+msgid "Requested by"
+msgstr "Petita de"
+
+#: templates/wagtailadmin/reports/workflow_results.html:24 templates/wagtailadmin/reports/workflow_tasks_results.html:18 templates/wagtailadmin/shared/workflow_history/listing_results.html:18 views/reports/workflows.py:66 views/reports/workflows.py:95 views/reports/workflows.py:157
+msgid "Started at"
+msgstr "Komencita je"
+
+#: templates/wagtailadmin/reports/workflow_results.html:51 templates/wagtailadmin/shared/workflow_history/listing_results.html:40
+msgid "Incomplete task"
+msgstr "Nefinita tasko"
+
+#: templates/wagtailadmin/reports/workflow_results.html:73 templates/wagtailadmin/reports/workflow_tasks_results.html:55
+msgid "No pages/snippets have been submitted for moderation yet"
+msgstr "Ankoraŭ neniu paĝo/fragmento estis sendita por moderigo"
+
+#: templates/wagtailadmin/reports/workflow_tasks_results.html:21 views/reports/workflows.py:98
+msgid "Completed at"
+msgstr "Finita je"
+
+#. Translators: A label for an active filtering field in listing views, e.g. "Date updated:". Some languages may require a space before the colon.
+#: templates/wagtailadmin/shared/active_filters.html:10
+#, python-format
+msgid "%(field_label)s:"
+msgstr "%(field_label)s:"
+
+#: templates/wagtailadmin/shared/active_filters.html:23
+msgid "Clear"
+msgstr "Vakigi"
+
+#: templates/wagtailadmin/shared/autosave/indicator.html:27
+msgid "Saved"
+msgstr "Konservita"
+
+#: templates/wagtailadmin/shared/autosave/indicator.html:33
+msgid "Autosave is paused"
+msgstr "Aŭtomata konservado estas paŭzigita"
+
+#: templates/wagtailadmin/shared/avatar.html:35
+msgid "Edit account avatar"
+msgstr "Redakti la profilbildon de la konto"
+
+#: templates/wagtailadmin/shared/breadcrumbs.html:30
+msgid "Toggle breadcrumbs"
+msgstr "Baskuligi paderojn"
+
+#: templates/wagtailadmin/shared/breadcrumbs.html:40
+msgid "Breadcrumb"
+msgstr "Paderoj"
+
+#: templates/wagtailadmin/shared/content_checks/metadata.html:6
+msgid "Page metadata"
+msgstr "Metadatenoj de paĝo"
+
+#: templates/wagtailadmin/shared/content_checks/metadata.html:11 templates/wagtailadmin/shared/content_checks/metrics.html:21
+msgid "This data explained"
+msgstr "Klarigo de ĉi tiuj datumoj"
+
+#: templates/wagtailadmin/shared/content_checks/metadata.html:14
+msgid "What is page metadata?"
+msgstr "Kio estas metadatumoj de paĝo?"
+
+#: templates/wagtailadmin/shared/content_checks/metadata.html:15
+msgid "Metadata lives in the HTML of the page, and includes the page title and description used by search engines."
+msgstr "Metadatumoj troviĝas en la HTML de la paĝo kaj inkluzivas la titolon kaj priskribon de la paĝo uzatajn de serĉiloj."
+
+#: templates/wagtailadmin/shared/content_checks/metadata.html:16
+msgid "How are the lengths calculated?"
+msgstr "Kiel la longoj estas kalkulataj?"
+
+#: templates/wagtailadmin/shared/content_checks/metadata.html:17
+msgid "The title length of around 580 pixels or 60 characters, and description length of around 160 characters, are approximations of how this metadata is displayed in search results, rather than hard limits."
+msgstr "La titola longo de ĉirkaŭ 580 rastrumeroj aŭ 60 signoj kaj la priskriba longo de ĉirkaŭ 160 signoj estas proksimumaj valoroj de kiel ĉi tiuj metadatumoj aperas en serĉrezultoj, ne striktaj limoj."
+
+#: templates/wagtailadmin/shared/content_checks/metadata.html:21
+#, python-format
+msgid "See our <a href=\"%(guide_link)s\" target=\"_blank\">page metadata guide</a> for more information on how metadata is used."
+msgstr "Vidu nian <a href=\"%(guide_link)s\" target=\"_blank\">gvidilon pri paĝaj metadatumoj</a> por pliaj informoj pri kiel metadatumoj estas uzataj."
+
+#: templates/wagtailadmin/shared/content_checks/metadata.html:33
+msgid "Description"
+msgstr "Priskribo"
+
+#: templates/wagtailadmin/shared/content_checks/metadata.html:40
+msgid "View more meta tags"
+msgstr "Vidi pliajn meta-etikedojn"
+
+#: templates/wagtailadmin/shared/content_checks/metrics.html:6 templates/wagtailadmin/shared/content_checks/metrics.html:24
+msgid "Words"
+msgstr "Vortoj"
+
+#: templates/wagtailadmin/shared/content_checks/metrics.html:10 templates/wagtailadmin/shared/content_checks/metrics.html:26
+msgid "Reading time"
+msgstr "Legodaŭro"
+
+#: templates/wagtailadmin/shared/content_checks/metrics.html:14 templates/wagtailadmin/shared/content_checks/metrics.html:28
+msgid "Readability"
+msgstr "Legebleco"
+
+#: templates/wagtailadmin/shared/content_checks/metrics.html:25
+msgid "We extract the main content from the page preview, remove all formatting, and calculate the number of words."
+msgstr "Ni eltiras la ĉefan enhavon el la antaŭvido de la paĝo, forigas ĉian formatadon kaj kalkulas la nombron de vortoj."
+
+#: templates/wagtailadmin/shared/content_checks/metrics.html:27
+msgid "We calculate reading time from word count, using different reading speeds for different languages."
+msgstr "Ni kalkulas la legodaŭron laŭ la nombro de vortoj, uzante malsamajn legorapidojn por malsamaj lingvoj."
+
+#: templates/wagtailadmin/shared/content_checks/metrics.html:29
+msgid "We use a readability formula based on length of words and sentences. Long sentences and words result in a worse readability score."
+msgstr "Ni uzas legeblecan formulon bazitan sur la longo de vortoj kaj frazoj. Longaj frazoj kaj vortoj rezultigas pli malbonan legeblecan poentaron."
+
+#: templates/wagtailadmin/shared/content_checks/metrics.html:33
+#, python-format
+msgid "See our <a href=\"%(guide_link)s\" target=\"_blank\">content checks guide</a> for more information on how content metrics are calculated."
+msgstr "Vidu nian <a href=\"%(guide_link)s\" target=\"_blank\">gvidilon pri enhavaj kontroloj</a> por pliaj informoj pri kiel la enhavaj metrikoj estas kalkulataj."
+
+#: templates/wagtailadmin/shared/dialog/confirm_site_name.html:4
+#, python-format
+msgid "This action will delete <b>%(total_pages_formatted)s</b> page in total."
+msgid_plural "This action will delete <b>%(total_pages_formatted)s</b> pages in total."
+msgstr[0] "Ĉi tiu ago forigos entute <b>%(total_pages_formatted)s</b> paĝon."
+msgstr[1] "Ĉi tiu ago forigos entute <b>%(total_pages_formatted)s</b> paĝojn."
+
+#: templates/wagtailadmin/shared/dialog/confirm_site_name.html:12
+#, python-format
+msgid "Please type <b>%(wagtail_site_name)s</b> to confirm."
+msgstr "Bonvolu tajpi <b>%(wagtail_site_name)s</b> por konfirmi."
+
+#: templates/wagtailadmin/shared/dialog/dialog.html:17
+msgid "Close dialog"
+msgstr "Fermi dialogon"
+
+#: templates/wagtailadmin/shared/editing_sessions/list.html:21 templates/wagtailadmin/shared/editing_sessions/list.html:110
+msgid "You saved a new version in another window"
+msgstr "Vi konservis novan version en alia fenestro"
+
+#: templates/wagtailadmin/shared/editing_sessions/list.html:25 templates/wagtailadmin/shared/editing_sessions/list.html:48 templates/wagtailadmin/shared/editing_sessions/list.html:65 templates/wagtailadmin/shared/editing_sessions/list.html:98 templates/wagtailadmin/shared/editing_sessions/list.html:114 templates/wagtailadmin/shared/editing_sessions/list.html:127
+msgid "System"
+msgstr "Sistemo"
+
+#: templates/wagtailadmin/shared/editing_sessions/list.html:25 templates/wagtailadmin/shared/editing_sessions/list.html:114
+#, python-format
+msgid "%(user_name)s saved a new version"
+msgstr "%(user_name)s konservis novan version"
+
+#: templates/wagtailadmin/shared/editing_sessions/list.html:38 templates/wagtailadmin/shared/editing_sessions/module.html:18
+msgid "View latest version"
+msgstr "Vidi la plej novan version"
+
+#: templates/wagtailadmin/shared/editing_sessions/list.html:44
+msgid "You have unsaved changes in another window"
+msgstr "Vi havas nekonservitajn ŝanĝojn en alia fenestro"
+
+#: templates/wagtailadmin/shared/editing_sessions/list.html:48
+#, python-format
+msgid "%(user_name)s has unsaved changes"
+msgstr "%(user_name)s havas nekonservitajn ŝanĝojn"
+
+#: templates/wagtailadmin/shared/editing_sessions/list.html:69
+msgid "Currently idle"
+msgstr "Nun neaktiva"
+
+#: templates/wagtailadmin/shared/editing_sessions/list.html:71
+msgid "Currently viewing"
+msgstr "Nun rigardanta"
+
+#: templates/wagtailadmin/shared/editing_sessions/list.html:80
+#, python-format
+msgid "One other user is currently viewing"
+msgid_plural "%(num_user)s other users are currently viewing"
+msgstr[0] "Unu alia uzanto nun rigardas"
+msgstr[1] "%(num_user)s aliaj uzantoj nun rigardas"
+
+#: templates/wagtailadmin/shared/editing_sessions/list.html:123
+msgid "Proceeding will overwrite the changes you made in that window."
+msgstr "Se vi daŭrigos, la ŝanĝoj, kiujn vi faris en tiu fenestro, estos anstataŭigitaj."
+
+#: templates/wagtailadmin/shared/editing_sessions/list.html:127
+#, python-format
+msgid "Proceeding will overwrite the changes made by %(user_name)s."
+msgstr "Se vi daŭrigos, la ŝanĝoj faritaj de %(user_name)s estos anstataŭigitaj."
+
+#: templates/wagtailadmin/shared/editing_sessions/list.html:133
+msgid "Alternatively, you can view the latest version in a new tab."
+msgstr "Alternative, vi povas vidi la plej novan version en nova langeto."
+
+#: templates/wagtailadmin/shared/editing_sessions/module.html:8
+msgid "A network error occurred"
+msgstr "Okazis reta eraro"
+
+#: templates/wagtailadmin/shared/editing_sessions/module.html:11
+msgid "Troubleshoot your connection to the site before proceeding. Open the editor in a separate tab to view the last saved version."
+msgstr "Kontrolu vian konekton al la retejo antaŭ ol daŭrigi. Malfermu la redaktilon en aparta langeto por vidi la laste konservitan version."
+
+#: templates/wagtailadmin/shared/editing_sessions/module.html:17
+msgid "Continue"
+msgstr "Daŭrigi"
+
+#: templates/wagtailadmin/shared/export_buttons.html:11 views/mixins.py:323
+msgid "Download XLSX"
+msgstr "Elŝuti XLSX"
+
+#: templates/wagtailadmin/shared/export_buttons.html:15 views/mixins.py:331
+msgid "Download CSV"
+msgstr "Elŝuti CSV"
+
+#: templates/wagtailadmin/shared/filters.html:4
+msgid "Filter"
+msgstr "Filtri"
+
+#: templates/wagtailadmin/shared/filters.html:12
+msgid "Apply filters"
+msgstr "Apliki filtrilojn"
+
+#: templates/wagtailadmin/shared/formatted_field.html:55
+msgid "Add comment"
+msgstr "Aldoni komenton"
+
+#: templates/wagtailadmin/shared/headers/_filters.html:7
+msgid "Show filters"
+msgstr "Montri filtrilojn"
+
+#: templates/wagtailadmin/shared/headers/_filters.html:10
+msgid "Filter by"
+msgstr "Filtri laŭ"
+
+#: templates/wagtailadmin/shared/headers/_filters.html:23
+msgid "Back"
+msgstr "Reen"
+
+#: templates/wagtailadmin/shared/headers/_history_icon_link.html:5 templates/wagtailadmin/shared/headers/_history_icon_link.html:7 views/generic/history.py:201 views/generic/history.py:263 views/generic/models.py:1421 wagtail_hooks.py:343
+msgid "History"
+msgstr "Historio"
+
+#: templates/wagtailadmin/shared/keyboard_shortcuts_dialog.html:2
+msgid "account"
+msgstr "konto"
+
+#: templates/wagtailadmin/shared/keyboard_shortcuts_dialog.html:3
+msgid "Keyboard shortcuts"
+msgstr "Klavkombinoj"
+
+#: templates/wagtailadmin/shared/keyboard_shortcuts_dialog.html:7
+#, python-format
+msgid "Keyboard shortcuts are currently disabled; manage your %(account_link)s to enable them."
+msgstr "Klavkombinoj estas nun malŝaltitaj; ŝaltu ilin en la agordoj de via %(account_link)s."
+
+#: templates/wagtailadmin/shared/keyboard_shortcuts_dialog.html:15
+msgid "All keyboard shortcuts"
+msgstr "Ĉiuj klavkombinoj"
+
+#: templates/wagtailadmin/shared/keyboard_shortcuts_dialog.html:19
+msgid "Section"
+msgstr "Sekcio"
+
+#: templates/wagtailadmin/shared/keyboard_shortcuts_dialog.html:20
+msgid "Keyboard shortcut"
+msgstr "Klavkombino"
+
+#: templates/wagtailadmin/shared/keyboard_shortcuts_dialog.html:44
+#, python-format
+msgid "Keyboard shortcuts are currently enabled; manage your %(account_link)s to disable them."
+msgstr "Klavkombinoj estas nun ŝaltitaj; malŝaltu ilin en la agordoj de via %(account_link)s."
+
+#: templates/wagtailadmin/shared/page_status_tag.html:3
+msgid "Current page status:"
+msgstr "Nuna stato de la paĝo:"
+
+#: templates/wagtailadmin/shared/page_status_tag.html:7
+msgid "Visit the live page"
+msgstr "Viziti la publikigitan paĝon"
+
+#: templates/wagtailadmin/shared/page_status_tag_new.html:22
+msgid "Visible to all. Visit the live page"
+msgstr "Videbla por ĉiuj. Viziti la publikigitan paĝon"
+
+#: templates/wagtailadmin/shared/page_status_tag_new.html:25 templates/wagtailadmin/shared/side_panels/includes/status/privacy.html:15
+msgid "Visible to all"
+msgstr "Videbla por ĉiuj"
+
+#: templates/wagtailadmin/shared/page_status_tag_new.html:38
+msgid "Private. Visit the live page"
+msgstr "Privata. Viziti la publikigitan paĝon"
+
+#: templates/wagtailadmin/shared/pagination_nav.html:13
+#, python-format
+msgid "Page %(page_num)s of %(total_pages)s"
+msgstr "Paĝo %(page_num)s el %(total_pages)s"
+
+#: templates/wagtailadmin/shared/panel.html:32
+msgid "Toggle section"
+msgstr "Baskuligi sekcion"
+
+#: templates/wagtailadmin/shared/revisions/confirm_unschedule.html:5
+msgid "Are you sure you want to unschedule this revision?"
+msgstr "Ĉu vi certas, ke vi volas malplani ĉi tiun revizion?"
+
+#: templates/wagtailadmin/shared/revisions/confirm_unschedule.html:11
+msgid "Yes, unschedule"
+msgstr "Jes, malplani"
+
+#: templates/wagtailadmin/shared/revisions/confirm_unschedule.html:12
+msgid "No, don't unschedule"
+msgstr "Ne, ne malplani"
+
+#: templates/wagtailadmin/shared/search_other.html:3
+msgid "Other searches"
+msgstr "Aliaj serĉoj"
+
+#: templates/wagtailadmin/shared/set_privacy.html:14 views/generic/models.py:821
+msgid "Save"
+msgstr "Konservi"
+
+#: templates/wagtailadmin/shared/side_panels.html:5
+msgid "Minimap"
+msgstr "Minimapo"
+
+#: templates/wagtailadmin/shared/side_panels.html:7
+msgid "Side panels"
+msgstr "Flankaj paneloj"
+
+#: templates/wagtailadmin/shared/side_panels.html:8
+msgid "Toggle side panel"
+msgstr "Baskuligi flankan panelon"
+
+#: templates/wagtailadmin/shared/side_panels.html:24
+msgid "Side panel width"
+msgstr "Larĝo de flanka panelo"
+
+#: templates/wagtailadmin/shared/side_panels/checks.html:14 templates/wagtailadmin/userbar/base.html:56 templates/wagtailadmin/userbar/item_content_checker.html:31
+msgid "Show issue"
+msgstr "Montri problemon"
+
+#: templates/wagtailadmin/shared/side_panels/checks.html:29
+msgid "Content metrics"
+msgstr "Enhavaj metrikoj"
+
+#: templates/wagtailadmin/shared/side_panels/checks.html:42 templates/wagtailadmin/userbar/item_content_checker.html:17
+msgid "Issues found"
+msgstr "Trovitaj problemoj"
+
+#: templates/wagtailadmin/shared/side_panels/comments.html:8
+msgid "Comment notifications"
+msgstr "Sciigoj pri komentoj"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/locale.html:5
+msgid "Locale: "
+msgstr "Lingvo: "
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/locale.html:8
+#, python-format
+msgid "Available in %(translations_total)s locales"
+msgstr "Disponebla en %(translations_total)s lingvoj"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/locale.html:12
+msgid "No other translations"
+msgstr "Neniuj aliaj tradukoj"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/locale.html:22
+msgid "Switch locales"
+msgstr "Ŝanĝi lingvon"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/locked.html:5
+msgid "Locking: "
+msgstr "Ŝlosado: "
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/locked.html:12
+msgid "Unlocked"
+msgstr "Malŝlosita"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/locked.html:15
+#, python-format
+msgid "Anyone can edit this %(model_name)s – lock it to prevent others from editing"
+msgstr "Iu ajn povas redakti ĉi tiun elementon de %(model_name)s – ŝlosu ĝin por malhelpi, ke aliaj redaktu ĝin"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/locked.html:19
+#, python-format
+msgid "Anyone can edit this %(model_name)s"
+msgstr "Iu ajn povas redakti ĉi tiun elementon de %(model_name)s"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/locked.html:31
+msgid "Lock"
+msgstr "Ŝlosi"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/privacy.html:14
+msgid "Page visibility: "
+msgstr "Videbleco de la paĝo: "
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/privacy.html:16
+msgid "Once live anyone can view"
+msgstr "Post publikigo iu ajn povos vidi ĝin"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/privacy.html:29
+msgid "Not visible to the public"
+msgstr "Ne videbla por la publiko"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/privacy.html:47
+msgid "Choose who can view the live version of this page"
+msgstr "Elektu, kiu povas vidi la publikigitan version de ĉi tiu paĝo"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/privacy.html:48
+msgid "Privacy changes apply to all children of this page too."
+msgstr "Ŝanĝoj de privateco aplikiĝas ankaŭ al ĉiuj subpaĝoj de ĉi tiu paĝo."
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/usage.html:7 views/generic/usage.py:25 views/generic/usage.py:75 views/workflows.py:419
+msgid "Usage"
+msgstr "Uzado"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/usage.html:14 templates/wagtailadmin/tables/usage_count_column_cell.html:5
+#, python-format
+msgid "Used %(usage_count)s time"
+msgid_plural "Used %(usage_count)s times"
+msgstr[0] "Uzita %(usage_count)s fojon"
+msgstr[1] "Uzita %(usage_count)s fojojn"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:12
+msgid "Status: "
+msgstr "Stato: "
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:40 templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:165 templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:173
+msgid "Expiry:"
+msgstr "Eksvalidiĝo:"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:45 templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:179
+msgid "Edit schedule"
+msgstr "Redakti planon"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:58
+msgid "In Moderation"
+msgstr "En moderigo"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:62
+msgid "View details"
+msgstr "Vidi detalojn"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:91
+#, python-format
+msgid "To be created by %(user)s"
+msgstr "Kreota de %(user)s"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:116
+#, python-format
+msgid "by %(user)s"
+msgstr "de %(user)s"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:128
+msgid "View history"
+msgstr "Vidi historion"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:159
+msgid "Invalid schedule"
+msgstr "Nevalida plano"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:162 templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:170
+msgid "Go-live:"
+msgstr "Publikigo:"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:168
+msgid "Once scheduled:"
+msgstr "Post planado:"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:186
+msgid "No publishing schedule set"
+msgstr "Neniu plano de publikigo difinita"
+
+#: templates/wagtailadmin/shared/side_panels/includes/status/workflow.html:188
+msgid "Set schedule"
+msgstr "Difini planon"
+
+#: templates/wagtailadmin/shared/side_panels/preview.html:37
+msgid "Preview in new tab"
+msgstr "Antaŭvidi en nova langeto"
+
+#: templates/wagtailadmin/shared/side_panels/preview.html:44
+msgid "Loading"
+msgstr "Ŝargante"
+
+#: templates/wagtailadmin/shared/side_panels/preview.html:52
+msgid "Refreshing…"
+msgstr "Aktualigante…"
+
+#: templates/wagtailadmin/shared/side_panels/preview.html:58
+msgid "Refresh"
+msgstr "Aktualigi"
+
+#: templates/wagtailadmin/shared/side_panels/preview.html:69
+msgid "Preview is out of date"
+msgstr "La antaŭvido estas malaktuala"
+
+#: templates/wagtailadmin/shared/side_panels/preview.html:72
+msgid "Correct the validation errors to resume preview (saving will highlight errors)"
+msgstr "Korektu la validigajn erarojn por daŭrigi la antaŭvidon (konservado emfazos la erarojn)"
+
+#: templates/wagtailadmin/shared/side_panels/preview.html:79
+msgid "Preview mode"
+msgstr "Antaŭvida reĝimo"
+
+#: templates/wagtailadmin/shared/side_panels/status.html:19
+msgid "First published"
+msgstr "Unue publikigita"
+
+#: templates/wagtailadmin/shared/unsaved_changes_warning.html:14
+msgid "Autosave is <span>paused</span>"
+msgstr "Aŭtomata konservado estas <span>paŭzigita</span>"
+
+#: templates/wagtailadmin/shared/unsaved_changes_warning.html:24
+msgid "Save your changes before leaving"
+msgstr "Konservu viajn ŝanĝojn antaŭ ol foriri"
+
+#: templates/wagtailadmin/shared/unsaved_changes_warning.html:27
+msgid "You have <span>unsaved edits</span>"
+msgstr "Vi havas <span>nekonservitajn ŝanĝojn</span>"
+
+#: templates/wagtailadmin/shared/usage_summary.html:14
+#, python-format
+msgid "This %(model_name)s is referenced %(usage_count)s time."
+msgid_plural "This %(model_name)s is referenced %(usage_count)s times."
+msgstr[0] "Ĉi tiu elemento de %(model_name)s estas referencita %(usage_count)s fojon."
+msgstr[1] "Ĉi tiu elemento de %(model_name)s estas referencita %(usage_count)s fojojn."
+
+#: templates/wagtailadmin/shared/usage_summary.html:23
+#, python-format
+msgid "One or more references to this %(model_name)s prevent it from being deleted."
+msgstr "Unu aŭ pluraj referencoj al ĉi tiu elemento de %(model_name)s malhelpas ĝian forigon."
+
+#: templates/wagtailadmin/shared/workflow_history/detail.html:8
+#, python-format
+msgid "Requested by <b>%(modified_by)s</b>"
+msgstr "Petita de <b>%(modified_by)s</b>"
+
+#: templates/wagtailadmin/shared/workflow_history/detail.html:13
+#, python-format
+msgid "Started at <b>%(started_at)s</b>"
+msgstr "Komencita je <b>%(started_at)s</b>"
+
+#: templates/wagtailadmin/shared/workflow_history/detail.html:18
+#, python-format
+msgid "Status %(status)s"
+msgstr "Stato %(status)s"
+
+#: templates/wagtailadmin/shared/workflow_history/detail.html:26
+msgid "Timeline"
+msgstr "Templinio"
+
+#: templates/wagtailadmin/shared/workflow_history/detail.html:47
+msgid "Initial Revision"
+msgstr "Komenca revizio"
+
+#: templates/wagtailadmin/shared/workflow_history/detail.html:50 templates/wagtailadmin/shared/workflow_history/detail.html:107
+msgid "Edited"
+msgstr "Redaktita"
+
+#: templates/wagtailadmin/shared/workflow_history/detail.html:52 templates/wagtailadmin/shared/workflow_history/detail.html:68
+#, python-format
+msgid "%(action)s by <b>%(who)s</b> at <b>%(at)s</b>"
+msgstr "%(action)s de <b>%(who)s</b> je <b>%(at)s</b>"
+
+#: templates/wagtailadmin/shared/workflow_history/detail.html:56 templates/wagtailadmin/shared/workflow_history/detail.html:72
+#, python-format
+msgid "%(action)s at <b>%(at)s</b>"
+msgstr "%(action)s je <b>%(at)s</b>"
+
+#: templates/wagtailadmin/shared/workflow_history/detail.html:80 templates/wagtailadmin/shared/workflow_history/detail.html:128 templates/wagtailadmin/workflows/workflow_status.html:59
+msgid "with comment:"
+msgstr "kun komento:"
+
+#: templates/wagtailadmin/shared/workflow_history/detail.html:102
+msgid "Workflow started"
+msgstr "Laborfluo komenciĝis"
+
+#: templates/wagtailadmin/shared/workflow_history/detail.html:104
+msgid "Workflow completed"
+msgstr "Laborfluo finiĝis"
+
+#: templates/wagtailadmin/shared/workflow_history/detail.html:109 templates/wagtailadmin/shared/workflow_history/detail.html:120
+#, python-format
+msgid "%(action)s by <b>%(who)s</b>"
+msgstr "%(action)s de <b>%(who)s</b>"
+
+#: templates/wagtailadmin/shared/workflow_history/listing_results.html:38
+msgid "Approved task"
+msgstr "Aprobita tasko"
+
+#: templates/wagtailadmin/shared/workflow_history/listing_results.html:56
+msgid "This page hasn't been submitted for moderation yet"
+msgstr "Ĉi tiu paĝo ankoraŭ ne estis sendita por moderigo"
+
+#: templates/wagtailadmin/shared/workflow_history/listing_results.html:58
+#, python-format
+msgid "This %(model_name)s hasn't been submitted for moderation yet"
+msgstr "Ĉi tiu elemento de %(model_name)s ankoraŭ ne estis sendita por moderigo"
+
+#: templates/wagtailadmin/skeleton.html:28
+msgid "JavaScript is required to use Wagtail, but it is currently disabled.<br /> Here are the <a href=\"https://www.enable-javascript.com/\" target=\"_blank\" rel=\"noreferrer\">instructions how to enable JavaScript in your web browser</a>."
+msgstr "JavaScript estas necesa por uzi Wagtail, sed ĝi estas nun malŝaltita.<br /> Jen la <a href=\"https://www.enable-javascript.com/\" target=\"_blank\" rel=\"noreferrer\">instrukcioj por ŝalti JavaScript en via retumilo</a>."
+
+#: templates/wagtailadmin/skeleton.html:36
+msgid "Skip to main content"
+msgstr "Salti al la ĉefa enhavo"
+
+#: templates/wagtailadmin/tables/ordering_cell.html:14
+#, python-format
+msgid "Item %(index)s of %(total)s"
+msgstr "Elemento %(index)s el %(total)s"
+
+#: templates/wagtailadmin/tables/ordering_header.html:4
+msgid "Disable custom ordering"
+msgstr "Malŝalti propran ordigon"
+
+#: templates/wagtailadmin/tables/ordering_header.html:5 templates/wagtailadmin/tables/ordering_header.html:9
+msgid "Sort"
+msgstr "Ordigi"
+
+#: templates/wagtailadmin/tables/ordering_header.html:8
+msgid "Enable custom ordering"
+msgstr "Ŝalti propran ordigon"
+
+#: templates/wagtailadmin/userbar/base.html:38
+msgid "View Wagtail quick actions"
+msgstr "Vidi rapidajn agojn de Wagtail"
+
+#: templates/wagtailadmin/userbar/item_content_checker.html:7 templates/wagtailadmin/userbar/item_content_checker.html:10 ui/side_panels.py:339
+msgid "Checks"
+msgstr "Kontroloj"
+
+#: templates/wagtailadmin/userbar/item_page_add.html:8
+msgid "Add a child page"
+msgstr "Aldoni subpaĝon"
+
+#: templates/wagtailadmin/userbar/item_page_explore.html:8
+msgid "Show in Explorer"
+msgstr "Montri en la esplorilo"
+
+#: templates/wagtailadmin/workflows/confirm_delete.html:9
+#, python-format
+msgid "This workflow is currently in progress on %(workflow_states_in_progress)s pages. Deleting this workflow will cancel moderation on these page. Are you sure you want to delete this workflow?"
+msgstr "Ĉi tiu laborfluo nun estas en progreso por %(workflow_states_in_progress)s paĝoj. Forigo de ĉi tiu laborfluo nuligos la moderigon de tiuj paĝoj. Ĉu vi certas, ke vi volas forigi ĉi tiun laborfluon?"
+
+#: templates/wagtailadmin/workflows/confirm_delete.html:14 templates/wagtailadmin/workflows/confirm_disable.html:12 templates/wagtailadmin/workflows/confirm_disable_task.html:12 views/pages/listing.py:113 views/workflows.py:83 widgets/boolean_radio_select.py:16
+msgid "No"
+msgstr "Ne"
+
+#: templates/wagtailadmin/workflows/confirm_disable.html:8
+msgid "Are you sure you want to disable this workflow?"
+msgstr "Ĉu vi certas, ke vi volas malŝalti ĉi tiun laborfluon?"
+
+#: templates/wagtailadmin/workflows/confirm_disable.html:11 templates/wagtailadmin/workflows/confirm_disable_task.html:11
+msgid "Yes, disable"
+msgstr "Jes, malŝalti"
+
+#: templates/wagtailadmin/workflows/confirm_disable_task.html:8
+msgid "Are you sure you want to disable this task?"
+msgstr "Ĉu vi certas, ke vi volas malŝalti ĉi tiun taskon?"
+
+#: templates/wagtailadmin/workflows/create.html:8 templates/wagtailadmin/workflows/edit.html:8
+msgid "Assign your workflow to pages"
+msgstr "Atribui vian laborfluon al paĝoj"
+
+#: templates/wagtailadmin/workflows/create.html:13 templates/wagtailadmin/workflows/edit.html:29
+msgid "Assign your workflow to snippets"
+msgstr "Atribui vian laborfluon al fragmentoj"
+
+#: templates/wagtailadmin/workflows/edit.html:13
+#, python-format
+msgid "Workflows apply to child pages too. If you select a parent page here, its child pages will also use this workflow. See <a href=\"%(workflow_pages_url)s\">the list of the pages</a> your workflow applies to."
+msgstr "Laborfluoj aplikiĝas ankaŭ al subpaĝoj. Se vi elektas patran paĝon ĉi tie, ĝiaj subpaĝoj ankaŭ uzos ĉi tiun laborfluon. Vidu <a href=\"%(workflow_pages_url)s\">la liston de paĝoj</a>, al kiuj via laborfluo aplikiĝas."
+
+#: templates/wagtailadmin/workflows/edit.html:23
+msgid "This workflow is disabled so it cannot be assigned to any pages."
+msgstr "Ĉi tiu laborfluo estas malŝaltita, do ĝi ne povas esti atribuita al iu paĝo."
+
+#: templates/wagtailadmin/workflows/edit.html:35
+msgid "This workflow is disabled so it cannot be assigned to any snippets."
+msgstr "Ĉi tiu laborfluo estas malŝaltita, do ĝi ne povas esti atribuita al iu fragmento."
+
+#: templates/wagtailadmin/workflows/edit_task.html:10
+msgid "Used on the following active workflows"
+msgstr "Uzata en la jenaj aktivaj laborfluoj"
+
+#: templates/wagtailadmin/workflows/edit_task.html:13 templates/wagtailadmin/workflows/includes/task_usage_cell.html:6 templates/wagtailadmin/workflows/task_chooser/includes/results.html:52
+msgid "Not used"
+msgstr "Ne uzata"
+
+#: templates/wagtailadmin/workflows/includes/task_title_cell.html:6 templates/wagtailadmin/workflows/includes/workflow_title_cell.html:6
+msgid "Disabled"
+msgstr "Malŝaltita"
+
+#: templates/wagtailadmin/workflows/includes/task_usage_cell.html:10 templates/wagtailadmin/workflows/includes/workflow_tasks_cell.html:14 templates/wagtailadmin/workflows/task_chooser/includes/results.html:55
+#, python-format
+msgid "+%(counter)s more"
+msgid_plural "+%(counter)s more"
+msgstr[0] "+%(counter)s plia"
+msgstr[1] "+%(counter)s pliaj"
+
+#: templates/wagtailadmin/workflows/includes/workflow_pages_formset.html:2
+msgid "Assigned pages"
+msgstr "Atribuitaj paĝoj"
+
+#: templates/wagtailadmin/workflows/includes/workflow_pages_formset.html:19
+msgid "Page"
+msgstr "Paĝo"
+
+#: templates/wagtailadmin/workflows/includes/workflow_pages_formset.html:46
+msgid "Assign to another page"
+msgstr "Atribui al alia paĝo"
+
+#: templates/wagtailadmin/workflows/includes/workflow_tasks_cell.html:6 templates/wagtailadmin/workflows/includes/workflow_tasks_cell.html:7
+#, python-format
+msgid "Step %(step_number)s"
+msgstr "Paŝo %(step_number)s"
+
+#: templates/wagtailadmin/workflows/includes/workflow_used_by_cell.html:7
+#, python-format
+msgid "1 page"
+msgid_plural "%(counter)s pages"
+msgstr[0] "1 paĝo"
+msgstr[1] "%(counter)s paĝoj"
+
+#: templates/wagtailadmin/workflows/includes/workflow_used_by_cell.html:21
+#, python-format
+msgid "1 snippet type"
+msgid_plural "%(counter)s snippet types"
+msgstr[0] "1 tipo de fragmento"
+msgstr[1] "%(counter)s tipoj de fragmentoj"
+
+#: templates/wagtailadmin/workflows/index_results.html:6
+#, python-format
+msgid "No workflows have been created. Why not <a href=\"%(add_url)s\">add one</a>?"
+msgstr "Neniu laborfluo estis kreita. Kial ne <a href=\"%(add_url)s\">aldoni unu</a>?"
+
+#: templates/wagtailadmin/workflows/index_results.html:8
+#, python-format
+msgid "There are no enabled workflows. Why not <a href=\"%(add_url)s\">add one</a>?"
+msgstr "Ne estas ŝaltitaj laborfluoj. Kial ne <a href=\"%(add_url)s\">aldoni unu</a>?"
+
+#: templates/wagtailadmin/workflows/select_task_type.html:11 templates/wagtailadmin/workflows/task_chooser/includes/select_task_type.html:3
+msgid "Choose which type of task you'd like to create."
+msgstr "Elektu, kiun tipon de tasko vi ŝatus krei."
+
+#: templates/wagtailadmin/workflows/task_chooser/chooser.html:2 widgets/workflows.py:12
+msgid "Choose a task"
+msgstr "Elekti taskon"
+
+#: templates/wagtailadmin/workflows/task_chooser/chooser.html:8 views/generic/models.py:512 views/pages/create.py:88
+msgid "New"
+msgstr "Nova"
+
+#: templates/wagtailadmin/workflows/task_chooser/chooser.html:9
+msgid "Existing"
+msgstr "Ekzistanta"
+
+#: templates/wagtailadmin/workflows/task_chooser/includes/create_form.html:7
+msgid "Choose a different task type"
+msgstr "Elekti alian tipon de tasko"
+
+#: templates/wagtailadmin/workflows/task_chooser/includes/create_form.html:27 views/generic/models.py:519
+msgid "Creating…"
+msgstr "Kreante…"
+
+#: templates/wagtailadmin/workflows/task_chooser/includes/create_form.html:30 views/generic/chooser.py:320 views/generic/models.py:518 viewsets/chooser.py:86
+msgid "Create"
+msgstr "Krei"
+
+#: templates/wagtailadmin/workflows/task_chooser/includes/results.html:27
+msgid "Task type"
+msgstr "Tipo de tasko"
+
+#: templates/wagtailadmin/workflows/task_chooser/includes/results.html:31 views/workflows.py:593
+msgid "Used on"
+msgstr "Uzata en"
+
+#: templates/wagtailadmin/workflows/task_chooser/includes/results.html:66
+#, python-format
+msgid "Sorry, no tasks match \"<em>%(query_string)s</em>\""
+msgstr "Bedaŭrinde neniu tasko kongruas kun \"<em>%(query_string)s</em>\""
+
+#: templates/wagtailadmin/workflows/task_chooser/includes/results.html:69
+msgid "You haven't created any tasks."
+msgstr "Vi ankoraŭ ne kreis taskojn."
+
+#: templates/wagtailadmin/workflows/task_chooser/includes/results.html:71
+msgid "Why not <a class=\"create-one-now\" href=\"#tab-new\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" data-w-tabs-focus-param=\"true\">create one now</a>?"
+msgstr "Kial ne <a class=\"create-one-now\" href=\"#tab-new\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" data-w-tabs-focus-param=\"true\">krei unu nun</a>?"
+
+#: templates/wagtailadmin/workflows/task_index_results.html:6
+#, python-format
+msgid "No tasks have been created. Why not <a href=\"%(add_url)s\">add one</a>?"
+msgstr "Neniu tasko estis kreita. Kial ne <a href=\"%(add_url)s\">aldoni unu</a>?"
+
+#: templates/wagtailadmin/workflows/task_index_results.html:8
+#, python-format
+msgid "There are no enabled tasks. Why not <a href=\"%(add_url)s\">add one</a>?"
+msgstr "Ne estas ŝaltitaj taskoj. Kial ne <a href=\"%(add_url)s\">aldoni unu</a>?"
+
+#: templates/wagtailadmin/workflows/workflow_status.html:8
+msgid "Submitted"
+msgstr "Sendita"
+
+#: templates/wagtailadmin/workflows/workflow_status.html:14
+msgid "Not started"
+msgstr "Ne komencita"
+
+#: templates/wagtailadmin/workflows/workflow_status.html:23
+#, python-format
+msgid "Changes requested by %(requested_by)s"
+msgstr "Ŝanĝoj petitaj de %(requested_by)s"
+
+#: templates/wagtailadmin/workflows/workflow_status.html:27
+msgid "Changes requested"
+msgstr "Ŝanĝoj petitaj"
+
+#: templates/wagtailadmin/workflows/workflow_status.html:46
+#, python-format
+msgid "Cancelled by %(cancelled_by)s"
+msgstr "Nuligita de %(cancelled_by)s"
+
+#: templates/wagtailadmin/workflows/workflow_status.html:50
+#, python-format
+msgid "Approved by %(approved_by)s"
+msgstr "Aprobita de %(approved_by)s"
+
+#: templates/wagtailadmin/workflows/workflow_status.html:69
+msgid "Published"
+msgstr "Publikigita"
+
+#: templates/wagtailadmin/workflows/workflow_status.html:76
+msgid "See full history"
+msgstr "Vidi la tutan historion"
+
+#: templatetags/wagtailadmin_tags.py:532
+msgid "More"
+msgstr "Pli"
+
+#: templatetags/wagtailadmin_tags.py:533
+msgid "More bulk actions"
+msgstr "Pliaj amasaj agoj"
+
+#: templatetags/wagtailadmin_tags.py:782
+msgid "0 minutes"
+msgstr "0 minutoj"
+
+#: templatetags/wagtailadmin_tags.py:783
+msgid "just now"
+msgstr "ĵus"
+
+#: templatetags/wagtailadmin_tags.py:784 templatetags/wagtailadmin_tags.py:847
+#, python-format
+msgid "%(time_period)s ago"
+msgstr "antaŭ %(time_period)s"
+
+#: templatetags/wagtailadmin_tags.py:821
+#, python-format
+msgid "at %(time)s by %(user_display_name)s"
+msgstr "je %(time)s de %(user_display_name)s"
+
+#: templatetags/wagtailadmin_tags.py:826
+#, python-format
+msgid "at %(time)s"
+msgstr "je %(time)s"
+
+#: templatetags/wagtailadmin_tags.py:829
+#, python-format
+msgid "%(time)s by %(user_display_name)s"
+msgstr "%(time)s de %(user_display_name)s"
+
+#: templatetags/wagtailadmin_tags.py:842
+#, python-format
+msgid "%(time_period)s ago by %(user_display_name)s"
+msgstr "antaŭ %(time_period)s de %(user_display_name)s"
+
+#: templatetags/wagtailadmin_tags.py:896
+msgid "Log out"
+msgstr "Elsaluti"
+
+#: templatetags/wagtailadmin_tags.py:1326
+#, python-format
+msgid "Changes requested %(finished_at)s"
+msgstr "Ŝanĝoj petitaj %(finished_at)s"
+
+#: templatetags/wagtailadmin_tags.py:1329
+#, python-format
+msgid "Sent to %(task_name)s %(started_at)s"
+msgstr "Sendita al %(task_name)s %(started_at)s"
+
+#: templatetags/wagtailadmin_tags.py:1331
+#, python-format
+msgid "%(status_display)s %(task_name)s %(started_at)s"
+msgstr "%(status_display)s %(task_name)s %(started_at)s"
+
+#. Translators: Shortcuts for admin common shortcuts that are available across the admin
+#: templatetags/wagtailadmin_tags.py:1363
+msgid "Application"
+msgstr "Aplikaĵo"
+
+#: templatetags/wagtailadmin_tags.py:1364
+msgid "Show keyboard shortcuts"
+msgstr "Montri klavkombinojn"
+
+#: templatetags/wagtailadmin_tags.py:1366
+msgid "Toggle sidebar"
+msgstr "Baskuligi flankan breton"
+
+#: templatetags/wagtailadmin_tags.py:1367
+msgid "Toggle minimap"
+msgstr "Baskuligi minimapon"
+
+#: templatetags/wagtailadmin_tags.py:1368
+msgid "Close modal dialogs (like this one)"
+msgstr "Fermi modalajn dialogojn (kiel ĉi tiun)"
+
+#: templatetags/wagtailadmin_tags.py:1372
+msgid "Save changes"
+msgstr "Konservi ŝanĝojn"
+
+#: templatetags/wagtailadmin_tags.py:1374
+msgid "Add or show comments"
+msgstr "Aldoni aŭ montri komentojn"
+
+#. Translators: Shortcuts for common text editing features available in all fields (even if not a rich text field)
+#: templatetags/wagtailadmin_tags.py:1379
+msgid "Text editing"
+msgstr "Tekstoredaktado"
+
+#: templatetags/wagtailadmin_tags.py:1381
+msgid "Cut"
+msgstr "Eltondi"
+
+#: templatetags/wagtailadmin_tags.py:1382
+msgid "Paste"
+msgstr "Alglui"
+
+#: templatetags/wagtailadmin_tags.py:1384
+msgid "Paste and match style"
+msgstr "Alglui kaj kongruigi stilon"
+
+#: templatetags/wagtailadmin_tags.py:1386
+msgid "Paste without formatting"
+msgstr "Alglui sen formatado"
+
+#: templatetags/wagtailadmin_tags.py:1389
+msgid "Undo"
+msgstr "Malfari"
+
+#: templatetags/wagtailadmin_tags.py:1391
+msgid "Redo"
+msgstr "Refari"
+
+#. Translators: Shortcuts for formatting & editing features available in rich text fields
+#: templatetags/wagtailadmin_tags.py:1396
+msgid "Text formatting"
+msgstr "Tekstoformatado"
+
+#: templatetags/wagtailadmin_tags.py:1397
+msgid "Insert or edit a link"
+msgstr "Enmeti aŭ redakti ligilon"
+
+#: templatetags/wagtailadmin_tags.py:1398 wagtail_hooks.py:680
+msgid "Bold"
+msgstr "Grasa"
+
+#: templatetags/wagtailadmin_tags.py:1399 wagtail_hooks.py:702
+msgid "Italic"
+msgstr "Kursiva"
+
+#: templatetags/wagtailadmin_tags.py:1400
+msgid "Monospace (code)"
+msgstr "Egallarĝa (kodo)"
+
+#: templatetags/wagtailadmin_tags.py:1401
+msgid "Strike-through"
+msgstr "Trastrekita"
+
+#: templatetags/wagtailadmin_tags.py:1402 wagtail_hooks.py:772
+msgid "Superscript"
+msgstr "Supra indico"
+
+#: templatetags/wagtailadmin_tags.py:1403 wagtail_hooks.py:793
+msgid "Subscript"
+msgstr "Suba indico"
+
+#: ui/side_panels.py:51
+msgid "Toggle status"
+msgstr "Baskuligi staton"
+
+#: ui/side_panels.py:268
+#, python-format
+msgid "Referenced %(count)s time"
+msgid_plural "Referenced %(count)s times"
+msgstr[0] "Referencita %(count)s fojon"
+msgstr[1] "Referencita %(count)s fojojn"
+
+#: ui/side_panels.py:319
+msgid "Toggle comments"
+msgstr "Baskuligi komentojn"
+
+#: ui/side_panels.py:323
+msgid "Comments"
+msgstr "Komentoj"
+
+#: ui/side_panels.py:335
+msgid "Toggle checks"
+msgstr "Baskuligi kontrolojn"
+
+#: ui/side_panels.py:361
+msgid "Toggle preview"
+msgstr "Baskuligi antaŭvidon"
+
+#: ui/tables/__init__.py:269
+msgid "(blank)"
+msgstr "(malplena)"
+
+#: ui/tables/__init__.py:608
+#, python-format
+msgid "Sort by '%(label)s' in ascending order."
+msgstr "Ordigi laŭ '%(label)s' en kreskanta ordo."
+
+#: ui/tables/__init__.py:611
+#, python-format
+msgid "Sort by '%(label)s' in descending order."
+msgstr "Ordigi laŭ '%(label)s' en malkreskanta ordo."
+
+#: ui/tables/orderable.py:20
+#, python-format
+msgid "'%(page_title)s' has been moved successfully."
+msgstr "'%(page_title)s' estis sukcese movita."
+
+#: ui/tables/orderable.py:75
+msgid "Focus on the drag button and press up or down arrows to move the item, then press enter to submit the change."
+msgstr "Fokusu la tren-butonon kaj premu la sagoklavojn supren aŭ malsupren por movi la elementon, poste premu enigklavon por sendi la ŝanĝon."
+
+#: ui/tables/pages.py:169
+#, python-format
+msgid "Sort the order of child pages within '%(parent)s' by '%(label)s' in ascending order."
+msgstr "Ordigi la subpaĝojn de '%(parent)s' laŭ '%(label)s' en kreskanta ordo."
+
+#: ui/tables/pages.py:173
+#, python-format
+msgid "Sort the order of child pages within '%(parent)s' by '%(label)s' in descending order."
+msgstr "Ordigi la subpaĝojn de '%(parent)s' laŭ '%(label)s' en malkreskanta ordo."
+
+#: userbar.py:122
+msgid "Button text is empty"
+msgstr "Teksto de butono estas malplena"
+
+#: userbar.py:123 userbar.py:127 userbar.py:131 userbar.py:143 userbar.py:147
+msgid "Use meaningful text for screen reader users"
+msgstr "Uzu signifoplenan tekston por uzantoj de ekranlegiloj"
+
+#: userbar.py:126
+msgid "Empty heading found"
+msgstr "Malplena titolo trovita"
+
+#: userbar.py:130
+msgid "Table header text is empty"
+msgstr "Teksto de tabela kaplinio estas malplena"
+
+#: userbar.py:134
+msgid "Empty frame title found"
+msgstr "Malplena titolo de kadro trovita"
+
+#: userbar.py:135
+msgid "Use a meaningful title for screen reader users"
+msgstr "Uzu signifoplenan titolon por uzantoj de ekranlegiloj"
+
+#: userbar.py:138
+msgid "Incorrect heading hierarchy"
+msgstr "Malĝusta hierarkio de titoloj"
+
+#: userbar.py:139
+msgid "Avoid skipping levels"
+msgstr "Evitu preterlasi nivelojn"
+
+#: userbar.py:142
+msgid "Input button text is empty"
+msgstr "Teksto de enigbutono estas malplena"
+
+#: userbar.py:146
+msgid "Link text is empty"
+msgstr "Teksto de ligilo estas malplena"
+
+#: userbar.py:150
+msgid "Misusing paragraphs as headings"
+msgstr "Misuzo de alineoj kiel titoloj"
+
+#: userbar.py:151
+msgid "Use proper heading tags"
+msgstr "Uzu taŭgajn titolajn etikedojn"
+
+#: userbar.py:154
+msgid "Image alt text has inappropriate pattern"
+msgstr "Alternativa teksto de bildo havas netaŭgan ŝablonon"
+
+#: userbar.py:155
+msgid "Use meaningful text"
+msgstr "Uzu signifoplenan tekston"
+
+#: userbar.py:158
+msgid "Meta description is empty"
+msgstr "Meta-priskribo estas malplena"
+
+#: userbar.py:159
+msgid "Add a concise description for search engines"
+msgstr "Aldonu koncizan priskribon por serĉiloj"
+
+#: utils.py:43
+#, python-format
+msgid "%(classname)s object (%(id)s)"
+msgstr "%(classname)s objekto (%(id)s)"
+
+#: views/account.py:85
+msgid "Profile"
+msgstr "Profilo"
+
+#: views/account.py:87 views/account.py:166
+msgid "Notifications"
+msgstr "Sciigoj"
+
+#: views/account.py:151
+msgid "Name and Email"
+msgstr "Nomo kaj retpoŝto"
+
+#: views/account.py:157
+msgid "Profile picture"
+msgstr "Profilbildo"
+
+#: views/account.py:193
+msgid "Theme preferences"
+msgstr "Preferoj pri etoso"
+
+#: views/account.py:201
+msgid "Password"
+msgstr "Pasvorto"
+
+#: views/account.py:326
+msgid "Your account settings have been changed successfully!"
+msgstr "La agordoj de via konto estis sukcese ŝanĝitaj!"
+
+#: views/account.py:429
+msgid "You have been successfully logged out."
+msgstr "Vi sukcese elsalutis."
+
+#: views/chooser.py:423 views/pages/listing.py:148
+msgctxt "parent page column header"
+msgid "Parent"
+msgstr "Patra paĝo"
+
+#: views/collections.py:19 wagtail_hooks.py:183
+msgid "Collections"
+msgstr "Kolektoj"
+
+#: views/collections.py:20
+msgid "Add a collection"
+msgstr "Aldoni kolekton"
+
+#: views/collections.py:44
+msgid "Add collection"
+msgstr "Aldoni kolekton"
+
+#: views/collections.py:45
+#, python-format
+msgid "Collection '%(object)s' created."
+msgstr "Kolekto '%(object)s' kreita."
+
+#: views/collections.py:71
+#, python-format
+msgid "Collection '%(object)s' updated."
+msgstr "Kolekto '%(object)s' ĝisdatigita."
+
+#: views/collections.py:72
+msgid "The collection could not be saved due to errors."
+msgstr "La kolekto ne povis esti konservita pro eraroj."
+
+#: views/collections.py:136
+#, python-format
+msgid "Collection '%(object)s' deleted."
+msgstr "Kolekto '%(object)s' forigita."
+
+#: views/collections.py:140
+msgid "Delete collection"
+msgstr "Forigi kolekton"
+
+#: views/collections.py:142
+msgid "Are you sure you want to delete this collection?"
+msgstr "Ĉu vi certas, ke vi volas forigi ĉi tiun kolekton?"
+
+#: views/generic/base.py:37
+msgid "Home"
+msgstr "Ĉefpaĝo"
+
+#: views/generic/base.py:455
+#, python-format
+msgid "No %(model_name)s match your query."
+msgstr "Neniu %(model_name)s kongruas kun via serĉo."
+
+#: views/generic/base.py:459
+#, python-format
+msgid "There are no %(model_name)s to display."
+msgstr "Ne estas %(model_name)s por montri."
+
+#: views/generic/history.py:103
+msgid "Live version"
+msgstr "Publikigita versio"
+
+#: views/generic/history.py:108
+msgid "Current draft"
+msgstr "Nuna malneto"
+
+#: views/generic/history.py:143
+msgid "Review this version"
+msgstr "Revizii ĉi tiun version"
+
+#: views/generic/history.py:163
+msgid "Compare with current version"
+msgstr "Kompari kun la nuna versio"
+
+#: views/generic/history.py:173 views/generic/mixins.py:739 views/pages/edit.py:456
+msgid "Cancel scheduled publish"
+msgstr "Nuligi planitan publikigon"
+
+#: views/generic/history.py:341 views/generic/history.py:461
+msgid "Workflow history"
+msgstr "Historio de laborfluo"
+
+#: views/generic/history.py:420
+msgid "Workflow progress"
+msgstr "Progreso de laborfluo"
+
+#: views/generic/history.py:482
+msgid "Edit / Review"
+msgstr "Redakti / Revizii"
+
+#: views/generic/lock.py:37
+#, python-format
+msgid "%(model_name)s '%(title)s' is now unlocked."
+msgstr "%(model_name)s '%(title)s' nun estas malŝlosita."
+
+#: views/generic/mixins.py:462 views/generic/models.py:819
+#, python-format
+msgid "%(model_name)s '%(object)s' updated."
+msgstr "%(model_name)s '%(object)s' ĝisdatigita."
+
+#: views/generic/mixins.py:464 views/generic/models.py:514
+#, python-format
+msgid "%(model_name)s '%(object)s' created."
+msgstr "%(model_name)s '%(object)s' kreita."
+
+#: views/generic/mixins.py:470
+#, python-format
+msgid "%(model_name)s '%(object)s' has been scheduled for publishing."
+msgstr "%(model_name)s '%(object)s' estis planita por publikigo."
+
+#: views/generic/mixins.py:475
+#, python-format
+msgid "%(model_name)s '%(object)s' created and scheduled for publishing."
+msgstr "%(model_name)s '%(object)s' kreita kaj planita por publikigo."
+
+#: views/generic/mixins.py:479
+#, python-format
+msgid "%(model_name)s '%(object)s' is live and this version has been scheduled for publishing."
+msgstr "%(model_name)s '%(object)s' estas publikigita kaj ĉi tiu versio estis planita por publikigo."
+
+#: views/generic/mixins.py:484
+#, python-format
+msgid "%(model_name)s '%(object)s' updated and published."
+msgstr "%(model_name)s '%(object)s' ĝisdatigita kaj publikigita."
+
+#: views/generic/mixins.py:486
+#, python-format
+msgid "%(model_name)s '%(object)s' created and published."
+msgstr "%(model_name)s '%(object)s' kreita kaj publikigita."
+
+#: views/generic/mixins.py:490
+#, python-format
+msgid "%(model_name)s '%(object)s' has been submitted for moderation."
+msgstr "%(model_name)s '%(object)s' estis sendita por moderigo."
+
+#: views/generic/mixins.py:495
+#, python-format
+msgid "%(model_name)s '%(object)s' created and submitted for moderation."
+msgstr "%(model_name)s '%(object)s' kreita kaj sendita por moderigo."
+
+#: views/generic/mixins.py:499
+#, python-format
+msgid "Workflow on %(model_name)s '%(object)s' has been restarted."
+msgstr "La laborfluo de %(model_name)s '%(object)s' estis rekomencita."
+
+#: views/generic/mixins.py:502
+#, python-format
+msgid "Workflow on %(model_name)s '%(object)s' has been cancelled."
+msgstr "La laborfluo de %(model_name)s '%(object)s' estis nuligita."
+
+#: views/generic/mixins.py:852 views/pages/edit.py:546
+msgid "Saving will overwrite a newer version."
+msgstr "Konservado anstataŭigos pli novan version."
+
+#: views/generic/mixins.py:859
+#, python-format
+msgid "The %(model_name)s could not be saved as it is locked"
+msgstr "La %(model_name)s ne povis esti konservita, ĉar ĝi estas ŝlosita"
+
+#: views/generic/mixins.py:868 views/pages/edit.py:993
+msgid "The workflow action could not be performed as the workflow state has changed."
+msgstr "La laborflua ago ne povis esti plenumita, ĉar la stato de la laborfluo ŝanĝiĝis."
+
+#: views/generic/mixins.py:907
+#, python-format
+msgid "You are viewing a previous version of this %(model_name)s from <b>%(created_at)s</b> by %(user)s"
+msgstr "Vi vidas antaŭan version de ĉi tiu %(model_name)s de <b>%(created_at)s</b> fare de %(user)s"
+
+#: views/generic/mixins.py:941
+#, python-format
+msgid "%(model_name)s '%(object)s' has been replaced with version from %(timestamp)s."
+msgstr "%(model_name)s '%(object)s' estis anstataŭigita per la versio de %(timestamp)s."
+
+#: views/generic/mixins.py:945
+#, python-format
+msgid "Version from %(timestamp)s of %(model_name)s '%(object)s' has been published."
+msgstr "La versio de %(timestamp)s de %(model_name)s '%(object)s' estis publikigita."
+
+#: views/generic/mixins.py:950
+#, python-format
+msgid "Version from %(timestamp)s of %(model_name)s '%(object)s' has been scheduled for publishing."
+msgstr "La versio de %(timestamp)s de %(model_name)s '%(object)s' estis planita por publikigo."
+
+#: views/generic/models.py:251
+#, python-format
+msgid "%(related_model_name)s %(field_label)s"
+msgstr "%(related_model_name)s %(field_label)s"
+
+#: views/generic/models.py:366
+msgid "Sort item order"
+msgstr "Ordigi elementojn"
+
+#: views/generic/models.py:394 views/generic/models.py:959 views/generic/models.py:1282
+msgid "Inspect"
+msgstr "Inspekti"
+
+#: views/generic/models.py:430 wagtail_hooks.py:243
+#, python-format
+msgid "More options for '%(title)s'"
+msgstr "Pliaj opcioj por '%(title)s'"
+
+#: views/generic/models.py:441
+#, python-format
+msgid "Add %(model_name)s"
+msgstr "Aldoni %(model_name)s"
+
+#: views/generic/models.py:516
+#, python-format
+msgid "The %(model_name)s could not be created due to errors."
+msgstr "La %(model_name)s ne povis esti kreita pro eraroj."
+
+#: views/generic/models.py:585 views/workflows.py:707
+#, python-format
+msgid "New: %(model_name)s"
+msgstr "Nova: %(model_name)s"
+
+#: views/generic/models.py:640 views/generic/models.py:1080 views/pages/create.py:436 views/pages/edit.py:1001
+msgid "There are validation errors, click save to highlight them."
+msgstr "Estas validigaj eraroj, alklaku \"Konservi\" por emfazi ilin."
+
+#: views/generic/models.py:813
+msgid "Editing"
+msgstr "Redaktado"
+
+#: views/generic/models.py:820
+#, python-format
+msgid "The %(model_name)s could not be saved due to errors."
+msgstr "La %(model_name)s ne povis esti konservita pro eraroj."
+
+#: views/generic/models.py:1167
+#, python-format
+msgid "%(model_name)s '%(object)s' deleted."
+msgstr "%(model_name)s '%(object)s' forigita."
+
+#: views/generic/models.py:1236
+#, python-format
+msgid "Are you sure you want to delete this %(model_name)s?"
+msgstr "Ĉu vi certas, ke vi volas forigi ĉi tiun %(model_name)s?"
+
+#: views/generic/models.py:1422
+msgid "Compare"
+msgstr "Kompari"
+
+#: views/generic/models.py:1495
+msgid "Earliest"
+msgstr "Plej frua"
+
+#: views/generic/models.py:1498
+msgid "Latest"
+msgstr "Plej lasta"
+
+#: views/generic/models.py:1558
+#, python-format
+msgid "'%(object)s' unpublished."
+msgstr "'%(object)s' malpublikigita."
+
+#: views/generic/models.py:1667
+#, python-format
+msgid "Version %(revision_id)s of \"%(object)s\" unscheduled."
+msgstr "Planado de versio %(revision_id)s de \"%(object)s\" nuligita."
+
+#: views/generic/models.py:1670
+msgid "Unschedule"
+msgstr "Malplani"
+
+#: views/generic/models.py:1728
+#, python-format
+msgid "revision %(revision_id)s of \"%(object)s\""
+msgstr "revizio %(revision_id)s de \"%(object)s\""
+
+#: views/generic/preview.py:204
+#, python-format
+msgid "Preview for %(block_label)s (%(block_type)s)"
+msgstr "Antaŭvido de %(block_label)s (%(block_type)s)"
+
+#: views/generic/usage.py:117
+msgid "If you confirm deletion"
+msgstr "Se vi konfirmas la forigon"
+
+#: views/generic/usage.py:119
+msgid "Field"
+msgstr "Kampo"
+
+#: views/generic/usage.py:133
+#, python-format
+msgid "(Private %(object)s)"
+msgstr "(Privata %(object)s)"
+
+#: views/generic/usage.py:139
+#, python-format
+msgid "Edit this %(object)s"
+msgstr "Redakti ĉi tiun elementon (%(object)s)"
+
+#: views/generic/workflow.py:58
+#, python-format
+msgid "The %(model_name)s '%(title)s' is not currently awaiting moderation."
+msgstr "La %(model_name)s '%(title)s' nuntempe ne atendas moderigon."
+
+#: views/generic/workflow.py:249
+#, python-format
+msgid "The %(model_name)s '%(title)s' is not currently awaiting moderation in task '%(task_name)s'."
+msgstr "La %(model_name)s '%(title)s' nuntempe ne atendas moderigon en la tasko '%(task_name)s'."
+
+#: views/home.py:300
+msgid "Dashboard"
+msgstr "Panelo"
+
+#: views/home.py:316
+msgid "Search all pages…"
+msgstr "Serĉi en ĉiuj paĝoj…"
+
+#: views/page_privacy.py:59
+#, python-format
+msgid "Privacy is inherited from the ancestor page - %(ancestor_page)s"
+msgstr "La privateco estas heredita de la praula paĝo - %(ancestor_page)s"
+
+#: views/pages/bulk_actions/delete.py:14
+msgid "Delete selected pages"
+msgstr "Forigi elektitajn paĝojn"
+
+#. Translators: This forms a message such as "1 page and 3 child pages have been deleted"
+#: views/pages/bulk_actions/delete.py:70
+#, python-format
+msgid "%(parent_pages)s and %(child_pages)s have been deleted"
+msgstr "%(parent_pages)s kaj %(child_pages)s estis forigitaj"
+
+#: views/pages/bulk_actions/delete.py:76
+#, python-format
+msgid "%(num_parent_objects)d page has been deleted"
+msgid_plural "%(num_parent_objects)d pages have been deleted"
+msgstr[0] "%(num_parent_objects)d paĝo estis forigita"
+msgstr[1] "%(num_parent_objects)d paĝoj estis forigitaj"
+
+#: views/pages/bulk_actions/move.py:28
+msgid "Select a new parent page"
+msgstr "Elekti novan patran paĝon"
+
+#: views/pages/bulk_actions/move.py:35
+msgid "Move selected pages"
+msgstr "Movi elektitajn paĝojn"
+
+#: views/pages/bulk_actions/move.py:58
+#, python-format
+msgid "%(num_pages)d page has been moved"
+msgid_plural "%(num_pages)d pages have been moved"
+msgstr[0] "%(num_pages)d paĝo estis movita"
+msgstr[1] "%(num_pages)d paĝoj estis movitaj"
+
+#: views/pages/bulk_actions/page_bulk_action.py:65
+#, python-format
+msgid "%(num_parent_objects)d page"
+msgid_plural "%(num_parent_objects)d pages"
+msgstr[0] "%(num_parent_objects)d paĝo"
+msgstr[1] "%(num_parent_objects)d paĝoj"
+
+#: views/pages/bulk_actions/page_bulk_action.py:73
+#, python-format
+msgid "%(num_child_objects)d child page"
+msgid_plural "%(num_child_objects)d child pages"
+msgstr[0] "%(num_child_objects)d subpaĝo"
+msgstr[1] "%(num_child_objects)d subpaĝoj"
+
+#: views/pages/bulk_actions/publish.py:10
+msgid "Publish selected pages"
+msgstr "Publikigi elektitajn paĝojn"
+
+#. Translators: This forms a message such as "1 page and 3 child pages have been published"
+#: views/pages/bulk_actions/publish.py:76
+#, python-format
+msgid "%(parent_pages)s and %(child_pages)s have been published"
+msgstr "%(parent_pages)s kaj %(child_pages)s estis publikigitaj"
+
+#: views/pages/bulk_actions/publish.py:82
+#, python-format
+msgid "%(num_parent_objects)d page has been published"
+msgid_plural "%(num_parent_objects)d pages have been published"
+msgstr[0] "%(num_parent_objects)d paĝo estis publikigita"
+msgstr[1] "%(num_parent_objects)d paĝoj estis publikigitaj"
+
+#: views/pages/bulk_actions/unpublish.py:10
+msgid "Unpublish selected pages"
+msgstr "Malpublikigi elektitajn paĝojn"
+
+#. Translators: This forms a message such as "1 page and 3 child pages have been unpublished"
+#: views/pages/bulk_actions/unpublish.py:70
+#, python-format
+msgid "%(parent_pages)s and %(child_pages)s have been unpublished"
+msgstr "%(parent_pages)s kaj %(child_pages)s estis malpublikigitaj"
+
+#: views/pages/bulk_actions/unpublish.py:76
+#, python-format
+msgid "%(num_parent_objects)d page has been unpublished"
+msgid_plural "%(num_parent_objects)d pages have been unpublished"
+msgstr[0] "%(num_parent_objects)d paĝo estis malpublikigita"
+msgstr[1] "%(num_parent_objects)d paĝoj estis malpublikigitaj"
+
+#: views/pages/choose_parent.py:24
+msgid "Choose parent"
+msgstr "Elekti patran paĝon"
+
+#: views/pages/choose_parent.py:128
+#, python-format
+msgid "Create a new %(model_name)s"
+msgstr "Krei novan %(model_name)s"
+
+#: views/pages/convert_alias.py:42
+#, python-format
+msgid "Page '%(page_title)s' has been converted into an ordinary page."
+msgstr "La paĝo '%(page_title)s' estis konvertita al ordinara paĝo."
+
+#: views/pages/copy.py:97
+#, python-format
+msgid "Page '%(page_title)s' and %(subpages_count)s subpages copied."
+msgstr "La paĝo '%(page_title)s' kaj %(subpages_count)s subpaĝoj kopiitaj."
+
+#: views/pages/copy.py:107
+#, python-format
+msgid "Page '%(page_title)s' copied."
+msgstr "La paĝo '%(page_title)s' kopiita."
+
+#: views/pages/create.py:130
+#, python-format
+msgid "Request to create %(model_name)s was blocked by hook."
+msgstr "La peto krei %(model_name)s estis blokita de hoko."
+
+#: views/pages/create.py:227 views/pages/edit.py:311 wagtail_hooks.py:260
+msgid "View draft"
+msgstr "Vidi malneton"
+
+#: views/pages/create.py:232 views/pages/edit.py:316 wagtail_hooks.py:270
+msgid "View live"
+msgstr "Vidi publikigitan"
+
+#: views/pages/create.py:288
+#, python-format
+msgid "Page '%(page_title)s' created."
+msgstr "La paĝo '%(page_title)s' kreita."
+
+#: views/pages/create.py:354
+#, python-format
+msgid "Page '%(page_title)s' created and scheduled for publishing."
+msgstr "La paĝo '%(page_title)s' kreita kaj planita por publikigo."
+
+#: views/pages/create.py:365
+#, python-format
+msgid "Page '%(page_title)s' created and published."
+msgstr "La paĝo '%(page_title)s' kreita kaj publikigita."
+
+#: views/pages/create.py:406
+#, python-format
+msgid "Page '%(page_title)s' created and submitted for moderation."
+msgstr "La paĝo '%(page_title)s' kreita kaj sendita por moderigo."
+
+#: views/pages/create.py:441
+msgid "The page could not be created due to validation errors."
+msgstr "La paĝo ne povis esti kreita pro validigaj eraroj."
+
+#: views/pages/delete.py:79
+#, python-format
+msgid "Page '%(page_title)s' deleted."
+msgstr "La paĝo '%(page_title)s' forigita."
+
+#: views/pages/edit.py:60
+#, python-format
+msgid "Editing %(page_type)s"
+msgstr "Redaktado de %(page_type)s"
+
+#: views/pages/edit.py:78
+#, python-format
+msgid "Page '%(page_title)s' has been replaced with version from %(previous_revision_datetime)s."
+msgstr "La paĝo '%(page_title)s' estis anstataŭigita per la versio de %(previous_revision_datetime)s."
+
+#: views/pages/edit.py:87
+#, python-format
+msgid "Page '%(page_title)s' has been updated."
+msgstr "La paĝo '%(page_title)s' estis ĝisdatigita."
+
+#: views/pages/edit.py:388
+#, python-format
+msgid "Request to edit %(model_name)s was blocked by hook."
+msgstr "La peto redakti %(model_name)s estis blokita de hoko."
+
+#: views/pages/edit.py:477
+#, python-format
+msgid "Workflow on page '%(page_title)s' has been cancelled."
+msgstr "La laborfluo de la paĝo '%(page_title)s' estis nuligita."
+
+#: views/pages/edit.py:748
+#, python-format
+msgid "Version from %(previous_revision_datetime)s of page '%(page_title)s' has been scheduled for publishing."
+msgstr "La versio de %(previous_revision_datetime)s de la paĝo '%(page_title)s' estis planita por publikigo."
+
+#: views/pages/edit.py:759
+#, python-format
+msgid "Page '%(page_title)s' is live and this version has been scheduled for publishing."
+msgstr "La paĝo '%(page_title)s' estas publikigita kaj ĉi tiu versio estis planita por publikigo."
+
+#: views/pages/edit.py:764
+#, python-format
+msgid "Page '%(page_title)s' has been scheduled for publishing."
+msgstr "La paĝo '%(page_title)s' estis planita por publikigo."
+
+#: views/pages/edit.py:776
+#, python-format
+msgid "Version from %(datetime)s of page '%(page_title)s' has been published."
+msgstr "La versio de %(datetime)s de la paĝo '%(page_title)s' estis publikigita."
+
+#: views/pages/edit.py:782
+#, python-format
+msgid "Page '%(page_title)s' has been published."
+msgstr "La paĝo '%(page_title)s' estis publikigita."
+
+#: views/pages/edit.py:826
+#, python-format
+msgid "Page '%(page_title)s' has been submitted for moderation."
+msgstr "La paĝo '%(page_title)s' estis sendita por moderigo."
+
+#: views/pages/edit.py:868
+#, python-format
+msgid "Workflow on page '%(page_title)s' has been restarted."
+msgstr "La laborfluo de la paĝo '%(page_title)s' estis rekomencita."
+
+#: views/pages/edit.py:983 views/pages/edit.py:987
+msgid "The page could not be saved as it is locked."
+msgstr "La paĝo ne povis esti konservita, ĉar ĝi estas ŝlosita."
+
+#: views/pages/edit.py:1006
+msgid "The page could not be saved due to validation errors."
+msgstr "La paĝo ne povis esti konservita pro validigaj eraroj."
+
+#: views/pages/history.py:20
+msgid "Is commenting action"
+msgstr "Estas komenta ago"
+
+#: views/pages/listing.py:77
+msgid "Date updated"
+msgstr "Dato de ĝisdatigo"
+
+#: views/pages/listing.py:81
+msgid "Owner"
+msgstr "Posedanto"
+
+#: views/pages/listing.py:92
+msgid "Edited by"
+msgstr "Redaktita de"
+
+#: views/pages/listing.py:104 views/reports/page_types_usage.py:79
+msgid "Site"
+msgstr "Retejo"
+
+#: views/pages/listing.py:109
+msgid "Has child pages"
+msgstr "Havas subpaĝojn"
+
+#: views/pages/listing.py:110
+msgid "Any"
+msgstr "Ajna"
+
+#: views/pages/listing.py:112 views/workflows.py:83 widgets/boolean_radio_select.py:15
+msgid "Yes"
+msgstr "Jes"
+
+#: views/pages/listing.py:125
+msgid "Page type"
+msgstr "Paĝotipo"
+
+#: views/pages/listing.py:330
+msgid "Exploring"
+msgstr "Esplorado"
+
+#: views/pages/listing.py:331 wagtail_hooks.py:279
+msgid "Add child page"
+msgstr "Aldoni subpaĝon"
+
+#: views/pages/lock.py:38
+#, python-format
+msgid "Page '%(page_title)s' is now unlocked."
+msgstr "La paĝo '%(page_title)s' nun estas malŝlosita."
+
+#: views/pages/move.py:80
+#, python-format
+msgid "The slug '%(page_slug)s' is already in use at the selected parent page. Make sure the slug is unique and try again."
+msgstr "La URL-ero '%(page_slug)s' jam estas uzata ĉe la elektita patra paĝo. Certigu, ke la URL-ero estas unika, kaj reprovu."
+
+#: views/pages/move.py:146
+#, python-format
+msgid "Page '%(page_title)s' moved."
+msgstr "La paĝo '%(page_title)s' movita."
+
+#: views/pages/preview.py:58
+msgid "Placeholder title"
+msgstr "Lokokupa titolo"
+
+#: views/pages/revisions.py:68
+#, python-format
+msgid "You are viewing a previous version of this page from <b>%(created_at)s</b> by %(user)s"
+msgstr "Vi vidas antaŭan version de ĉi tiu paĝo de <b>%(created_at)s</b> fare de %(user)s"
+
+#: views/pages/unpublish.py:22
+#, python-format
+msgid "Page '%(page_title)s' unpublished."
+msgstr "La paĝo '%(page_title)s' malpublikigita."
+
+#: views/pages/usage.py:21
+msgid "Pages using"
+msgstr "Paĝoj uzantaj"
+
+#: views/pages/usage.py:77 views/reports/page_types_usage.py:104 wagtail_hooks.py:949
+msgid "Page types usage"
+msgstr "Uzado de paĝotipoj"
+
+#: views/pages/workflow.py:19
+#, python-format
+msgid "The page '%(page_title)s' is not currently awaiting moderation."
+msgstr "La paĝo '%(page_title)s' nuntempe ne atendas moderigon."
+
+#: views/pages/workflow.py:52
+#, python-format
+msgid "The page '%(page_title)s' is not currently awaiting moderation in task '%(task_name)s'."
+msgstr "La paĝo '%(page_title)s' nuntempe ne atendas moderigon en la tasko '%(task_name)s'."
+
+#: views/reports/aging_pages.py:21
+msgid "Last published before"
+msgstr "Laste publikigita antaŭ"
+
+#: views/reports/aging_pages.py:35 wagtail_hooks.py:938
+msgid "Aging pages"
+msgstr "Malnoviĝantaj paĝoj"
+
+#: views/reports/aging_pages.py:42
+msgid "Last published at"
+msgstr "Laste publikigita je"
+
+#: views/reports/audit_logging.py:77 wagtail_hooks.py:927
+msgid "Site history"
+msgstr "Reteja historio"
+
+#: views/reports/audit_logging.py:84
+msgid "ID"
+msgstr "ID"
+
+#: views/reports/audit_logging.py:87
+msgid "Action type"
+msgstr "Tipo de ago"
+
+#: views/reports/audit_logging.py:89
+msgid "Date/Time"
+msgstr "Dato/horo"
+
+#: views/reports/locked_pages.py:31
+msgid "Locked by"
+msgstr "Ŝlosita de"
+
+#: views/reports/locked_pages.py:32
+msgid "Anyone"
+msgstr "Iu ajn"
+
+#: views/reports/locked_pages.py:44 wagtail_hooks.py:894
+msgid "Locked pages"
+msgstr "Ŝlositaj paĝoj"
+
+#: views/reports/workflows.py:69 views/reports/workflows.py:115
+msgid "Show"
+msgstr "Montri"
+
+#: views/reports/workflows.py:71 views/reports/workflows.py:117
+msgid "Awaiting my review"
+msgstr "Atendantaj mian revizion"
+
+#: views/reports/workflows.py:145 views/workflows.py:118 views/workflows.py:654 wagtail_hooks.py:214 wagtail_hooks.py:905
+msgid "Workflows"
+msgstr "Laborfluoj"
+
+#: views/reports/workflows.py:153 views/reports/workflows.py:237
+msgid "Page/Snippet ID"
+msgstr "ID de paĝo/fragmento"
+
+#: views/reports/workflows.py:154 views/reports/workflows.py:238
+msgid "Page/Snippet Type"
+msgstr "Paĝotipo/fragmento"
+
+#: views/reports/workflows.py:155 views/reports/workflows.py:239
+msgid "Page/Snippet Title"
+msgstr "Titolo de paĝo/fragmento"
+
+#: views/reports/workflows.py:192
+msgid "By task"
+msgstr "Laŭ tasko"
+
+#: views/reports/workflows.py:229 views/workflows.py:581 wagtail_hooks.py:225 wagtail_hooks.py:916
+msgid "Workflow tasks"
+msgstr "Laborfluaj taskoj"
+
+#: views/reports/workflows.py:241
+msgid "Requested By"
+msgstr "Petita de"
+
+#: views/reports/workflows.py:278
+msgid "By workflow"
+msgstr "Laŭ laborfluo"
+
+#: views/workflows.py:81
+msgid "Show disabled"
+msgstr "Montri malŝaltitajn"
+
+#: views/workflows.py:119
+msgid "Add a workflow"
+msgstr "Aldoni laborfluon"
+
+#: views/workflows.py:131
+msgid "Used by"
+msgstr "Uzata de"
+
+#: views/workflows.py:163
+msgid "New workflow"
+msgstr "Nova laborfluo"
+
+#: views/workflows.py:165
+#, python-format
+msgid "Workflow '%(object)s' created."
+msgstr "Laborfluo '%(object)s' kreita."
+
+#: views/workflows.py:254
+msgid "Editing workflow"
+msgstr "Redaktado de laborfluo"
+
+#: views/workflows.py:256
+#, python-format
+msgid "Workflow '%(object)s' updated."
+msgstr "Laborfluo '%(object)s' ĝisdatigita."
+
+#: views/workflows.py:260 views/workflows.py:721
+msgid "Disable"
+msgstr "Malŝalti"
+
+#: views/workflows.py:262 views/workflows.py:722
+msgid "Enable"
+msgstr "Ŝalti"
+
+#: views/workflows.py:380
+msgid "Disable workflow"
+msgstr "Malŝalti laborfluon"
+
+#: views/workflows.py:382
+#, python-format
+msgid "Workflow '%(object)s' disabled."
+msgstr "Laborfluo '%(object)s' malŝaltita."
+
+#: views/workflows.py:400
+#, python-format
+msgid "This workflow is in progress on %(states_in_progress)d page/snippet. Disabling this workflow will cancel moderation on this page/snippet."
+msgid_plural "This workflow is in progress on %(states_in_progress)d pages/snippets. Disabling this workflow will cancel moderation on these pages/snippets."
+msgstr[0] "Ĉi tiu laborfluo estas en progreso ĉe %(states_in_progress)d paĝo/fragmento. Malŝalto de ĉi tiu laborfluo nuligos la moderigon de ĉi tiu paĝo/fragmento."
+msgstr[1] "Ĉi tiu laborfluo estas en progreso ĉe %(states_in_progress)d paĝoj/fragmentoj. Malŝalto de ĉi tiu laborfluo nuligos la moderigon de ĉi tiuj paĝoj/fragmentoj."
+
+#: views/workflows.py:497
+#, python-format
+msgid "Workflow '%(workflow_name)s' enabled."
+msgstr "Laborfluo '%(workflow_name)s' ŝaltita."
+
+#: views/workflows.py:530
+#, python-format
+msgid "Workflow removed from Page '%(page_title)s'."
+msgstr "Laborfluo forigita de la paĝo '%(page_title)s'."
+
+#: views/workflows.py:582 views/workflows.py:660
+msgid "New workflow task"
+msgstr "Nova laborflua tasko"
+
+#: views/workflows.py:662
+#, python-format
+msgid "Task '%(object)s' created."
+msgstr "Tasko '%(object)s' kreita."
+
+#: views/workflows.py:716
+#, python-format
+msgid "Task '%(object)s' updated."
+msgstr "Tasko '%(object)s' ĝisdatigita."
+
+#: views/workflows.py:733
+#, python-format
+msgid "Editing %(task_type)s"
+msgstr "Redaktado de %(task_type)s"
+
+#: views/workflows.py:779
+msgid "Disable task"
+msgstr "Malŝalti taskon"
+
+#: views/workflows.py:781
+#, python-format
+msgid "Task '%(object)s' disabled."
+msgstr "Tasko '%(object)s' malŝaltita."
+
+#: views/workflows.py:795
+#, python-format
+msgid "This task is in progress on %(states_in_progress)d page/snippet. Disabling this task will cause it to be skipped in the moderation workflow and not be listed for selection when editing a workflow."
+msgid_plural "This task is in progress on %(states_in_progress)d pages/snippets. Disabling this task will cause it to be skipped in the moderation workflow and not be listed for selection when editing a workflow."
+msgstr[0] "Ĉi tiu tasko estas en progreso ĉe %(states_in_progress)d paĝo/fragmento. Se vi malŝaltos ĉi tiun taskon, ĝi estos preterlasita en la moderiga laborfluo kaj ne plu estos elektebla dum redaktado de laborfluo."
+msgstr[1] "Ĉi tiu tasko estas en progreso ĉe %(states_in_progress)d paĝoj/fragmentoj. Se vi malŝaltos ĉi tiun taskon, ĝi estos preterlasita en la moderiga laborfluo kaj ne plu estos elektebla dum redaktado de laborfluo."
+
+#: views/workflows.py:825
+#, python-format
+msgid "Task '%(task_name)s' enabled."
+msgstr "Tasko '%(task_name)s' ŝaltita."
+
+#: viewsets/chooser.py:32
+msgid "Choose another"
+msgstr "Elekti alian"
+
+#: wagtail_hooks.py:352
+msgid "Sort menu order"
+msgstr "Ordigi menuan ordon"
+
+#: wagtail_hooks.py:484
+msgid "Heading 1"
+msgstr "Titolo 1"
+
+#: wagtail_hooks.py:505
+msgid "Heading 2"
+msgstr "Titolo 2"
+
+#: wagtail_hooks.py:526
+msgid "Heading 3"
+msgstr "Titolo 3"
+
+#: wagtail_hooks.py:547
+msgid "Heading 4"
+msgstr "Titolo 4"
+
+#: wagtail_hooks.py:568
+msgid "Heading 5"
+msgstr "Titolo 5"
+
+#: wagtail_hooks.py:589
+msgid "Heading 6"
+msgstr "Titolo 6"
+
+#: wagtail_hooks.py:610
+msgid "Bulleted list"
+msgstr "Bula listo"
+
+#: wagtail_hooks.py:634
+msgid "Numbered list"
+msgstr "Numerita listo"
+
+#: wagtail_hooks.py:658
+msgid "Blockquote"
+msgstr "Citaĵo"
+
+#: wagtail_hooks.py:725
+msgid "Link"
+msgstr "Ligilo"
+
+#: wagtail_hooks.py:814
+msgid "Strikethrough"
+msgstr "Trastrekita"
+
+#: wagtail_hooks.py:835
+msgid "Code"
+msgstr "Kodo"
+
+#: wagtail_hooks.py:960
+msgid "Reports"
+msgstr "Raportoj"
+
+#: wagtail_hooks.py:972
+#, python-format
+msgid "What's new in Wagtail %(version)s"
+msgstr "Novaĵoj en Wagtail %(version)s"
+
+#: wagtail_hooks.py:984
+msgid "Editor Guide"
+msgstr "Gvidilo por redaktantoj"
+
+#: wagtail_hooks.py:1001
+msgid "Shortcuts"
+msgstr "Klavkombinoj"
+
+#: wagtail_hooks.py:1019
+msgid "Help"
+msgstr "Helpo"
+
+#: widgets/chooser.py:22
+msgid "Choose an item"
+msgstr "Elekti elementon"
+
+#: widgets/chooser.py:23
+msgid "Choose another item"
+msgstr "Elekti alian elementon"
+
+#: widgets/chooser.py:24
+msgid "Clear choice"
+msgstr "Vakigi elekton"
+
+#: widgets/chooser.py:223
+msgid "Choose another page"
+msgstr "Elekti alian paĝon"
+
+#: widgets/tags.py:50
+msgid "Multi-word tags with spaces will automatically be enclosed in double quotes (\")."
+msgstr "Plurvortaj etikedoj kun spacetoj aŭtomate estos ĉirkaŭitaj de duoblaj citiloj (\")."
+
+#: widgets/tags.py:53
+msgid "Tags can only consist of a single word, no spaces allowed."
+msgstr "Etikedoj povas konsisti nur el unu vorto, spacetoj ne estas permesataj."
+
+#: widgets/workflows.py:13
+msgid "Choose another task"
+msgstr "Elekti alian taskon"
+
+#: widgets/workflows.py:14
+msgid "Edit this task"
+msgstr "Redakti ĉi tiun taskon"

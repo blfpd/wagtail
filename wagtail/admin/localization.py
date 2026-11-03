@@ -17,6 +17,7 @@ WAGTAILADMIN_PROVIDED_LANGUAGES = [
     ("de", "German"),
     ("el", "Greek"),
     ("en", "English"),
+    ("eo", "Esperanto"),
     ("es", "Spanish"),
     ("et", "Estonian"),
     ("fi", "Finnish"),

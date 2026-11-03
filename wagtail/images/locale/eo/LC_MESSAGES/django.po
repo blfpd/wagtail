@@ -1,0 +1,690 @@
+# Esperanto translation of Wagtail.
+#
+# Translators:
+# Baptiste Darthenay <baptiste@ikso.net>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-21 12:43+0100\n"
+"PO-Revision-Date: 2026-10-21 12:43+0100\n"
+"Last-Translator: Baptiste Darthenay <baptiste@ikso.net>\n"
+"Language-Team: Esperanto\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:11
+msgid "Wagtail images"
+msgstr "Wagtail-bildoj"
+
+#: blocks.py:72 blocks.py:83 forms.py:190
+msgid "Image is decorative"
+msgstr "La bildo estas ornama"
+
+#: blocks.py:74 blocks.py:86 forms.py:192
+msgid "Alt text"
+msgstr "Alternativa teksto"
+
+#: blocks.py:200 forms.py:205
+msgid "Please add some alt text for your image or mark it as decorative"
+msgstr "Bonvolu aldoni alternativan tekston por via bildo aŭ marki ĝin kiel ornaman"
+
+#: fields.py:49
+#, python-format
+msgid "Supported formats: %(supported_formats)s. Maximum filesize: %(max_upload_size)s."
+msgstr "Subtenataj formatoj: %(supported_formats)s. Maksimuma dosiergrandeco: %(max_upload_size)s."
+
+#: fields.py:55
+#, python-format
+msgid "Supported formats: %(supported_formats)s."
+msgstr "Subtenataj formatoj: %(supported_formats)s."
+
+#: fields.py:63
+#, python-format
+msgid "Not a supported image format. Supported formats: %(supported_formats)s."
+msgstr "Ne subtenata bildformato. Subtenataj formatoj: %(supported_formats)s."
+
+#: fields.py:67
+#, python-format
+msgid "Not a valid .%(extension)s image. The extension does not match the file format (%(image_format)s)"
+msgstr "Ne valida .%(extension)s-bildo. La sufikso ne kongruas kun la dosierformato (%(image_format)s)"
+
+#: fields.py:71
+#, python-format
+msgid "This file is too big (%(file_size)s). Maximum filesize %(max_filesize)s."
+msgstr "Ĉi tiu dosiero estas tro granda (%(file_size)s). Maksimuma dosiergrandeco: %(max_filesize)s."
+
+#: fields.py:75
+#, python-format
+msgid "This file has too many pixels (%(num_pixels)s). Maximum pixels %(max_pixels_count)s."
+msgstr "Ĉi tiu dosiero havas tro multajn rastrumerojn (%(num_pixels)s). Maksimuma nombro de rastrumeroj: %(max_pixels_count)s."
+
+#: fields.py:79
+#, python-format
+msgid "This file is too big. Maximum filesize %(max_filesize)s."
+msgstr "Ĉi tiu dosiero estas tro granda. Maksimuma dosiergrandeco: %(max_filesize)s."
+
+#: fields.py:138
+msgid "unknown number"
+msgstr "nekonata nombro"
+
+#: formats.py:101
+msgid "Full width"
+msgstr "Plena larĝo"
+
+#: formats.py:104
+msgid "Left-aligned"
+msgstr "Ĝisrandigita maldekstre"
+
+#: formats.py:107
+msgid "Right-aligned"
+msgstr "Ĝisrandigita dekstre"
+
+#: forms.py:34 views/bulk_actions/add_to_collection.py:16 views/chooser.py:176 views/images.py:198
+msgid "Collection"
+msgstr "Kolekto"
+
+#: forms.py:185
+msgid "Format"
+msgstr "Formato"
+
+#: forms.py:213
+msgid "Original size"
+msgstr "Originala grandeco"
+
+#: forms.py:214
+msgid "Resize to width"
+msgstr "Regrandigi laŭ larĝo"
+
+#: forms.py:215
+msgid "Resize to height"
+msgstr "Regrandigi laŭ alto"
+
+#: forms.py:216
+msgid "Resize to min"
+msgstr "Regrandigi laŭ minimumo"
+
+#: forms.py:217
+msgid "Resize to max"
+msgstr "Regrandigi laŭ maksimumo"
+
+#: forms.py:218
+msgid "Resize to fill"
+msgstr "Regrandigi por plenigi"
+
+#: forms.py:220
+msgid "Filter"
+msgstr "Filtrilo"
+
+#: forms.py:222
+msgid "Width"
+msgstr "Larĝo"
+
+#: forms.py:235
+msgid "Height"
+msgstr "Alto"
+
+#: forms.py:248
+msgid "Closeness"
+msgstr "Proksimeco"
+
+#: forms.py:265
+msgid "Add"
+msgstr "Aldoni"
+
+#: forms.py:265
+msgid "Add/edit images you own"
+msgstr "Aldoni/redakti viajn proprajn bildojn"
+
+#: forms.py:266
+msgid "Edit"
+msgstr "Redakti"
+
+#: forms.py:266
+msgid "Edit any image"
+msgstr "Redakti ajnan bildon"
+
+#: forms.py:267
+msgid "Choose"
+msgstr "Elekti"
+
+#: forms.py:267
+msgid "Select images in choosers"
+msgstr "Elekti bildojn en elektiloj"
+
+#: models.py:261
+msgid "title"
+msgstr "titolo"
+
+#: models.py:264
+msgid "file"
+msgstr "dosiero"
+
+#: models.py:272
+msgid "description"
+msgstr "priskribo"
+
+#: models.py:275
+msgid "width"
+msgstr "larĝo"
+
+#: models.py:276
+msgid "height"
+msgstr "alto"
+
+#: models.py:278
+msgid "created at"
+msgstr "kreita je"
+
+#: models.py:282
+msgid "uploaded by user"
+msgstr "alŝutita de uzanto"
+
+#: models.py:290
+msgid "tags"
+msgstr "etikedoj"
+
+#: models.py:945
+msgid "image"
+msgstr "bildo"
+
+#: models.py:946
+msgid "images"
+msgstr "bildoj"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_add_tags.html:6
+#, python-format
+msgid "Add tags to 1 image"
+msgid_plural "Add tags to %(counter)s images"
+msgstr[0] "Aldoni etikedojn al 1 bildo"
+msgstr[1] "Aldoni etikedojn al %(counter)s bildoj"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_add_tags.html:11
+msgid "Add tags to images"
+msgstr "Aldoni etikedojn al bildoj"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_add_tags.html:18
+msgid "Are you sure you want to tag the following image?"
+msgid_plural "Are you sure you want to tag the following images?"
+msgstr[0] "Ĉu vi certe volas etikedi la jenan bildon?"
+msgstr[1] "Ĉu vi certe volas etikedi la jenajn bildojn?"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_add_tags.html:36
+msgid "You don't have permission to add tags to this image"
+msgid_plural "You don't have permission to add tags to these images"
+msgstr[0] "Vi ne havas permeson aldoni etikedojn al ĉi tiu bildo"
+msgstr[1] "Vi ne havas permeson aldoni etikedojn al ĉi tiuj bildoj"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_add_tags.html:43 templates/wagtailimages/bulk_actions/confirm_bulk_add_to_collection.html:43
+msgid "Yes, add"
+msgstr "Jes, aldoni"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_add_tags.html:44 templates/wagtailimages/bulk_actions/confirm_bulk_add_to_collection.html:44
+msgid "No, don't add"
+msgstr "Ne, ne aldoni"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_add_to_collection.html:6
+#, python-format
+msgid "Add 1 image to new collection"
+msgid_plural "Add %(counter)s images to new collection"
+msgstr[0] "Aldoni 1 bildon al nova kolekto"
+msgstr[1] "Aldoni %(counter)s bildojn al nova kolekto"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_add_to_collection.html:11
+msgid "Add images to collection"
+msgstr "Aldoni bildojn al kolekto"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_add_to_collection.html:18
+msgid "Are you sure you want to add the following image to the selected collection?"
+msgid_plural "Are you sure you want to add the following images to the selected collection?"
+msgstr[0] "Ĉu vi certe volas aldoni la jenan bildon al la elektita kolekto?"
+msgstr[1] "Ĉu vi certe volas aldoni la jenajn bildojn al la elektita kolekto?"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_add_to_collection.html:36
+msgid "You don't have permission to add this image to a collection"
+msgid_plural "You don't have permission to add these images to a collection"
+msgstr[0] "Vi ne havas permeson aldoni ĉi tiun bildon al kolekto"
+msgstr[1] "Vi ne havas permeson aldoni ĉi tiujn bildojn al kolekto"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_delete.html:5
+#, python-format
+msgid "Delete 1 image"
+msgid_plural "Delete %(counter)s images"
+msgstr[0] "Forigi 1 bildon"
+msgstr[1] "Forigi %(counter)s bildojn"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_delete.html:10
+msgid "Delete images"
+msgstr "Forigi bildojn"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_delete.html:18 views/images.py:487
+msgid "Are you sure you want to delete this image?"
+msgid_plural "Are you sure you want to delete these images?"
+msgstr[0] "Ĉu vi certe volas forigi ĉi tiun bildon?"
+msgstr[1] "Ĉu vi certe volas forigi ĉi tiujn bildojn?"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_delete.html:41
+msgid "You don't have permission to delete this image"
+msgid_plural "You don't have permission to delete these images"
+msgstr[0] "Vi ne havas permeson forigi ĉi tiun bildon"
+msgstr[1] "Vi ne havas permeson forigi ĉi tiujn bildojn"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_delete.html:48 templates/wagtailimages/images/confirm_delete.html:16
+msgid "Yes, delete"
+msgstr "Jes, forigi"
+
+#: templates/wagtailimages/bulk_actions/confirm_bulk_delete.html:49 templates/wagtailimages/images/confirm_delete.html:17
+msgid "No, don't delete"
+msgstr "Ne, ne forigi"
+
+#: templates/wagtailimages/chooser/chooser.html:13
+msgid "Popular tags"
+msgstr "Popularaj etikedoj"
+
+#: templates/wagtailimages/chooser/chooser.html:21
+msgid "Layout"
+msgstr "Aranĝo"
+
+#: templates/wagtailimages/chooser/confirm_duplicate_upload.html:6
+msgid "Upload successful. However, your new image seems to be a duplicate of an existing image. You may delete it if it wasn't required."
+msgstr "Alŝuto sukcesis. Tamen via nova bildo ŝajnas esti duoblaĵo de ekzistanta bildo. Vi povas forigi ĝin, se ĝi ne estis bezonata."
+
+#: templates/wagtailimages/chooser/confirm_duplicate_upload.html:10
+msgid "Existing"
+msgstr "Ekzistanta"
+
+#: templates/wagtailimages/chooser/confirm_duplicate_upload.html:15
+msgid "New"
+msgstr "Nova"
+
+#: templates/wagtailimages/chooser/confirm_duplicate_upload.html:22
+msgid "Use new image"
+msgstr "Uzi la novan bildon"
+
+#: templates/wagtailimages/chooser/confirm_duplicate_upload.html:32
+msgid "Use existing and delete new"
+msgstr "Uzi la ekzistantan kaj forigi la novan"
+
+#: templates/wagtailimages/chooser/results.html:4
+msgid "Latest images"
+msgstr "Lastaj bildoj"
+
+#: templates/wagtailimages/chooser/results.html:17
+#, python-format
+msgid "Select %(title)s"
+msgstr "Elekti %(title)s"
+
+#: templates/wagtailimages/chooser/results.html:36
+msgid "You haven't uploaded any images in this collection."
+msgstr "Vi ankoraŭ alŝutis neniun bildon en ĉi tiun kolekton."
+
+#: templates/wagtailimages/chooser/results.html:38
+msgid "You haven't uploaded any images."
+msgstr "Vi ankoraŭ alŝutis neniun bildon."
+
+#: templates/wagtailimages/chooser/results.html:41
+msgid "Why not <a class=\"upload-one-now\" href=\"#tab-upload\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" data-w-tabs-focus-param=\"true\">upload one now</a>?"
+msgstr "Kial ne <a class=\"upload-one-now\" href=\"#tab-upload\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" data-w-tabs-focus-param=\"true\">alŝuti unu nun</a>?"
+
+#: templates/wagtailimages/chooser/select_format.html:3
+msgid "Choose a format"
+msgstr "Elekti formaton"
+
+#: templates/wagtailimages/chooser/select_format.html:16
+msgid "Insert image"
+msgstr "Enmeti bildon"
+
+#: templates/wagtailimages/homepage/site_summary_images.html:6
+#, python-format
+msgid "%(total)s Image <span class=\"w-sr-only\">created in %(site_name)s</span>"
+msgid_plural "%(total)s Images <span class=\"w-sr-only\">created in %(site_name)s</span>"
+msgstr[0] "%(total)s bildo <span class=\"w-sr-only\">kreita en %(site_name)s</span>"
+msgstr[1] "%(total)s bildoj <span class=\"w-sr-only\">kreitaj en %(site_name)s</span>"
+
+#: templates/wagtailimages/images/_file_field.html:7
+msgid "Change image file:"
+msgstr "Ŝanĝi bildodosieron:"
+
+#: templates/wagtailimages/images/add.html:3 views/images.py:75
+msgid "Add an image"
+msgstr "Aldoni bildon"
+
+#: templates/wagtailimages/images/add.html:11 views/chooser.py:59 views/chooser.py:413
+msgid "Uploading…"
+msgstr "Alŝutante…"
+
+#: templates/wagtailimages/images/add.html:14 views/chooser.py:58 views/chooser.py:412
+msgid "Upload"
+msgstr "Alŝuti"
+
+#: templates/wagtailimages/images/confirm_duplicate_upload.html:14
+msgid "Keep new image"
+msgstr "Konservi la novan bildon"
+
+#: templates/wagtailimages/images/confirm_duplicate_upload.html:18
+msgid "Delete new image"
+msgstr "Forigi la novan bildon"
+
+#: templates/wagtailimages/images/edit.html:38
+msgid "Image focal point"
+msgstr "Fokuso de la bildo"
+
+#: templates/wagtailimages/images/edit.html:45
+msgid "URL Generator"
+msgstr "URL-generilo"
+
+#: templates/wagtailimages/images/edit.html:51
+msgid "Focal point"
+msgstr "Fokuso"
+
+#: templates/wagtailimages/images/edit.html:51
+msgid "(optional)"
+msgstr "(nedeviga)"
+
+#: templates/wagtailimages/images/edit.html:52
+msgid "To define this image's most important region, drag a box over the image above."
+msgstr "Por difini la plej gravan regionon de ĉi tiu bildo, trenu kadron super la supra bildo."
+
+#: templates/wagtailimages/images/edit.html:52
+msgid "Current focal point shown"
+msgstr "La nuna fokuso estas montrata"
+
+#: templates/wagtailimages/images/edit.html:54
+msgid "Remove focal area"
+msgstr "Forigi la fokusan areon"
+
+#: templates/wagtailimages/images/edit.html:61
+msgid "Max dimensions"
+msgstr "Maksimumaj dimensioj"
+
+#: templates/wagtailimages/images/edit.html:63
+msgid "Filesize"
+msgstr "Dosiergrandeco"
+
+#: templates/wagtailimages/images/edit.html:64
+msgid "File not found"
+msgstr "Dosiero ne trovita"
+
+#: templates/wagtailimages/images/edit.html:66 views/chooser.py:183 views/images.py:206
+msgid "Usage"
+msgstr "Uzado"
+
+#: templates/wagtailimages/images/edit.html:68
+#, python-format
+msgid "Used %(usage_count)s time"
+msgid_plural "Used %(usage_count)s times"
+msgstr[0] "Uzita %(usage_count)s fojon"
+msgstr[1] "Uzita %(usage_count)s fojojn"
+
+#: templates/wagtailimages/images/index.html:11
+msgid "Sort by"
+msgstr "Ordigi laŭ"
+
+#: templates/wagtailimages/images/index.html:26
+msgid "Select all images in listing"
+msgstr "Elekti ĉiujn bildojn en la listo"
+
+#: templates/wagtailimages/images/index_results.html:39
+#, python-format
+msgid "Sorry, no images match \"<em>%(query_string)s</em>\""
+msgstr "Bedaŭrinde neniu bildo kongruas kun \"<em>%(query_string)s</em>\""
+
+#: templates/wagtailimages/images/index_results.html:43
+#, python-format
+msgid "You haven't uploaded any images in this collection. Why not <a href=\"%(wagtailimages_add_image_url)s\">upload one now</a>?"
+msgstr "Vi ankoraŭ alŝutis neniun bildon en ĉi tiun kolekton. Kial ne <a href=\"%(wagtailimages_add_image_url)s\">alŝuti unu nun</a>?"
+
+#: templates/wagtailimages/images/index_results.html:45
+#, python-format
+msgid "You haven't uploaded any images. Why not <a href=\"%(wagtailimages_add_image_url)s\">upload one now</a>?"
+msgstr "Vi ankoraŭ alŝutis neniun bildon. Kial ne <a href=\"%(wagtailimages_add_image_url)s\">alŝuti unu nun</a>?"
+
+#: templates/wagtailimages/images/layout_toggle_button.html:5
+msgid "Grid layout"
+msgstr "Krada aranĝo"
+
+#: templates/wagtailimages/images/layout_toggle_button.html:9
+msgid "List layout"
+msgstr "Lista aranĝo"
+
+#: templates/wagtailimages/images/url_generator_output.html:3 templates/wagtailimages/images/url_generator_output.html:7 views/chooser.py:165 views/images.py:186
+msgid "Preview"
+msgstr "Antaŭvido"
+
+#: templates/wagtailimages/images/url_generator_output.html:12
+msgid "URL"
+msgstr "URL"
+
+#: templates/wagtailimages/images/url_generator_output.html:15
+msgid "Image URL"
+msgstr "URL de la bildo"
+
+#: templates/wagtailimages/images/url_generator_output.html:18
+msgid "Copy URL"
+msgstr "Kopii URL-on"
+
+#: templates/wagtailimages/images/url_generator_output.html:22
+msgid "Copied to clipboard"
+msgstr "Kopiita al la tondujo"
+
+#: templates/wagtailimages/images/url_generator_output.html:25
+msgid "Copying to clipboard failed"
+msgstr "Kopiado al la tondujo malsukcesis"
+
+#: templates/wagtailimages/multiple/add.html:5
+msgid "Add multiple images"
+msgstr "Aldoni plurajn bildojn"
+
+#: templates/wagtailimages/multiple/add.html:20
+msgid "Drag and drop images into this area to upload immediately."
+msgstr "Trenu kaj demetu bildojn en ĉi tiun areon por tuj alŝuti ilin."
+
+#: templates/wagtailimages/multiple/add.html:25
+msgid "Or choose from your computer"
+msgstr "Aŭ elektu el via komputilo"
+
+#: templates/wagtailimages/multiple/add.html:41
+msgid "Add to collection:"
+msgstr "Aldoni al kolekto:"
+
+#: templates/wagtailimages/multiple/add.html:74
+msgid "Please provide an image description to comply with best practices for accessibility."
+msgstr "Bonvolu doni priskribon de la bildo por respekti la plej bonajn praktikojn pri alirebleco."
+
+#: templates/wagtailimages/multiple/add.html:75
+msgid "Upload successful. Please update this image with a more appropriate title, if necessary. You may also delete the image completely if the upload wasn't required."
+msgstr "Alŝuto sukcesis. Bonvolu ĝisdatigi ĉi tiun bildon per pli taŭga titolo, se necese. Vi ankaŭ povas tute forigi la bildon, se la alŝuto ne estis bezonata."
+
+#: templates/wagtailimages/multiple/add.html:77
+msgid "Upload successful. However, your new image seems to be a duplicate of this existing image. You may delete it if it wasn't required."
+msgstr "Alŝuto sukcesis. Tamen via nova bildo ŝajnas esti duoblaĵo de ĉi tiu ekzistanta bildo. Vi povas forigi ĝin, se ĝi ne estis bezonata."
+
+#: templates/wagtailimages/multiple/add.html:79
+msgid "Sorry, upload failed."
+msgstr "Bedaŭrinde la alŝuto malsukcesis."
+
+#: templates/wagtailimages/multiple/add.html:81
+msgid "Server Error"
+msgstr "Servila eraro"
+
+#: templates/wagtailimages/multiple/add.html:82
+msgid "Report this error to your website administrator with the following information:"
+msgstr "Raportu ĉi tiun eraron al la administranto de via retejo kun la jenaj informoj:"
+
+#: templates/wagtailimages/multiple/add.html:85
+msgid "Image updated."
+msgstr "Bildo ĝisdatigita."
+
+#: templates/wagtailimages/permissions/includes/image_permissions_formset.html:5
+msgid "Image permissions"
+msgstr "Permesoj pri bildoj"
+
+#: templates/wagtailimages/permissions/includes/image_permissions_formset.html:6
+msgid "Add an image permission"
+msgstr "Aldoni permeson pri bildoj"
+
+#: views/bulk_actions/add_tags.py:10
+msgid "Tags"
+msgstr "Etikedoj"
+
+#: views/bulk_actions/add_tags.py:14
+msgid "Tag"
+msgstr "Etikedo"
+
+#: views/bulk_actions/add_tags.py:16
+msgid "Add tags to the selected images"
+msgstr "Aldoni etikedojn al la elektitaj bildoj"
+
+#: views/bulk_actions/add_tags.py:41
+#, python-format
+msgid "New tags have been added to %(num_parent_objects)d image"
+msgid_plural "New tags have been added to %(num_parent_objects)d images"
+msgstr[0] "Novaj etikedoj estis aldonitaj al %(num_parent_objects)d bildo"
+msgstr[1] "Novaj etikedoj estis aldonitaj al %(num_parent_objects)d bildoj"
+
+#: views/bulk_actions/add_to_collection.py:22
+msgid "Add to collection"
+msgstr "Aldoni al kolekto"
+
+#: views/bulk_actions/add_to_collection.py:24
+msgid "Add selected images to collection"
+msgstr "Aldoni la elektitajn bildojn al kolekto"
+
+#: views/bulk_actions/add_to_collection.py:55
+#, python-format
+msgid "%(num_parent_objects)d image has been added to %(collection)s"
+msgid_plural "%(num_parent_objects)d images have been added to %(collection)s"
+msgstr[0] "%(num_parent_objects)d bildo estis aldonita al %(collection)s"
+msgstr[1] "%(num_parent_objects)d bildoj estis aldonitaj al %(collection)s"
+
+#: views/bulk_actions/delete.py:9 views/images.py:290
+msgid "Delete"
+msgstr "Forigi"
+
+#: views/bulk_actions/delete.py:11
+msgid "Delete selected images"
+msgstr "Forigi la elektitajn bildojn"
+
+#: views/bulk_actions/delete.py:34
+#, python-format
+msgid "%(num_parent_objects)d image has been deleted"
+msgid_plural "%(num_parent_objects)d images have been deleted"
+msgstr[0] "%(num_parent_objects)d bildo estis forigita"
+msgstr[1] "%(num_parent_objects)d bildoj estis forigitaj"
+
+#: views/chooser.py:171 views/images.py:192
+msgid "Title"
+msgstr "Titolo"
+
+#: views/chooser.py:179 views/images.py:201
+msgid "Created"
+msgstr "Kreita"
+
+#: views/chooser.py:411 widgets.py:13
+msgid "Choose an image"
+msgstr "Elekti bildon"
+
+#: views/chooser.py:414
+msgid "Choose another image"
+msgstr "Elekti alian bildon"
+
+#: views/chooser.py:415 widgets.py:15
+msgid "Edit this image"
+msgstr "Redakti ĉi tiun bildon"
+
+#: views/images.py:58
+msgid "Newest"
+msgstr "Plej novaj"
+
+#: views/images.py:59
+msgid "Oldest"
+msgstr "Plej malnovaj"
+
+#: views/images.py:60
+msgid "Title: (A -> Z)"
+msgstr "Titolo: (A -> Z)"
+
+#: views/images.py:61
+msgid "Title: (Z -> A)"
+msgstr "Titolo: (Z -> A)"
+
+#: views/images.py:62
+msgid "File size: (low to high)"
+msgstr "Dosiergrandeco: (kreskanta)"
+
+#: views/images.py:63
+msgid "File size: (high to low)"
+msgstr "Dosiergrandeco: (malkreskanta)"
+
+#: views/images.py:64
+msgid "Usage count: (low to high)"
+msgstr "Nombro de uzoj: (kreskanta)"
+
+#: views/images.py:65
+msgid "Usage count: (high to low)"
+msgstr "Nombro de uzoj: (malkreskanta)"
+
+#: views/images.py:74 wagtail_hooks.py:46 wagtail_hooks.py:156
+msgid "Images"
+msgstr "Bildoj"
+
+#: views/images.py:239
+msgid "The image could not be saved due to errors."
+msgstr "La bildo ne povis esti konservita pro eraroj."
+
+#: views/images.py:269
+#, python-format
+msgid "Image '%(image_title)s' updated."
+msgstr "Bildo '%(image_title)s' ĝisdatigita."
+
+#: views/images.py:287
+msgid "The source image file could not be found. Please change the source or delete the image."
+msgstr "La fonta bildodosiero ne troviĝis. Bonvolu ŝanĝi la fonton aŭ forigi la bildon."
+
+#: views/images.py:322
+msgid "Generate URL"
+msgstr "Generi URL-on"
+
+#: views/images.py:329
+msgid "The filter options you have selected are not valid."
+msgstr "La filtrilaj opcioj, kiujn vi elektis, ne estas validaj."
+
+#: views/images.py:475
+msgid "Delete image"
+msgstr "Forigi bildon"
+
+#: views/images.py:493
+#, python-format
+msgid "Image '%(image_title)s' deleted."
+msgstr "Bildo '%(image_title)s' forigita."
+
+#: views/images.py:502
+msgid "The image could not be created due to errors."
+msgstr "La bildo ne povis esti kreita pro eraroj."
+
+#: views/images.py:522
+#, python-format
+msgid "Image '%(image_title)s' added."
+msgstr "Bildo '%(image_title)s' aldonita."
+
+#: views/multiple.py:30
+msgid "Add images"
+msgstr "Aldoni bildojn"
+
+#: wagtail_hooks.py:73
+msgid "Image"
+msgstr "Bildo"
+
+#: wagtail_hooks.py:176
+#, python-format
+msgid "%(count)s image"
+msgid_plural "%(count)s images"
+msgstr[0] "%(count)s bildo"
+msgstr[1] "%(count)s bildoj"
+
+#: widgets.py:14
+msgid "Change image"
+msgstr "Ŝanĝi bildon"

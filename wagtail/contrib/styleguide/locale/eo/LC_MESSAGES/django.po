@@ -1,0 +1,57 @@
+# Esperanto translation of Wagtail.
+#
+# Translators:
+# Baptiste Darthenay <baptiste@ikso.net>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-21 12:43+0100\n"
+"PO-Revision-Date: 2026-10-21 12:43+0100\n"
+"Last-Translator: Baptiste Darthenay <baptiste@ikso.net>\n"
+"Language-Team: Esperanto\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:8
+msgid "Wagtail style guide"
+msgstr "Wagtail-stilgvidilo"
+
+#: templates/wagtailstyleguide/base.html:14
+msgid "Minimap"
+msgstr "Minimapo"
+
+#: templates/wagtailstyleguide/base.html:438
+msgid "Save"
+msgstr "Konservi"
+
+#: templates/wagtailstyleguide/base.html:438
+msgid "Delete image"
+msgstr "Forigi bildon"
+
+#: views.py:115 wagtail_hooks.py:20
+msgid "Styleguide"
+msgstr "Stilgvidilo"
+
+#: views.py:123
+msgid "Success message"
+msgstr "Sukcesmesaĝo"
+
+#: views.py:125 views.py:133 views.py:141
+msgid "View live"
+msgstr "Vidi publikigitan"
+
+#: views.py:126 views.py:134 views.py:142
+msgid "Edit"
+msgstr "Redakti"
+
+#: views.py:131
+msgid "Warning message"
+msgstr "Avertmesaĝo"
+
+#: views.py:139
+msgid "Error message"
+msgstr "Eraromesaĝo"

@@ -1,0 +1,362 @@
+# Esperanto translation of Wagtail.
+#
+# Translators:
+# Baptiste Darthenay <baptiste@ikso.net>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: Wagtail\n"
+"PO-Revision-Date: 2026-11-01 12:00+0100\n"
+"Last-Translator: Baptiste Darthenay <baptiste@ikso.net>\n"
+"Language-Team: Esperanto\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/components/Sidebar/menu/SubMenuItem.tsx:125
+msgid "(%(number)s new items in this menu)"
+msgstr "(%(number)s novaj elementoj en ĉi tiu menuo)"
+
+#: src/components/Sidebar/menu/SubMenuItem.tsx:124
+msgid "(1 new item in this menu)"
+msgstr "(1 nova elemento en ĉi tiu menuo)"
+
+#: src/components/Sidebar/menu/ActionMenuItem.tsx:60 src/components/Sidebar/menu/LinkMenuItem.tsx:77
+msgid "(New)"
+msgstr "(Nova)"
+
+#: src/components/Minimap/MinimapItem.tsx:38 src/controllers/CountController.ts:72
+msgid "%(num)s error"
+msgid_plural "%(num)s errors"
+msgstr[0] "%(num)s eraro"
+msgstr[1] "%(num)s eraroj"
+
+#: src/includes/contentMetrics.ts:190
+msgid "%(num)s min"
+msgid_plural "%(num)s mins"
+msgstr[0] "%(num)s min"
+msgstr[1] "%(num)s min"
+
+#: src/includes/sidePanel.js:162
+msgid "%(num)s pixel"
+msgid_plural "%(num)s pixels"
+msgstr[0] "%(num)s rastrumero"
+msgstr[1] "%(num)s rastrumeroj"
+
+#. Translators: An item in the time zone selection dropdown, e.g. "America/New_York: EDT (Eastern Daylight Time)". Some languages may require a space before the colon.
+#: src/controllers/LocaleController.ts:62
+msgid "%(time_zone_option)s: %(localized_time_zone_label)s"
+msgstr "%(time_zone_option)s: %(localized_time_zone_label)s"
+
+#: src/controllers/AutosaveController.ts:326
+msgid "A network error occurred."
+msgstr "Reta eraro okazis."
+
+#: src/controllers/AutosaveController.ts:356
+msgid "A server error occurred."
+msgstr "Servila eraro okazis."
+
+#: src/components/Draftail/index.js:420
+msgid "Actions"
+msgstr "Agoj"
+
+#: src/components/StreamField/blocks/ListBlock.js:65
+msgid "Add"
+msgstr "Aldoni"
+
+#: src/components/Draftail/CommentableEditor/CommentableEditor.tsx:329
+msgid "Add a comment"
+msgstr "Aldoni komenton"
+
+#: src/components/Draftail/blocks/ImageBlock.js:16
+msgid "Alt text"
+msgstr "Alternativa teksto"
+
+#: src/components/CommentApp/components/Comment/index.tsx:405 src/components/CommentApp/components/CommentReply/index.tsx:191
+msgid "Are you sure?"
+msgstr "Ĉu vi certas?"
+
+#: src/controllers/AutosaveController.ts:467
+msgid "Autosave in progress…"
+msgstr "Aŭtomata konservado okazas…"
+
+#: src/components/Draftail/index.js:412
+msgid "Blocks"
+msgstr "Blokoj"
+
+#: src/components/Draftail/decorators/Link.js:35
+msgid "Broken link"
+msgstr "Rompita ligilo"
+
+#: src/components/CommentApp/components/Comment/index.tsx:174 src/components/CommentApp/components/Comment/index.tsx:250 src/components/CommentApp/components/Comment/index.tsx:319 src/components/CommentApp/components/Comment/index.tsx:411 src/components/CommentApp/components/Comment/index.tsx:478 src/components/CommentApp/components/CommentReply/index.tsx:120 src/components/CommentApp/components/CommentReply/index.tsx:197 src/components/CommentApp/components/CommentReply/index.tsx:253
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: src/controllers/AutosaveController.ts:471
+msgid "Changes have been autosaved."
+msgstr "La ŝanĝoj estis aŭtomate konservitaj."
+
+#: src/components/Draftail/controls/MaxLength.tsx:54
+msgid "Character count:"
+msgstr "Nombro de signoj:"
+
+#: src/components/Sidebar/menu/SubMenuCloseButton.tsx:30 src/entrypoints/admin/modal-workflow.js:56
+msgid "Close"
+msgstr "Fermi"
+
+#: src/components/Minimap/CollapseAll.tsx:31
+msgid "Collapse all"
+msgstr "Faldi ĉion"
+
+#: src/components/CommentApp/components/Comment/index.tsx:243
+msgid "Comment"
+msgstr "Komento"
+
+#. Translators: denotes the readability of a difficult text.
+#: src/includes/contentMetrics.ts:92
+msgid "Complex"
+msgstr "Kompleksa"
+
+#: src/components/Sidebar/modules/WagtailBranding.tsx:46 src/components/Sidebar/modules/WagtailBranding.tsx:91
+msgid "Dashboard"
+msgstr "Panelo"
+
+#: src/components/Draftail/blocks/ImageBlock.js:14
+msgid "Decorative image"
+msgstr "Ornama bildo"
+
+#: src/components/CommentApp/components/Comment/index.tsx:418 src/components/CommentApp/components/CommentHeader/index.tsx:136 src/components/CommentApp/components/CommentReply/index.tsx:204 src/components/Draftail/blocks/EmbedBlock.js:44 src/components/Draftail/blocks/ImageBlock.js:34 src/components/StreamField/blocks/ActionButtons.ts:119
+msgid "Delete"
+msgstr "Forigi"
+
+#: src/components/CommentApp/components/Comment/index.tsx:472 src/components/CommentApp/components/CommentReply/index.tsx:247
+msgid "Delete error"
+msgstr "Eraro dum forigo"
+
+#: src/components/CommentApp/components/Comment/index.tsx:437 src/components/CommentApp/components/CommentReply/index.tsx:218
+msgid "Deleting"
+msgstr "Forigante"
+
+#: src/components/StreamField/blocks/ActionButtons.ts:100
+msgid "Drag"
+msgstr "Treni"
+
+#: src/components/StreamField/blocks/ActionButtons.ts:109
+msgid "Duplicate"
+msgstr "Duobligi"
+
+#: src/components/CommentApp/components/CommentHeader/index.tsx:131 src/components/Draftail/blocks/EmbedBlock.js:38 src/components/Draftail/blocks/ImageBlock.js:28
+msgid "Edit"
+msgstr "Redakti"
+
+#: src/components/PageExplorer/PageExplorerItem.tsx:66
+msgid "Edit '%(title)s'"
+msgstr "Redakti '%(title)s'"
+
+#: src/components/CommentApp/components/Comment/index.tsx:232
+msgid "Enter your comments..."
+msgstr "Entajpu viajn komentojn..."
+
+#: src/components/CommentApp/components/Comment/index.tsx:157
+msgid "Enter your reply..."
+msgstr "Entajpu vian respondon..."
+
+#: src/controllers/PreviewController.ts:1038
+msgid "Error while sending preview data."
+msgstr "Eraro dum sendado de antaŭvidaj datumoj."
+
+#: src/components/Minimap/CollapseAll.tsx:31
+msgid "Expand all"
+msgstr "Malfaldi ĉion"
+
+#. Translators: denotes the readability of an average text.
+#: src/includes/contentMetrics.ts:87
+msgid "Fair"
+msgstr "Akceptebla"
+
+#: src/components/Draftail/CommentableEditor/CommentableEditor.tsx:524 src/entrypoints/admin/comments.js:108
+msgid "Focus comment"
+msgstr "Fokusi komenton"
+
+#: src/includes/contentMetrics.ts:83
+msgid "Good"
+msgstr "Bona"
+
+#: src/components/Draftail/index.js:165
+msgid "Horizontal line"
+msgstr "Horizontala linio"
+
+#: src/components/ComboBox/ComboBox.tsx:10
+msgid "Insert a block"
+msgstr "Enmeti blokon"
+
+#: src/components/Draftail/index.js:219
+msgid "Line break"
+msgstr "Linisalto"
+
+#: src/components/LoadingSpinner/LoadingSpinner.tsx:12
+msgid "Loading…"
+msgstr "Ŝargante…"
+
+#: src/components/Sidebar/modules/MainMenu.tsx:248
+msgid "Main menu"
+msgstr "Ĉefa menuo"
+
+#: src/components/Draftail/decorators/Document.js:21
+msgid "Missing document"
+msgstr "Mankanta dokumento"
+
+#: src/components/CommentApp/components/CommentHeader/index.tsx:115
+msgid "More actions"
+msgstr "Pliaj agoj"
+
+#: src/components/StreamField/blocks/ActionButtons.ts:87
+msgid "Move down"
+msgstr "Movi malsupren"
+
+#: src/components/StreamField/blocks/ActionButtons.ts:74
+msgid "Move up"
+msgstr "Movi supren"
+
+#: src/components/Widget/index.js:167
+msgid "No"
+msgstr "Ne"
+
+#: src/components/ComboBox/ComboBox.tsx:12 src/components/Draftail/index.js:245 src/components/PageExplorer/PageExplorerPanel.tsx:84
+msgid "No results"
+msgstr "Neniu rezulto"
+
+#: src/components/PageExplorer/PageExplorerPanel.tsx:132
+msgid "Page explorer"
+msgstr "Paĝa esplorilo"
+
+#: src/components/PageExplorer/PageExplorerHeader.tsx:86
+msgid "Pages"
+msgstr "Paĝoj"
+
+#: src/components/Draftail/index.js:54
+msgid "Pin toolbar"
+msgstr "Alpingli ilobreton"
+
+#: src/components/ComboBox/ComboBox.tsx:13
+msgid "Preview"
+msgstr "Antaŭvido"
+
+#: src/components/Draftail/EditorFallback/EditorFallback.js:96
+msgid "Reload saved content"
+msgstr "Reŝargi la konservitan enhavon"
+
+#: src/components/Draftail/EditorFallback/EditorFallback.js:104
+msgid "Reload the page"
+msgstr "Reŝargi la paĝon"
+
+#: src/components/CommentApp/components/Comment/index.tsx:167
+msgid "Reply"
+msgstr "Respondi"
+
+#: src/includes/chooserModal.js:53
+msgid "Report this error to your website administrator with the following information:"
+msgstr "Raportu ĉi tiun eraron al la administranto de via retejo kun la jenaj informoj:"
+
+#: src/components/CommentApp/components/CommentHeader/index.tsx:145
+msgid "Resolve"
+msgstr "Solvi"
+
+#: src/components/CommentApp/components/Comment/index.tsx:370 src/components/CommentApp/components/Comment/index.tsx:485 src/components/CommentApp/components/CommentReply/index.tsx:160 src/components/CommentApp/components/CommentReply/index.tsx:260
+msgid "Retry"
+msgstr "Reprovi"
+
+#: src/components/CommentApp/components/Comment/index.tsx:312 src/components/CommentApp/components/CommentReply/index.tsx:113
+msgid "Save"
+msgstr "Konservi"
+
+#: src/components/CommentApp/components/Comment/index.tsx:364 src/components/CommentApp/components/CommentReply/index.tsx:154
+msgid "Save error"
+msgstr "Eraro dum konservado"
+
+#: src/components/CommentApp/components/Comment/index.tsx:339 src/components/CommentApp/components/CommentReply/index.tsx:135
+msgid "Saving..."
+msgstr "Konservante..."
+
+#: src/components/Sidebar/modules/Search.tsx:101 src/components/Sidebar/modules/Search.tsx:126 src/components/Sidebar/modules/Search.tsx:60 src/components/Sidebar/modules/Search.tsx:80
+msgid "Search"
+msgstr "Serĉi"
+
+#: src/components/ComboBox/ComboBox.tsx:11
+msgid "Search options…"
+msgstr "Serĉi opciojn…"
+
+#: src/components/PageExplorer/PageCount.tsx:24
+msgid "See all %(num)s page"
+msgid_plural "See all %(num)s pages"
+msgstr[0] "Vidi la %(num)s paĝon"
+msgstr[1] "Vidi ĉiujn %(num)s paĝojn"
+
+#: src/components/Draftail/sources/ModalWorkflowSource.js:63 src/components/PageExplorer/PageExplorerPanel.tsx:112 src/includes/chooserModal.js:63
+msgid "Server Error"
+msgstr "Servila eraro"
+
+#: src/components/StreamField/blocks/ActionButtons.ts:129
+msgid "Settings"
+msgstr "Agordoj"
+
+#: src/components/Draftail/EditorFallback/EditorFallback.js:86
+msgid "Show error"
+msgstr "Montri eraron"
+
+#: src/components/Draftail/EditorFallback/EditorFallback.js:77
+msgid "Show latest content"
+msgstr "Montri la plej lastan enhavon"
+
+#: src/components/Draftail/commands/Split.js:15
+msgid "Split block"
+msgstr "Dividi blokon"
+
+#: src/components/Draftail/EditorFallback/EditorFallback.js:112
+msgid "The editor just crashed. Content has been reset to the last saved version."
+msgstr "La redaktilo ĵus kraŝis. La enhavo estis restarigita al la lasta konservita versio."
+
+#: src/components/StreamField/blocks/ListBlock.js:206 src/components/StreamField/blocks/StreamBlock.js:274 src/components/StreamField/blocks/StreamBlock.js:298
+msgid "The maximum number of items is %(max_num)d"
+msgstr "La maksimuma nombro de elementoj estas %(max_num)d"
+
+#: src/components/StreamField/blocks/ListBlock.js:217 src/components/StreamField/blocks/StreamBlock.js:282 src/components/StreamField/blocks/StreamBlock.js:312
+msgid "The minimum number of items is %(min_num)d"
+msgstr "La minimuma nombro de elementoj estas %(min_num)d"
+
+#: src/includes/chooserModal.js:23
+msgid "This field is required."
+msgstr "Ĉi tiu kampo estas deviga."
+
+#: src/components/StreamField/blocks/CollapsiblePanel.ts:48
+msgid "Toggle section"
+msgstr "Baskuligi sekcion"
+
+#: src/components/Minimap/Minimap.tsx:225
+msgid "Toggle side panel"
+msgstr "Baskuligi flankan panelon"
+
+#: src/components/Sidebar/Sidebar.tsx:189 src/components/Sidebar/Sidebar.tsx:226
+msgid "Toggle sidebar"
+msgstr "Baskuligi flankan breton"
+
+#: src/entrypoints/admin/comments.js:103
+msgid "Unfocus comment"
+msgstr "Malfokusi komenton"
+
+#: src/components/Draftail/index.js:55
+msgid "Unpin toolbar"
+msgstr "Malalpingli ilobreton"
+
+#: src/components/PageExplorer/PageExplorerItem.tsx:79
+msgid "View child pages of '%(title)s'"
+msgstr "Vidi subpaĝojn de '%(title)s'"
+
+#: src/components/Draftail/index.js:216
+msgid "Write something or type ‘/’ to insert a block"
+msgstr "Skribu ion aŭ tajpu ‘/’ por enmeti blokon"
+
+#: src/components/Widget/index.js:167
+msgid "Yes"
+msgstr "Jes"
